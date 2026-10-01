@@ -1,0 +1,9 @@
+{
+  "elevated_traffic": 3155784.8665,
+  "burst_traffic": 3574564.0899999994,
+  "cpu_pressure": 68.06,
+  "memory_pressure": 67.78,
+  "elevated_percentile": 0.85,
+  "burst_percentile": 0.95,
+  "pressure_percentile": 0.95
+}

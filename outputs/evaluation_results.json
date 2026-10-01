@@ -1,0 +1,698 @@
+{
+  "data_path": "data/synthetic/telemetry_forecasting.csv",
+  "rows": 432000,
+  "machines": 50,
+  "timestamps": 8640,
+  "sampling_frequency": "5min",
+  "lookback_steps": 24,
+  "horizons_minutes": [
+    30,
+    60,
+    90,
+    120
+  ],
+  "split_boundaries_utc": {
+    "train_end": "2026-01-21T23:55:00+00:00",
+    "validation_start": "2026-01-22T00:00:00+00:00",
+    "validation_end": "2026-01-26T11:55:00+00:00",
+    "test_start": "2026-01-26T12:00:00+00:00"
+  },
+  "sequence_counts": {
+    "train": 300050,
+    "validation": 63600,
+    "test": 63600
+  },
+  "test_origin_policy": "origin and every horizon target must be within the test interval",
+  "model": {
+    "architecture": "one 32-unit LSTM encoder with dropout and 12 linear outputs (4 horizons x traffic/CPU/memory)",
+    "hidden_size": 32,
+    "num_layers": 1,
+    "dropout_probability": 0.1,
+    "seed": 1780,
+    "parameter_count": 6668,
+    "device": "mps",
+    "epochs_trained": 12,
+    "best_validation_loss_scaled_mse": 0.23401287790614353,
+    "history": [
+      {
+        "epoch": 1.0,
+        "training_loss": 0.3051200085463692,
+        "validation_loss": 0.2475695786386166
+      },
+      {
+        "epoch": 2.0,
+        "training_loss": 0.2656930343647079,
+        "validation_loss": 0.2427172077826734
+      },
+      {
+        "epoch": 3.0,
+        "training_loss": 0.26318351266568274,
+        "validation_loss": 0.24062457010681024
+      },
+      {
+        "epoch": 4.0,
+        "training_loss": 0.2618888265815224,
+        "validation_loss": 0.2394605534831433
+      },
+      {
+        "epoch": 5.0,
+        "training_loss": 0.2610300162516024,
+        "validation_loss": 0.23874277746652406
+      },
+      {
+        "epoch": 6.0,
+        "training_loss": 0.2605364484882637,
+        "validation_loss": 0.23778104514195983
+      },
+      {
+        "epoch": 7.0,
+        "training_loss": 0.2600184416747842,
+        "validation_loss": 0.23697522269354926
+      },
+      {
+        "epoch": 8.0,
+        "training_loss": 0.259559089848348,
+        "validation_loss": 0.23631918957148457
+      },
+      {
+        "epoch": 9.0,
+        "training_loss": 0.25942498693861893,
+        "validation_loss": 0.2356903692761307
+      },
+      {
+        "epoch": 10.0,
+        "training_loss": 0.25897515811514027,
+        "validation_loss": 0.2350846739435096
+      },
+      {
+        "epoch": 11.0,
+        "training_loss": 0.25879319756316793,
+        "validation_loss": 0.2346827488225461
+      },
+      {
+        "epoch": 12.0,
+        "training_loss": 0.25848304630018654,
+        "validation_loss": 0.23401287790614353
+      }
+    ]
+  },
+  "thresholds": {
+    "elevated_traffic_bytes": 3155784.8665,
+    "burst_traffic_bytes": 3574564.0899999994,
+    "cpu_pressure_percent": 68.06,
+    "memory_pressure_percent": 67.78
+  },
+  "evaluation_protocol": {
+    "split": "chronological 70/15/15 by global timestamp",
+    "test_policy": "forecast origin and all horizon targets must fall within test interval",
+    "traffic_target": "network_rx_bytes + network_tx_bytes, bytes per five-minute interval",
+    "resource_targets": "CPU and memory utilization percent",
+    "burst_definition": "future traffic >= training 95% quantile (3574564.090000 bytes)",
+    "resource_pressure_definition": "future CPU >= training 95% CPU quantile (68.060000%) OR future memory >= training 95% memory quantile (67.780000%)",
+    "threshold_fit_partition": "training only",
+    "scaler_fit_partition": "training only",
+    "regression_metrics": [
+      "MAE",
+      "RMSE",
+      "R2"
+    ],
+    "classification_metrics": [
+      "precision",
+      "recall",
+      "F1",
+      "positive support",
+      "confusion counts"
+    ]
+  },
+  "traffic_regression_metrics": [
+    {
+      "model": "persistence",
+      "target": "total_network_traffic",
+      "horizon_minutes": 30,
+      "samples": 63600,
+      "mae": 431479.76647936326,
+      "rmse": 697042.2060499134,
+      "r2": 0.05265439897474056
+    },
+    {
+      "model": "persistence",
+      "target": "total_network_traffic",
+      "horizon_minutes": 60,
+      "samples": 63600,
+      "mae": 484640.98094351415,
+      "rmse": 827492.9903207985,
+      "r2": -0.3342288673699343
+    },
+    {
+      "model": "persistence",
+      "target": "total_network_traffic",
+      "horizon_minutes": 90,
+      "samples": 63600,
+      "mae": 505670.1986777909,
+      "rmse": 867014.9970908765,
+      "r2": -0.46432482564891764
+    },
+    {
+      "model": "persistence",
+      "target": "total_network_traffic",
+      "horizon_minutes": 120,
+      "samples": 63600,
+      "mae": 513854.3937274764,
+      "rmse": 871287.9589719259,
+      "r2": -0.4771783402349079
+    },
+    {
+      "model": "lstm",
+      "target": "total_network_traffic",
+      "horizon_minutes": 30,
+      "samples": 63600,
+      "mae": 339683.7470422956,
+      "rmse": 559462.7289689624,
+      "r2": 0.3897151195381674
+    },
+    {
+      "model": "lstm",
+      "target": "total_network_traffic",
+      "horizon_minutes": 60,
+      "samples": 63600,
+      "mae": 362923.6688448114,
+      "rmse": 618976.3602957465,
+      "r2": 0.2534656224921761
+    },
+    {
+      "model": "lstm",
+      "target": "total_network_traffic",
+      "horizon_minutes": 90,
+      "samples": 63600,
+      "mae": 370843.2205678459,
+      "rmse": 631714.9868282919,
+      "r2": 0.2226321660086199
+    },
+    {
+      "model": "lstm",
+      "target": "total_network_traffic",
+      "horizon_minutes": 120,
+      "samples": 63600,
+      "mae": 379825.6425424528,
+      "rmse": 637859.9882161183,
+      "r2": 0.20830076080226456
+    }
+  ],
+  "resource_regression_metrics": [
+    {
+      "model": "persistence",
+      "target": "cpu_usage_percent",
+      "horizon_minutes": 30,
+      "samples": 63600,
+      "mae": 3.6924737421383647,
+      "rmse": 4.632515985947905,
+      "r2": 0.8522102499330603
+    },
+    {
+      "model": "persistence",
+      "target": "cpu_usage_percent",
+      "horizon_minutes": 60,
+      "samples": 63600,
+      "mae": 4.499933647798742,
+      "rmse": 5.647669033833629,
+      "r2": 0.7808395471373433
+    },
+    {
+      "model": "persistence",
+      "target": "cpu_usage_percent",
+      "horizon_minutes": 90,
+      "samples": 63600,
+      "mae": 5.142526257861636,
+      "rmse": 6.448660424128663,
+      "r2": 0.7149043175272899
+    },
+    {
+      "model": "persistence",
+      "target": "cpu_usage_percent",
+      "horizon_minutes": 120,
+      "samples": 63600,
+      "mae": 5.699539779874214,
+      "rmse": 7.15907975501595,
+      "r2": 0.6496283832481656
+    },
+    {
+      "model": "lstm",
+      "target": "cpu_usage_percent",
+      "horizon_minutes": 30,
+      "samples": 63600,
+      "mae": 3.950485547780691,
+      "rmse": 4.956209840565031,
+      "r2": 0.8308352650346004
+    },
+    {
+      "model": "lstm",
+      "target": "cpu_usage_percent",
+      "horizon_minutes": 60,
+      "samples": 63600,
+      "mae": 4.641819891091112,
+      "rmse": 5.828218568543836,
+      "r2": 0.7666029442061516
+    },
+    {
+      "model": "lstm",
+      "target": "cpu_usage_percent",
+      "horizon_minutes": 90,
+      "samples": 63600,
+      "mae": 5.168602309917953,
+      "rmse": 6.49862923133065,
+      "r2": 0.7104689514514623
+    },
+    {
+      "model": "lstm",
+      "target": "cpu_usage_percent",
+      "horizon_minutes": 120,
+      "samples": 63600,
+      "mae": 5.625741263321212,
+      "rmse": 7.0801918519517475,
+      "r2": 0.6573075253110432
+    },
+    {
+      "model": "persistence",
+      "target": "memory_usage_percent",
+      "horizon_minutes": 30,
+      "samples": 63600,
+      "mae": 0.5305555031446542,
+      "rmse": 0.6936948346246393,
+      "r2": 0.9949601108299447
+    },
+    {
+      "model": "persistence",
+      "target": "memory_usage_percent",
+      "horizon_minutes": 60,
+      "samples": 63600,
+      "mae": 0.8322377358490566,
+      "rmse": 1.114206010839645,
+      "r2": 0.9869912336064863
+    },
+    {
+      "model": "persistence",
+      "target": "memory_usage_percent",
+      "horizon_minutes": 90,
+      "samples": 63600,
+      "mae": 1.1149556603773583,
+      "rmse": 1.5036688036496542,
+      "r2": 0.9762974074731474
+    },
+    {
+      "model": "persistence",
+      "target": "memory_usage_percent",
+      "horizon_minutes": 120,
+      "samples": 63600,
+      "mae": 1.3903338050314464,
+      "rmse": 1.8751207344776295,
+      "r2": 0.9631244355440872
+    },
+    {
+      "model": "lstm",
+      "target": "memory_usage_percent",
+      "horizon_minutes": 30,
+      "samples": 63600,
+      "mae": 0.9711401374385042,
+      "rmse": 1.2339201496660557,
+      "r2": 0.9840537643661036
+    },
+    {
+      "model": "lstm",
+      "target": "memory_usage_percent",
+      "horizon_minutes": 60,
+      "samples": 63600,
+      "mae": 1.1234208304423208,
+      "rmse": 1.4649247267841938,
+      "r2": 0.9775127814874122
+    },
+    {
+      "model": "lstm",
+      "target": "memory_usage_percent",
+      "horizon_minutes": 90,
+      "samples": 63600,
+      "mae": 1.2780444702916178,
+      "rmse": 1.710282476117998,
+      "r2": 0.969336116011176
+    },
+    {
+      "model": "lstm",
+      "target": "memory_usage_percent",
+      "horizon_minutes": 120,
+      "samples": 63600,
+      "mae": 1.4386262017304041,
+      "rmse": 1.95605952047362,
+      "r2": 0.959872293721872
+    }
+  ],
+  "traffic_burst_classification_metrics": [
+    {
+      "metric_type": "classification",
+      "model": "persistence",
+      "target": "traffic_burst",
+      "horizon_minutes": 30,
+      "precision": 0.28493543758967,
+      "recall": 0.2830672748004561,
+      "f1": 0.28399828399828403,
+      "support": 3508,
+      "predicted_positive_count": 3485,
+      "true_positive": 993,
+      "false_positive": 2492,
+      "false_negative": 2515,
+      "true_negative": 57600,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "persistence",
+      "target": "traffic_burst",
+      "horizon_minutes": 60,
+      "precision": 0.16872309899569585,
+      "recall": 0.16680851063829788,
+      "f1": 0.16776034236804566,
+      "support": 3525,
+      "predicted_positive_count": 3485,
+      "true_positive": 588,
+      "false_positive": 2897,
+      "false_negative": 2937,
+      "true_negative": 57178,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "persistence",
+      "target": "traffic_burst",
+      "horizon_minutes": 90,
+      "precision": 0.11678622668579627,
+      "recall": 0.11497175141242938,
+      "f1": 0.11587188612099644,
+      "support": 3540,
+      "predicted_positive_count": 3485,
+      "true_positive": 407,
+      "false_positive": 3078,
+      "false_negative": 3133,
+      "true_negative": 56982,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "persistence",
+      "target": "traffic_burst",
+      "horizon_minutes": 120,
+      "precision": 0.12395982783357246,
+      "recall": 0.12138241078954763,
+      "f1": 0.12265758091993186,
+      "support": 3559,
+      "predicted_positive_count": 3485,
+      "true_positive": 432,
+      "false_positive": 3053,
+      "false_negative": 3127,
+      "true_negative": 56988,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "lstm",
+      "target": "traffic_burst",
+      "horizon_minutes": 30,
+      "precision": 0.6060991105463787,
+      "recall": 0.13597491448118587,
+      "f1": 0.2221187427240978,
+      "support": 3508,
+      "predicted_positive_count": 787,
+      "true_positive": 477,
+      "false_positive": 310,
+      "false_negative": 3031,
+      "true_negative": 59782,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "lstm",
+      "target": "traffic_burst",
+      "horizon_minutes": 60,
+      "precision": 0.373134328358209,
+      "recall": 0.02127659574468085,
+      "f1": 0.040257648953301126,
+      "support": 3525,
+      "predicted_positive_count": 201,
+      "true_positive": 75,
+      "false_positive": 126,
+      "false_negative": 3450,
+      "true_negative": 59949,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "lstm",
+      "target": "traffic_burst",
+      "horizon_minutes": 90,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3540,
+      "predicted_positive_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 3540,
+      "true_negative": 60060,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "lstm",
+      "target": "traffic_burst",
+      "horizon_minutes": 120,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3559,
+      "predicted_positive_count": 0,
+      "true_positive": 0,
+      "false_positive": 0,
+      "false_negative": 3559,
+      "true_negative": 60041,
+      "samples": 63600
+    }
+  ],
+  "future_resource_pressure_classification_metrics": [
+    {
+      "metric_type": "classification",
+      "model": "persistence",
+      "target": "future_resource_pressure",
+      "horizon_minutes": 30,
+      "precision": 0.7632538104705102,
+      "recall": 0.7561135729525685,
+      "f1": 0.75966691400775,
+      "support": 6093,
+      "predicted_positive_count": 6036,
+      "true_positive": 4607,
+      "false_positive": 1429,
+      "false_negative": 1486,
+      "true_negative": 56078,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "persistence",
+      "target": "future_resource_pressure",
+      "horizon_minutes": 60,
+      "precision": 0.6931742876076872,
+      "recall": 0.6801040312093628,
+      "f1": 0.6865769609451919,
+      "support": 6152,
+      "predicted_positive_count": 6036,
+      "true_positive": 4184,
+      "false_positive": 1852,
+      "false_negative": 1968,
+      "true_negative": 55596,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "persistence",
+      "target": "future_resource_pressure",
+      "horizon_minutes": 90,
+      "precision": 0.6424784625579855,
+      "recall": 0.6246778350515464,
+      "f1": 0.633453119895459,
+      "support": 6208,
+      "predicted_positive_count": 6036,
+      "true_positive": 3878,
+      "false_positive": 2158,
+      "false_negative": 2330,
+      "true_negative": 55234,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "persistence",
+      "target": "future_resource_pressure",
+      "horizon_minutes": 120,
+      "precision": 0.6000662690523525,
+      "recall": 0.577395185716563,
+      "f1": 0.588512470550004,
+      "support": 6273,
+      "predicted_positive_count": 6036,
+      "true_positive": 3622,
+      "false_positive": 2414,
+      "false_negative": 2651,
+      "true_negative": 54913,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "lstm",
+      "target": "future_resource_pressure",
+      "horizon_minutes": 30,
+      "precision": 0.8610478359908884,
+      "recall": 0.5583456425406204,
+      "f1": 0.6774193548387096,
+      "support": 6093,
+      "predicted_positive_count": 3951,
+      "true_positive": 3402,
+      "false_positive": 549,
+      "false_negative": 2691,
+      "true_negative": 56958,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "lstm",
+      "target": "future_resource_pressure",
+      "horizon_minutes": 60,
+      "precision": 0.8092439219877104,
+      "recall": 0.4923602080624187,
+      "f1": 0.6122283981808995,
+      "support": 6152,
+      "predicted_positive_count": 3743,
+      "true_positive": 3029,
+      "false_positive": 714,
+      "false_negative": 3123,
+      "true_negative": 56734,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "lstm",
+      "target": "future_resource_pressure",
+      "horizon_minutes": 90,
+      "precision": 0.7691015952980689,
+      "recall": 0.4426546391752577,
+      "f1": 0.5619057356098558,
+      "support": 6208,
+      "predicted_positive_count": 3573,
+      "true_positive": 2748,
+      "false_positive": 825,
+      "false_negative": 3460,
+      "true_negative": 56567,
+      "samples": 63600
+    },
+    {
+      "metric_type": "classification",
+      "model": "lstm",
+      "target": "future_resource_pressure",
+      "horizon_minutes": 120,
+      "precision": 0.731489484298473,
+      "recall": 0.4047505180934162,
+      "f1": 0.5211412151067324,
+      "support": 6273,
+      "predicted_positive_count": 3471,
+      "true_positive": 2539,
+      "false_positive": 932,
+      "false_negative": 3734,
+      "true_negative": 56395,
+      "samples": 63600
+    }
+  ],
+  "test_metrics": [
+    {
+      "model": "persistence",
+      "target": "total_network_traffic",
+      "horizon_minutes": 30,
+      "samples": 63600,
+      "mae": 431479.76647936326,
+      "rmse": 697042.2060499134,
+      "r2": 0.05265439897474056
+    },
+    {
+      "model": "persistence",
+      "target": "total_network_traffic",
+      "horizon_minutes": 60,
+      "samples": 63600,
+      "mae": 484640.98094351415,
+      "rmse": 827492.9903207985,
+      "r2": -0.3342288673699343
+    },
+    {
+      "model": "persistence",
+      "target": "total_network_traffic",
+      "horizon_minutes": 90,
+      "samples": 63600,
+      "mae": 505670.1986777909,
+      "rmse": 867014.9970908765,
+      "r2": -0.46432482564891764
+    },
+    {
+      "model": "persistence",
+      "target": "total_network_traffic",
+      "horizon_minutes": 120,
+      "samples": 63600,
+      "mae": 513854.3937274764,
+      "rmse": 871287.9589719259,
+      "r2": -0.4771783402349079
+    },
+    {
+      "model": "lstm",
+      "target": "total_network_traffic",
+      "horizon_minutes": 30,
+      "samples": 63600,
+      "mae": 339683.7470422956,
+      "rmse": 559462.7289689624,
+      "r2": 0.3897151195381674
+    },
+    {
+      "model": "lstm",
+      "target": "total_network_traffic",
+      "horizon_minutes": 60,
+      "samples": 63600,
+      "mae": 362923.6688448114,
+      "rmse": 618976.3602957465,
+      "r2": 0.2534656224921761
+    },
+    {
+      "model": "lstm",
+      "target": "total_network_traffic",
+      "horizon_minutes": 90,
+      "samples": 63600,
+      "mae": 370843.2205678459,
+      "rmse": 631714.9868282919,
+      "r2": 0.2226321660086199
+    },
+    {
+      "model": "lstm",
+      "target": "total_network_traffic",
+      "horizon_minutes": 120,
+      "samples": 63600,
+      "mae": 379825.6425424528,
+      "rmse": 637859.9882161183,
+      "r2": 0.20830076080226456
+    }
+  ],
+  "artifacts": [
+    "/Users/akshatverma01/Documents/GraphOps-AI/models/traffic_lstm.pt",
+    "/Users/akshatverma01/Documents/GraphOps-AI/models/preprocessing.joblib",
+    "/Users/akshatverma01/Documents/GraphOps-AI/models/traffic_thresholds.json",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/historical_inference.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/latest_forecasts.json",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/evaluation_metrics.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/classification_metrics.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/resource_regression_metrics.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/per_machine_metrics.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/preprocessing_config.json",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/actual_vs_predicted.png",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/prediction_error.png",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/horizon_performance.png",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/burst_forecast_example.png",
+    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/evaluation_results.json"
+  ]
+}
