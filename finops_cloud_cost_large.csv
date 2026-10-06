@@ -1,0 +1,3001 @@
+date,cloud_provider,region,resource_type,instance_family,usage_hours,cost_usd,optimization_recommendation
+2026-10-21,GCP,us-west-2,Compute,Premium_LRS,12,31.26,None
+2026-10-16,GCP,ap-south-1,Database,t3.micro,12,33.39,Right-size
+2026-09-04,AWS,europe-west3,Compute,e2-medium,720,29.99,Scale Down
+2026-10-30,AWS,ap-south-1,Compute,c5.xlarge,24,9.57,Upgrade
+2026-10-14,AWS,us-east-1,Compute,e2-medium,12,33.44,Right-size
+2026-09-09,AWS,ap-south-1,Database,c5.xlarge,720,41.31,Scale Down
+2026-10-14,AWS,ap-south-1,Database,c5.xlarge,720,37.86,Scale Down
+2026-09-30,AWS,ap-south-1,Database,rds.m5.large,24,28.35,Scale Down
+2026-09-05,GCP,us-east-1,Compute,Premium_LRS,720,4.54,Scale Down
+2026-09-10,AWS,ap-south-1,Storage,c5.xlarge,720,25.11,Scale Down
+2026-10-23,Azure,us-west-2,Storage,Premium_LRS,12,21.66,Right-size
+2026-09-30,Azure,europe-west3,Storage,rds.m5.large,24,31.62,None
+2026-10-22,GCP,us-west-2,Compute,Premium_LRS,12,5.03,Upgrade
+2026-09-18,AWS,us-east-1,Cache,e2-medium,720,9.62,Right-size
+2026-10-17,AWS,ap-south-1,Storage,Premium_LRS,24,48.62,Right-size
+2026-10-25,GCP,us-west-2,Database,Premium_LRS,720,30.12,Right-size
+2026-09-21,Azure,ap-south-1,Database,e2-medium,720,31.26,Scale Down
+2026-10-28,Azure,ap-south-1,Compute,c5.xlarge,720,35.94,Upgrade
+2026-09-29,Azure,ap-south-1,Database,c5.xlarge,12,16.78,Scale Down
+2026-09-02,GCP,ap-south-1,Database,Premium_LRS,720,17.69,Scale Down
+2026-10-17,GCP,us-west-2,Compute,t3.micro,720,14.89,Scale Down
+2026-09-01,AWS,ap-south-1,Cache,Premium_LRS,24,33.6,Upgrade
+2026-09-29,Azure,ap-south-1,Compute,rds.m5.large,720,29.44,Delete Unattached
+2026-10-10,AWS,europe-west3,Storage,rds.m5.large,24,37.63,Upgrade
+2026-10-07,Azure,europe-west3,Cache,Premium_LRS,24,24.49,Right-size
+2026-10-13,Azure,ap-south-1,Database,t3.micro,12,40.66,None
+2026-10-31,GCP,ap-south-1,Cache,rds.m5.large,24,41.6,Right-size
+2026-10-20,AWS,ap-south-1,Compute,c5.xlarge,24,21.1,Upgrade
+2026-09-02,Azure,us-east-1,Cache,c5.xlarge,720,20.84,None
+2026-10-18,Azure,ap-south-1,Database,rds.m5.large,12,48.34,Delete Unattached
+2026-10-28,AWS,us-west-2,Cache,rds.m5.large,720,2.23,Upgrade
+2026-10-31,GCP,us-west-2,Storage,t3.micro,12,30.23,Scale Down
+2026-09-02,AWS,europe-west3,Storage,c5.xlarge,720,7.77,Upgrade
+2026-09-06,Azure,ap-south-1,Compute,Premium_LRS,720,2.99,Upgrade
+2026-09-23,AWS,europe-west3,Compute,rds.m5.large,24,46.44,None
+2026-09-29,GCP,us-west-2,Database,rds.m5.large,24,47.28,None
+2026-10-08,AWS,ap-south-1,Compute,e2-medium,720,13.09,Scale Down
+2026-10-20,Azure,europe-west3,Cache,c5.xlarge,12,24.22,Delete Unattached
+2026-10-29,GCP,europe-west3,Storage,t3.micro,720,15.42,Right-size
+2026-10-11,AWS,ap-south-1,Cache,rds.m5.large,720,40.28,Upgrade
+2026-09-25,Azure,us-west-2,Compute,Premium_LRS,12,3.95,Scale Down
+2026-09-09,Azure,us-west-2,Database,t3.micro,12,22.9,Upgrade
+2026-09-10,AWS,ap-south-1,Compute,c5.xlarge,720,17.36,Upgrade
+2026-10-06,GCP,ap-south-1,Database,t3.micro,12,21.01,Right-size
+2026-09-27,GCP,europe-west3,Compute,t3.micro,720,2.88,Right-size
+2026-10-27,GCP,us-east-1,Compute,Premium_LRS,12,42.48,None
+2026-10-21,Azure,us-west-2,Cache,rds.m5.large,720,46.06,Delete Unattached
+2026-09-29,AWS,ap-south-1,Database,c5.xlarge,12,8.47,Right-size
+2026-10-22,GCP,europe-west3,Cache,e2-medium,24,46.01,Upgrade
+2026-09-03,GCP,us-east-1,Database,c5.xlarge,12,17.37,Delete Unattached
+2026-10-28,AWS,us-east-1,Cache,rds.m5.large,720,49.02,Scale Down
+2026-10-22,GCP,ap-south-1,Cache,rds.m5.large,720,22.42,None
+2026-10-29,AWS,us-west-2,Compute,Premium_LRS,24,15.98,Delete Unattached
+2026-10-03,AWS,ap-south-1,Storage,c5.xlarge,12,11.8,Scale Down
+2026-09-03,Azure,europe-west3,Compute,e2-medium,12,17.96,Scale Down
+2026-10-09,AWS,ap-south-1,Compute,rds.m5.large,720,44.47,Delete Unattached
+2026-09-07,AWS,ap-south-1,Database,e2-medium,12,28.38,None
+2026-09-03,GCP,europe-west3,Compute,rds.m5.large,12,1.12,Scale Down
+2026-10-12,Azure,us-east-1,Database,e2-medium,720,41.68,None
+2026-09-15,AWS,us-east-1,Storage,Premium_LRS,720,34.31,Delete Unattached
+2026-10-17,Azure,us-east-1,Compute,Premium_LRS,24,30.09,Upgrade
+2026-09-25,GCP,ap-south-1,Compute,c5.xlarge,24,29.24,Delete Unattached
+2026-10-15,GCP,us-west-2,Database,e2-medium,12,10.71,Upgrade
+2026-10-13,GCP,ap-south-1,Storage,c5.xlarge,720,23.16,Scale Down
+2026-09-22,AWS,us-east-1,Compute,t3.micro,24,16.97,Scale Down
+2026-09-02,AWS,europe-west3,Cache,Premium_LRS,24,27.22,Right-size
+2026-09-13,GCP,us-west-2,Storage,t3.micro,720,17.2,None
+2026-09-01,GCP,us-west-2,Compute,e2-medium,24,12.46,Scale Down
+2026-10-28,GCP,us-west-2,Compute,e2-medium,24,23.91,Delete Unattached
+2026-10-24,AWS,us-west-2,Storage,Premium_LRS,720,41.18,Right-size
+2026-10-28,Azure,us-west-2,Storage,rds.m5.large,12,21.08,Delete Unattached
+2026-10-06,AWS,europe-west3,Storage,t3.micro,720,45.06,Right-size
+2026-09-15,Azure,us-east-1,Cache,rds.m5.large,720,46.67,None
+2026-09-26,Azure,europe-west3,Storage,c5.xlarge,12,42.41,Delete Unattached
+2026-09-06,AWS,europe-west3,Storage,c5.xlarge,24,29.87,Scale Down
+2026-10-22,Azure,us-east-1,Storage,e2-medium,720,45.01,Delete Unattached
+2026-09-06,AWS,us-east-1,Storage,rds.m5.large,720,19.35,Delete Unattached
+2026-09-07,AWS,europe-west3,Compute,t3.micro,24,38.6,None
+2026-10-25,AWS,us-east-1,Compute,Premium_LRS,24,19.86,None
+2026-09-16,AWS,us-east-1,Cache,c5.xlarge,720,48.85,Scale Down
+2026-09-10,GCP,us-east-1,Database,t3.micro,24,4.44,Delete Unattached
+2026-10-30,AWS,ap-south-1,Storage,e2-medium,12,30.49,None
+2026-10-09,Azure,us-east-1,Storage,Premium_LRS,12,11.72,Delete Unattached
+2026-10-11,GCP,europe-west3,Storage,e2-medium,24,9.36,Upgrade
+2026-09-19,AWS,europe-west3,Compute,t3.micro,24,39.86,Scale Down
+2026-10-26,GCP,ap-south-1,Database,c5.xlarge,12,0.63,Right-size
+2026-10-29,GCP,us-east-1,Cache,rds.m5.large,720,8.64,Scale Down
+2026-10-19,Azure,europe-west3,Compute,t3.micro,720,5.05,Right-size
+2026-09-19,Azure,us-west-2,Storage,e2-medium,720,45.03,Upgrade
+2026-10-23,GCP,europe-west3,Storage,t3.micro,24,20.32,Delete Unattached
+2026-10-22,GCP,europe-west3,Cache,rds.m5.large,720,36.71,None
+2026-09-09,Azure,us-east-1,Cache,c5.xlarge,720,1.21,Right-size
+2026-10-08,Azure,europe-west3,Compute,e2-medium,12,44.35,Delete Unattached
+2026-10-25,Azure,europe-west3,Cache,c5.xlarge,720,48.23,Upgrade
+2026-09-22,GCP,europe-west3,Cache,Premium_LRS,24,39.8,None
+2026-09-06,Azure,us-west-2,Cache,c5.xlarge,720,40.04,Delete Unattached
+2026-09-06,GCP,us-east-1,Database,e2-medium,12,16.24,Upgrade
+2026-10-08,AWS,us-east-1,Compute,e2-medium,24,13.52,None
+2026-09-28,Azure,ap-south-1,Database,t3.micro,720,7.37,None
+2026-10-15,GCP,europe-west3,Storage,e2-medium,12,17.69,Scale Down
+2026-10-21,Azure,europe-west3,Storage,t3.micro,720,7.14,Upgrade
+2026-09-26,GCP,us-west-2,Compute,Premium_LRS,720,41.73,Scale Down
+2026-10-29,Azure,europe-west3,Storage,t3.micro,12,48.98,None
+2026-09-27,GCP,ap-south-1,Cache,t3.micro,24,23.74,Upgrade
+2026-09-09,GCP,europe-west3,Cache,t3.micro,720,49.45,Upgrade
+2026-10-31,GCP,us-east-1,Database,e2-medium,24,18.1,None
+2026-10-28,AWS,us-west-2,Compute,c5.xlarge,24,45.5,Scale Down
+2026-10-06,AWS,us-west-2,Compute,e2-medium,12,37.16,Delete Unattached
+2026-09-01,GCP,europe-west3,Compute,rds.m5.large,12,37.65,Right-size
+2026-09-10,GCP,europe-west3,Storage,rds.m5.large,720,2.43,Delete Unattached
+2026-09-24,GCP,ap-south-1,Compute,c5.xlarge,24,36.82,Delete Unattached
+2026-09-21,AWS,europe-west3,Database,rds.m5.large,720,25.28,Scale Down
+2026-10-28,Azure,europe-west3,Compute,t3.micro,24,27.67,Upgrade
+2026-09-12,Azure,us-west-2,Compute,t3.micro,720,33.39,Scale Down
+2026-10-26,AWS,us-east-1,Storage,c5.xlarge,24,43.95,Right-size
+2026-09-12,GCP,europe-west3,Database,e2-medium,24,19.14,Upgrade
+2026-10-26,Azure,us-east-1,Compute,Premium_LRS,720,48.7,None
+2026-10-19,Azure,us-west-2,Storage,rds.m5.large,12,22.06,Upgrade
+2026-09-23,Azure,us-west-2,Compute,e2-medium,24,10.55,Scale Down
+2026-10-13,GCP,us-east-1,Cache,Premium_LRS,12,6.74,Scale Down
+2026-09-15,Azure,us-east-1,Storage,e2-medium,12,42.76,Scale Down
+2026-10-20,AWS,us-west-2,Compute,rds.m5.large,720,37.62,Scale Down
+2026-09-22,Azure,us-east-1,Storage,e2-medium,12,43.85,Right-size
+2026-09-05,Azure,us-west-2,Storage,c5.xlarge,720,9.85,None
+2026-09-25,AWS,europe-west3,Storage,c5.xlarge,720,16.38,None
+2026-10-30,GCP,europe-west3,Database,e2-medium,12,42.06,Right-size
+2026-09-23,Azure,ap-south-1,Storage,t3.micro,12,8.71,Upgrade
+2026-09-05,GCP,us-east-1,Compute,Premium_LRS,24,39.62,Upgrade
+2026-10-08,GCP,us-east-1,Compute,c5.xlarge,12,10.7,Upgrade
+2026-10-12,AWS,us-east-1,Database,Premium_LRS,720,3.13,Delete Unattached
+2026-09-01,AWS,europe-west3,Database,t3.micro,24,9.51,Upgrade
+2026-10-14,Azure,europe-west3,Database,rds.m5.large,720,41.79,Scale Down
+2026-09-19,Azure,ap-south-1,Database,e2-medium,24,10.52,Right-size
+2026-09-21,GCP,us-west-2,Database,Premium_LRS,24,39.91,Delete Unattached
+2026-10-28,AWS,us-east-1,Database,t3.micro,24,47.76,Upgrade
+2026-09-28,Azure,us-east-1,Database,c5.xlarge,720,35.72,Upgrade
+2026-09-08,AWS,europe-west3,Cache,e2-medium,720,31.67,Right-size
+2026-10-17,AWS,europe-west3,Compute,Premium_LRS,12,6.37,Right-size
+2026-10-02,GCP,europe-west3,Database,c5.xlarge,720,28.79,Scale Down
+2026-09-07,GCP,ap-south-1,Storage,e2-medium,720,17.88,None
+2026-10-29,AWS,us-east-1,Cache,rds.m5.large,12,41.83,Right-size
+2026-10-09,Azure,ap-south-1,Compute,rds.m5.large,12,2.83,Delete Unattached
+2026-09-03,AWS,ap-south-1,Database,c5.xlarge,12,45.4,Delete Unattached
+2026-10-01,AWS,ap-south-1,Storage,t3.micro,720,5.46,Scale Down
+2026-10-26,Azure,us-east-1,Cache,e2-medium,24,14.25,Delete Unattached
+2026-09-12,GCP,europe-west3,Compute,t3.micro,12,48.8,Upgrade
+2026-10-10,GCP,europe-west3,Compute,c5.xlarge,24,43.71,Scale Down
+2026-10-09,GCP,ap-south-1,Database,rds.m5.large,720,21.83,Upgrade
+2026-09-22,GCP,europe-west3,Cache,t3.micro,24,23.52,None
+2026-10-11,Azure,us-east-1,Cache,e2-medium,12,32.35,Right-size
+2026-10-15,GCP,us-east-1,Compute,t3.micro,720,22.1,Upgrade
+2026-10-07,AWS,ap-south-1,Compute,t3.micro,720,31.01,None
+2026-09-25,Azure,ap-south-1,Storage,rds.m5.large,24,8.95,Scale Down
+2026-09-08,Azure,europe-west3,Cache,c5.xlarge,720,27.66,Scale Down
+2026-09-05,AWS,ap-south-1,Storage,rds.m5.large,24,44.36,None
+2026-09-26,Azure,ap-south-1,Storage,rds.m5.large,720,25.91,None
+2026-10-01,AWS,ap-south-1,Compute,e2-medium,24,47.86,Delete Unattached
+2026-09-14,AWS,us-west-2,Database,t3.micro,720,35.84,Delete Unattached
+2026-09-21,Azure,us-east-1,Cache,t3.micro,24,35.56,Scale Down
+2026-09-06,GCP,us-east-1,Database,e2-medium,12,2.3,Scale Down
+2026-09-10,AWS,europe-west3,Database,t3.micro,12,8.49,Upgrade
+2026-09-09,AWS,us-west-2,Compute,c5.xlarge,24,40.13,Scale Down
+2026-09-23,Azure,us-west-2,Storage,Premium_LRS,720,9.54,Scale Down
+2026-10-18,AWS,us-west-2,Cache,t3.micro,24,17.21,Right-size
+2026-09-29,GCP,europe-west3,Compute,e2-medium,24,48.53,Scale Down
+2026-09-01,AWS,europe-west3,Cache,c5.xlarge,12,43.75,Scale Down
+2026-10-20,AWS,ap-south-1,Database,c5.xlarge,24,34.1,Delete Unattached
+2026-10-26,AWS,us-west-2,Cache,Premium_LRS,24,21.62,Delete Unattached
+2026-09-05,GCP,europe-west3,Compute,t3.micro,12,40.76,Scale Down
+2026-09-19,GCP,europe-west3,Cache,t3.micro,12,15.45,Right-size
+2026-10-24,GCP,europe-west3,Database,Premium_LRS,720,44.65,Delete Unattached
+2026-10-27,AWS,europe-west3,Compute,Premium_LRS,12,31.61,Right-size
+2026-09-21,Azure,us-west-2,Database,c5.xlarge,720,28.11,Scale Down
+2026-10-20,GCP,europe-west3,Database,Premium_LRS,720,25.82,Right-size
+2026-09-10,GCP,us-west-2,Compute,t3.micro,12,22.21,Right-size
+2026-09-09,GCP,us-west-2,Storage,rds.m5.large,24,37.72,None
+2026-10-22,Azure,ap-south-1,Storage,t3.micro,12,3.71,Right-size
+2026-10-05,GCP,us-west-2,Compute,c5.xlarge,12,40.31,Upgrade
+2026-10-01,GCP,us-west-2,Compute,c5.xlarge,24,12.71,Scale Down
+2026-10-26,Azure,ap-south-1,Database,c5.xlarge,24,42.15,None
+2026-10-02,Azure,ap-south-1,Cache,c5.xlarge,12,40.62,Delete Unattached
+2026-09-01,GCP,us-west-2,Storage,c5.xlarge,12,10.52,Delete Unattached
+2026-09-13,Azure,ap-south-1,Cache,e2-medium,720,18.12,Delete Unattached
+2026-10-07,AWS,europe-west3,Cache,rds.m5.large,12,14.75,Delete Unattached
+2026-09-25,Azure,us-west-2,Compute,e2-medium,24,24.93,Delete Unattached
+2026-10-04,GCP,us-west-2,Database,rds.m5.large,720,45.79,Delete Unattached
+2026-09-26,AWS,us-west-2,Database,t3.micro,12,37.75,None
+2026-10-11,GCP,europe-west3,Storage,Premium_LRS,24,26.92,Delete Unattached
+2026-10-04,GCP,us-east-1,Cache,rds.m5.large,24,6.97,Right-size
+2026-09-02,Azure,us-east-1,Database,Premium_LRS,12,6.64,Right-size
+2026-09-18,Azure,us-east-1,Database,rds.m5.large,720,9.1,Scale Down
+2026-09-03,AWS,ap-south-1,Compute,rds.m5.large,720,11.5,Upgrade
+2026-09-08,Azure,us-west-2,Compute,Premium_LRS,24,44.62,Delete Unattached
+2026-10-20,GCP,us-east-1,Compute,t3.micro,24,30.17,Right-size
+2026-09-06,GCP,ap-south-1,Compute,rds.m5.large,12,35.21,Delete Unattached
+2026-10-27,GCP,europe-west3,Storage,t3.micro,720,20.64,None
+2026-10-01,AWS,ap-south-1,Database,rds.m5.large,12,32.74,Scale Down
+2026-10-29,AWS,europe-west3,Compute,t3.micro,720,22.55,Upgrade
+2026-10-15,Azure,us-east-1,Compute,rds.m5.large,720,6.23,Delete Unattached
+2026-10-11,Azure,europe-west3,Compute,e2-medium,24,1.13,Upgrade
+2026-10-07,GCP,us-east-1,Compute,Premium_LRS,24,2.42,Delete Unattached
+2026-09-28,GCP,europe-west3,Cache,t3.micro,24,8.03,Scale Down
+2026-09-14,AWS,europe-west3,Compute,c5.xlarge,12,8.58,Delete Unattached
+2026-10-14,GCP,us-west-2,Compute,Premium_LRS,12,7.35,Scale Down
+2026-09-13,GCP,ap-south-1,Database,c5.xlarge,720,35.59,None
+2026-10-10,GCP,us-east-1,Database,e2-medium,12,6.27,Scale Down
+2026-09-17,Azure,us-east-1,Compute,t3.micro,12,37.34,Right-size
+2026-10-15,GCP,us-west-2,Cache,t3.micro,12,12.57,Delete Unattached
+2026-09-26,Azure,europe-west3,Cache,rds.m5.large,24,21.89,None
+2026-10-25,AWS,ap-south-1,Compute,t3.micro,12,11.85,Delete Unattached
+2026-10-28,AWS,europe-west3,Cache,c5.xlarge,24,48.3,Scale Down
+2026-10-20,Azure,ap-south-1,Database,e2-medium,720,15.11,Delete Unattached
+2026-09-16,Azure,us-east-1,Storage,t3.micro,720,27.54,Right-size
+2026-09-12,Azure,europe-west3,Cache,rds.m5.large,12,15.21,None
+2026-10-17,Azure,ap-south-1,Cache,rds.m5.large,24,13.28,Right-size
+2026-09-14,GCP,us-west-2,Storage,t3.micro,24,26.07,Right-size
+2026-10-09,Azure,us-east-1,Storage,rds.m5.large,24,39.94,Right-size
+2026-10-19,AWS,us-east-1,Compute,Premium_LRS,12,27.27,Delete Unattached
+2026-10-24,GCP,ap-south-1,Compute,e2-medium,24,43.82,Scale Down
+2026-09-29,Azure,us-east-1,Compute,Premium_LRS,24,30.31,Scale Down
+2026-09-26,AWS,europe-west3,Compute,e2-medium,720,48.75,Upgrade
+2026-10-30,GCP,us-west-2,Cache,e2-medium,720,21.24,Right-size
+2026-10-30,Azure,ap-south-1,Database,t3.micro,24,6.28,Upgrade
+2026-09-26,Azure,ap-south-1,Compute,c5.xlarge,12,14.77,Scale Down
+2026-10-29,AWS,us-west-2,Cache,e2-medium,24,28.68,Right-size
+2026-09-20,AWS,ap-south-1,Database,e2-medium,12,16.52,Scale Down
+2026-09-25,AWS,us-west-2,Compute,rds.m5.large,12,8.61,Upgrade
+2026-10-21,Azure,us-west-2,Database,Premium_LRS,24,17.92,Delete Unattached
+2026-10-21,AWS,us-east-1,Storage,rds.m5.large,24,44.8,None
+2026-10-03,GCP,europe-west3,Database,rds.m5.large,720,30.58,None
+2026-10-18,AWS,ap-south-1,Compute,rds.m5.large,720,47.91,Delete Unattached
+2026-10-04,GCP,europe-west3,Storage,t3.micro,24,24.92,Scale Down
+2026-10-22,GCP,ap-south-1,Storage,Premium_LRS,24,47.85,Delete Unattached
+2026-10-24,GCP,europe-west3,Storage,rds.m5.large,720,11.08,Right-size
+2026-10-12,Azure,us-west-2,Storage,Premium_LRS,12,30.16,Delete Unattached
+2026-10-22,Azure,us-east-1,Cache,e2-medium,24,36.51,None
+2026-09-01,AWS,us-east-1,Storage,c5.xlarge,24,48.33,Upgrade
+2026-10-22,GCP,us-east-1,Database,t3.micro,720,30.15,Upgrade
+2026-10-21,AWS,ap-south-1,Storage,Premium_LRS,24,1.81,Delete Unattached
+2026-10-24,AWS,europe-west3,Cache,c5.xlarge,12,34.45,Scale Down
+2026-09-18,Azure,europe-west3,Compute,c5.xlarge,24,30.48,Upgrade
+2026-10-15,Azure,europe-west3,Cache,rds.m5.large,12,17.56,None
+2026-10-17,Azure,ap-south-1,Compute,c5.xlarge,12,23.94,Delete Unattached
+2026-10-16,Azure,us-west-2,Compute,c5.xlarge,720,22.0,None
+2026-09-06,GCP,europe-west3,Storage,rds.m5.large,720,36.9,Right-size
+2026-09-21,Azure,ap-south-1,Storage,c5.xlarge,12,33.95,None
+2026-09-28,Azure,us-east-1,Database,c5.xlarge,12,7.44,None
+2026-09-10,AWS,us-west-2,Cache,Premium_LRS,720,47.21,Upgrade
+2026-10-27,AWS,europe-west3,Compute,rds.m5.large,720,46.31,Upgrade
+2026-09-06,Azure,ap-south-1,Cache,c5.xlarge,12,2.49,Right-size
+2026-09-13,GCP,us-west-2,Cache,rds.m5.large,720,24.26,Scale Down
+2026-09-12,Azure,us-west-2,Storage,Premium_LRS,12,39.53,Delete Unattached
+2026-09-08,GCP,ap-south-1,Database,rds.m5.large,24,33.28,Delete Unattached
+2026-10-06,Azure,us-west-2,Database,e2-medium,720,15.28,None
+2026-10-16,Azure,europe-west3,Compute,c5.xlarge,24,20.55,Scale Down
+2026-10-10,Azure,us-west-2,Cache,c5.xlarge,12,47.65,Right-size
+2026-09-25,GCP,europe-west3,Storage,Premium_LRS,720,39.35,Scale Down
+2026-10-27,AWS,us-east-1,Database,rds.m5.large,12,22.88,Upgrade
+2026-10-09,AWS,europe-west3,Cache,Premium_LRS,720,9.9,Upgrade
+2026-10-21,GCP,europe-west3,Database,e2-medium,24,12.57,None
+2026-10-16,Azure,ap-south-1,Compute,t3.micro,12,37.44,Scale Down
+2026-09-26,Azure,europe-west3,Compute,c5.xlarge,24,4.79,Upgrade
+2026-09-15,GCP,us-east-1,Storage,t3.micro,12,32.63,None
+2026-09-06,GCP,ap-south-1,Compute,e2-medium,12,8.44,Upgrade
+2026-10-25,Azure,ap-south-1,Database,Premium_LRS,24,38.08,Delete Unattached
+2026-09-26,Azure,us-west-2,Storage,Premium_LRS,720,9.41,Scale Down
+2026-09-03,Azure,europe-west3,Storage,t3.micro,720,32.34,None
+2026-10-23,GCP,ap-south-1,Compute,rds.m5.large,12,40.3,Delete Unattached
+2026-10-14,GCP,us-east-1,Storage,c5.xlarge,12,46.02,None
+2026-09-28,Azure,europe-west3,Cache,e2-medium,12,32.9,Delete Unattached
+2026-09-12,AWS,ap-south-1,Cache,Premium_LRS,12,17.44,Right-size
+2026-09-01,GCP,us-west-2,Compute,e2-medium,12,6.64,Upgrade
+2026-10-05,AWS,europe-west3,Database,Premium_LRS,24,8.49,Scale Down
+2026-09-24,GCP,us-west-2,Storage,t3.micro,720,43.95,Right-size
+2026-10-09,GCP,ap-south-1,Database,c5.xlarge,12,3.22,None
+2026-09-27,AWS,ap-south-1,Cache,e2-medium,24,3.65,Scale Down
+2026-10-22,GCP,us-east-1,Storage,c5.xlarge,12,11.29,Delete Unattached
+2026-10-31,AWS,us-west-2,Cache,c5.xlarge,24,47.51,Scale Down
+2026-10-14,AWS,ap-south-1,Database,Premium_LRS,720,16.49,None
+2026-09-05,AWS,europe-west3,Cache,c5.xlarge,12,30.25,Right-size
+2026-10-16,AWS,us-west-2,Storage,c5.xlarge,24,42.71,Delete Unattached
+2026-10-19,Azure,europe-west3,Compute,e2-medium,720,16.51,None
+2026-10-14,GCP,us-east-1,Database,c5.xlarge,720,26.93,Scale Down
+2026-10-22,AWS,ap-south-1,Compute,e2-medium,12,20.66,Scale Down
+2026-09-11,GCP,ap-south-1,Database,Premium_LRS,24,8.61,None
+2026-10-07,AWS,europe-west3,Database,Premium_LRS,12,24.11,Upgrade
+2026-10-23,Azure,us-west-2,Storage,t3.micro,24,29.01,Upgrade
+2026-09-02,AWS,ap-south-1,Cache,c5.xlarge,12,43.52,Scale Down
+2026-09-13,AWS,europe-west3,Database,e2-medium,720,21.47,Upgrade
+2026-10-24,AWS,us-west-2,Database,rds.m5.large,720,28.96,Right-size
+2026-09-25,Azure,us-east-1,Cache,Premium_LRS,12,25.06,Right-size
+2026-09-13,GCP,ap-south-1,Cache,t3.micro,24,29.91,Delete Unattached
+2026-09-28,Azure,ap-south-1,Cache,e2-medium,12,9.31,Upgrade
+2026-10-22,GCP,europe-west3,Cache,c5.xlarge,24,12.56,Delete Unattached
+2026-09-27,GCP,ap-south-1,Storage,c5.xlarge,24,22.55,Scale Down
+2026-09-27,GCP,ap-south-1,Compute,e2-medium,12,11.83,Scale Down
+2026-09-01,AWS,us-west-2,Cache,e2-medium,720,17.53,Delete Unattached
+2026-10-08,AWS,us-west-2,Cache,rds.m5.large,720,42.55,None
+2026-09-12,Azure,us-west-2,Compute,e2-medium,12,37.82,None
+2026-09-27,GCP,europe-west3,Database,Premium_LRS,24,5.07,None
+2026-10-29,Azure,europe-west3,Cache,rds.m5.large,24,3.81,Scale Down
+2026-10-03,GCP,europe-west3,Storage,t3.micro,12,27.17,Scale Down
+2026-09-24,AWS,us-east-1,Compute,rds.m5.large,12,29.71,Scale Down
+2026-10-02,GCP,us-west-2,Cache,c5.xlarge,720,18.06,Upgrade
+2026-09-23,GCP,us-east-1,Compute,c5.xlarge,24,32.39,Upgrade
+2026-10-10,GCP,us-west-2,Cache,Premium_LRS,720,14.91,Scale Down
+2026-09-21,AWS,us-east-1,Cache,Premium_LRS,12,43.13,Upgrade
+2026-10-12,AWS,us-west-2,Database,e2-medium,12,31.33,Delete Unattached
+2026-10-29,AWS,us-east-1,Cache,rds.m5.large,12,46.05,Right-size
+2026-09-27,GCP,europe-west3,Storage,c5.xlarge,24,20.14,Upgrade
+2026-09-28,GCP,us-west-2,Storage,Premium_LRS,720,13.49,Delete Unattached
+2026-09-05,Azure,ap-south-1,Compute,t3.micro,24,43.52,None
+2026-10-22,GCP,europe-west3,Database,c5.xlarge,720,33.68,None
+2026-10-30,AWS,us-east-1,Database,Premium_LRS,12,26.53,None
+2026-10-13,AWS,europe-west3,Compute,t3.micro,12,31.28,None
+2026-09-07,Azure,us-west-2,Storage,e2-medium,12,2.97,Upgrade
+2026-09-19,Azure,us-east-1,Storage,rds.m5.large,12,35.53,Right-size
+2026-10-24,Azure,us-east-1,Compute,t3.micro,24,41.71,None
+2026-10-17,AWS,europe-west3,Cache,e2-medium,720,36.19,Scale Down
+2026-10-11,AWS,europe-west3,Storage,e2-medium,24,40.36,None
+2026-10-01,AWS,us-east-1,Database,e2-medium,12,45.74,None
+2026-10-15,GCP,europe-west3,Database,rds.m5.large,720,3.27,Right-size
+2026-09-26,GCP,europe-west3,Compute,c5.xlarge,24,45.9,Right-size
+2026-10-10,GCP,us-east-1,Storage,rds.m5.large,720,38.75,Right-size
+2026-09-18,AWS,europe-west3,Cache,e2-medium,12,45.36,None
+2026-09-29,GCP,europe-west3,Database,c5.xlarge,24,14.22,Scale Down
+2026-09-24,GCP,ap-south-1,Compute,e2-medium,24,17.31,Scale Down
+2026-10-31,AWS,us-west-2,Cache,c5.xlarge,720,5.09,None
+2026-10-19,AWS,ap-south-1,Cache,c5.xlarge,24,24.05,Upgrade
+2026-09-29,GCP,us-west-2,Database,rds.m5.large,720,5.4,Right-size
+2026-10-22,Azure,us-west-2,Database,c5.xlarge,24,6.38,Scale Down
+2026-10-03,AWS,ap-south-1,Storage,rds.m5.large,24,30.0,Right-size
+2026-09-03,GCP,us-east-1,Database,Premium_LRS,24,8.49,Upgrade
+2026-09-04,Azure,us-west-2,Cache,rds.m5.large,24,17.95,None
+2026-09-17,Azure,europe-west3,Compute,c5.xlarge,12,21.44,Scale Down
+2026-09-10,Azure,europe-west3,Cache,e2-medium,24,39.47,Scale Down
+2026-09-06,Azure,us-west-2,Compute,c5.xlarge,12,33.8,Delete Unattached
+2026-09-27,Azure,ap-south-1,Compute,rds.m5.large,24,4.78,Right-size
+2026-10-17,Azure,us-east-1,Storage,rds.m5.large,720,37.18,Upgrade
+2026-10-19,GCP,europe-west3,Database,c5.xlarge,24,36.7,Right-size
+2026-10-28,AWS,us-west-2,Database,rds.m5.large,12,9.19,Delete Unattached
+2026-09-07,AWS,us-east-1,Database,c5.xlarge,720,39.17,Upgrade
+2026-10-28,GCP,us-west-2,Database,t3.micro,720,14.63,None
+2026-10-11,Azure,us-west-2,Compute,t3.micro,12,47.78,Delete Unattached
+2026-10-24,AWS,us-east-1,Compute,e2-medium,24,9.94,Upgrade
+2026-10-08,AWS,europe-west3,Database,e2-medium,24,3.59,None
+2026-10-07,GCP,us-east-1,Compute,t3.micro,12,27.66,None
+2026-10-01,AWS,ap-south-1,Cache,c5.xlarge,12,5.15,Upgrade
+2026-09-16,AWS,us-east-1,Cache,rds.m5.large,24,47.14,Upgrade
+2026-09-19,Azure,ap-south-1,Database,t3.micro,24,23.18,Delete Unattached
+2026-09-30,Azure,ap-south-1,Compute,c5.xlarge,24,47.72,Scale Down
+2026-10-16,AWS,ap-south-1,Storage,t3.micro,24,13.44,Delete Unattached
+2026-09-11,GCP,europe-west3,Database,e2-medium,720,9.19,None
+2026-09-09,AWS,us-east-1,Storage,rds.m5.large,720,27.26,Scale Down
+2026-10-17,AWS,us-west-2,Database,t3.micro,12,5.21,Delete Unattached
+2026-09-18,Azure,ap-south-1,Cache,t3.micro,12,48.41,Scale Down
+2026-09-08,Azure,us-east-1,Compute,Premium_LRS,12,15.22,Delete Unattached
+2026-09-07,Azure,us-east-1,Storage,rds.m5.large,24,31.82,None
+2026-10-07,AWS,us-east-1,Storage,t3.micro,720,33.73,Right-size
+2026-09-06,GCP,europe-west3,Database,rds.m5.large,720,28.13,Upgrade
+2026-09-13,GCP,us-west-2,Cache,Premium_LRS,720,37.19,Delete Unattached
+2026-09-23,GCP,us-east-1,Storage,t3.micro,720,38.89,Upgrade
+2026-09-27,AWS,us-west-2,Database,c5.xlarge,24,37.01,Scale Down
+2026-10-14,AWS,us-east-1,Database,rds.m5.large,24,20.52,Upgrade
+2026-09-28,AWS,europe-west3,Storage,c5.xlarge,24,13.62,Delete Unattached
+2026-10-21,AWS,us-east-1,Database,Premium_LRS,720,5.18,Scale Down
+2026-09-16,AWS,us-east-1,Database,e2-medium,720,12.82,Upgrade
+2026-09-15,AWS,ap-south-1,Database,t3.micro,24,47.05,Delete Unattached
+2026-09-24,AWS,us-east-1,Database,rds.m5.large,12,2.21,Delete Unattached
+2026-10-14,AWS,us-west-2,Cache,t3.micro,24,4.57,None
+2026-09-12,Azure,ap-south-1,Database,rds.m5.large,720,19.32,Upgrade
+2026-10-17,AWS,us-east-1,Cache,t3.micro,720,45.02,Delete Unattached
+2026-09-29,AWS,us-west-2,Cache,t3.micro,720,34.14,Right-size
+2026-09-26,AWS,europe-west3,Compute,rds.m5.large,24,27.52,None
+2026-10-03,Azure,ap-south-1,Compute,rds.m5.large,720,26.39,Right-size
+2026-09-08,GCP,us-west-2,Compute,e2-medium,720,26.46,Delete Unattached
+2026-10-31,GCP,europe-west3,Database,Premium_LRS,12,37.28,Scale Down
+2026-10-15,AWS,us-east-1,Database,c5.xlarge,12,18.23,None
+2026-09-02,AWS,europe-west3,Storage,t3.micro,720,48.89,Upgrade
+2026-09-10,Azure,us-west-2,Compute,e2-medium,720,31.0,Delete Unattached
+2026-10-17,AWS,us-east-1,Database,c5.xlarge,720,16.15,None
+2026-10-26,Azure,us-east-1,Storage,c5.xlarge,24,34.08,Right-size
+2026-09-01,AWS,us-west-2,Storage,Premium_LRS,12,1.42,Right-size
+2026-10-19,AWS,us-west-2,Compute,Premium_LRS,720,31.67,Scale Down
+2026-09-11,AWS,europe-west3,Database,Premium_LRS,12,0.84,Right-size
+2026-09-20,GCP,us-west-2,Database,e2-medium,12,15.05,Delete Unattached
+2026-10-08,Azure,europe-west3,Storage,Premium_LRS,24,35.81,Scale Down
+2026-10-12,AWS,europe-west3,Database,t3.micro,24,21.77,Delete Unattached
+2026-10-09,Azure,us-east-1,Database,Premium_LRS,720,34.34,None
+2026-09-14,GCP,us-west-2,Database,c5.xlarge,12,8.52,Right-size
+2026-10-09,AWS,us-west-2,Cache,Premium_LRS,720,19.84,None
+2026-09-28,Azure,europe-west3,Compute,c5.xlarge,720,15.57,Right-size
+2026-09-16,GCP,ap-south-1,Compute,c5.xlarge,24,40.54,Upgrade
+2026-10-09,GCP,ap-south-1,Storage,rds.m5.large,24,8.84,None
+2026-10-21,AWS,us-west-2,Database,e2-medium,24,11.3,Upgrade
+2026-09-29,AWS,us-west-2,Compute,t3.micro,24,35.22,None
+2026-10-24,AWS,ap-south-1,Database,rds.m5.large,720,23.5,Scale Down
+2026-09-17,Azure,ap-south-1,Cache,t3.micro,24,24.83,Delete Unattached
+2026-09-22,Azure,europe-west3,Compute,c5.xlarge,720,40.16,Delete Unattached
+2026-09-15,GCP,ap-south-1,Database,e2-medium,720,43.44,Right-size
+2026-10-09,AWS,europe-west3,Database,t3.micro,12,39.69,None
+2026-09-20,GCP,us-east-1,Cache,t3.micro,720,43.59,None
+2026-10-25,AWS,us-east-1,Storage,c5.xlarge,12,12.65,Upgrade
+2026-09-06,GCP,us-west-2,Compute,c5.xlarge,12,1.99,Upgrade
+2026-09-19,AWS,us-east-1,Database,t3.micro,12,0.66,Delete Unattached
+2026-09-24,AWS,us-west-2,Cache,Premium_LRS,720,4.51,Delete Unattached
+2026-09-17,AWS,us-west-2,Storage,Premium_LRS,12,32.13,None
+2026-09-22,GCP,us-east-1,Cache,t3.micro,720,33.76,None
+2026-10-28,AWS,us-west-2,Cache,t3.micro,24,3.14,Scale Down
+2026-09-18,GCP,europe-west3,Cache,t3.micro,720,38.05,Upgrade
+2026-09-23,Azure,us-east-1,Storage,rds.m5.large,12,12.38,Upgrade
+2026-10-18,Azure,us-west-2,Database,Premium_LRS,720,30.5,None
+2026-09-30,GCP,us-west-2,Compute,e2-medium,24,31.02,Scale Down
+2026-10-25,Azure,europe-west3,Cache,e2-medium,12,26.8,Right-size
+2026-10-05,GCP,us-west-2,Storage,Premium_LRS,720,48.08,Delete Unattached
+2026-10-01,Azure,us-east-1,Cache,rds.m5.large,720,14.59,Right-size
+2026-10-22,Azure,us-east-1,Compute,t3.micro,24,31.01,Scale Down
+2026-09-20,Azure,ap-south-1,Storage,Premium_LRS,12,39.59,Scale Down
+2026-10-05,AWS,us-east-1,Storage,rds.m5.large,720,42.64,Right-size
+2026-10-07,Azure,ap-south-1,Cache,Premium_LRS,720,36.8,Right-size
+2026-09-02,Azure,europe-west3,Storage,e2-medium,24,28.87,Upgrade
+2026-09-25,AWS,ap-south-1,Database,rds.m5.large,24,29.17,None
+2026-09-23,GCP,ap-south-1,Cache,Premium_LRS,24,4.23,None
+2026-10-27,AWS,europe-west3,Database,t3.micro,12,29.97,Scale Down
+2026-10-07,AWS,europe-west3,Database,t3.micro,720,15.79,Delete Unattached
+2026-09-08,Azure,europe-west3,Compute,t3.micro,12,15.32,None
+2026-10-19,GCP,europe-west3,Compute,c5.xlarge,720,23.86,Upgrade
+2026-10-21,GCP,ap-south-1,Storage,c5.xlarge,12,43.29,Scale Down
+2026-09-02,Azure,ap-south-1,Database,rds.m5.large,12,15.94,Delete Unattached
+2026-10-22,GCP,europe-west3,Cache,Premium_LRS,720,23.71,Right-size
+2026-10-30,AWS,europe-west3,Compute,e2-medium,12,18.26,None
+2026-10-02,GCP,europe-west3,Cache,e2-medium,720,20.19,Upgrade
+2026-09-07,GCP,europe-west3,Compute,e2-medium,24,30.34,None
+2026-10-14,Azure,europe-west3,Cache,Premium_LRS,720,11.58,Right-size
+2026-09-15,GCP,europe-west3,Compute,t3.micro,24,18.48,None
+2026-10-12,GCP,europe-west3,Compute,Premium_LRS,720,40.83,Scale Down
+2026-09-25,AWS,us-east-1,Cache,Premium_LRS,720,30.68,None
+2026-09-26,GCP,europe-west3,Storage,e2-medium,12,43.56,Delete Unattached
+2026-09-22,Azure,europe-west3,Storage,t3.micro,24,36.01,Upgrade
+2026-10-02,Azure,us-west-2,Cache,Premium_LRS,720,44.48,None
+2026-10-10,AWS,us-west-2,Compute,e2-medium,720,33.82,Upgrade
+2026-10-01,AWS,ap-south-1,Cache,Premium_LRS,24,23.44,None
+2026-09-03,AWS,us-east-1,Compute,c5.xlarge,720,2.43,None
+2026-09-21,GCP,europe-west3,Storage,rds.m5.large,12,16.94,Right-size
+2026-09-09,Azure,ap-south-1,Compute,Premium_LRS,24,20.67,Right-size
+2026-10-25,Azure,ap-south-1,Compute,c5.xlarge,12,14.96,Upgrade
+2026-10-06,Azure,europe-west3,Compute,Premium_LRS,24,27.89,Right-size
+2026-09-19,Azure,europe-west3,Cache,Premium_LRS,24,27.07,None
+2026-09-09,Azure,us-east-1,Compute,e2-medium,720,22.61,Right-size
+2026-09-14,Azure,ap-south-1,Database,c5.xlarge,720,38.55,Right-size
+2026-09-12,GCP,ap-south-1,Storage,rds.m5.large,24,39.81,None
+2026-10-11,GCP,us-west-2,Storage,e2-medium,12,19.99,Delete Unattached
+2026-09-10,GCP,europe-west3,Database,rds.m5.large,24,41.51,Scale Down
+2026-09-22,AWS,us-west-2,Cache,e2-medium,720,14.91,Scale Down
+2026-10-19,AWS,ap-south-1,Compute,e2-medium,24,23.83,Scale Down
+2026-10-07,Azure,ap-south-1,Database,t3.micro,12,6.52,Right-size
+2026-10-15,AWS,us-west-2,Database,c5.xlarge,720,29.07,Delete Unattached
+2026-10-31,AWS,europe-west3,Storage,c5.xlarge,12,42.54,None
+2026-10-10,AWS,europe-west3,Cache,c5.xlarge,12,45.5,None
+2026-09-15,AWS,us-west-2,Compute,c5.xlarge,12,0.96,Right-size
+2026-09-04,Azure,europe-west3,Database,e2-medium,12,6.6,Scale Down
+2026-10-31,AWS,us-west-2,Database,Premium_LRS,12,39.53,None
+2026-10-11,Azure,us-east-1,Database,Premium_LRS,720,41.35,Delete Unattached
+2026-10-20,Azure,ap-south-1,Compute,c5.xlarge,12,32.06,Upgrade
+2026-09-18,Azure,ap-south-1,Storage,c5.xlarge,720,15.94,None
+2026-10-06,Azure,europe-west3,Cache,c5.xlarge,720,14.17,Delete Unattached
+2026-09-25,Azure,us-east-1,Database,rds.m5.large,12,4.69,Delete Unattached
+2026-09-04,AWS,ap-south-1,Compute,rds.m5.large,12,19.47,None
+2026-10-14,Azure,ap-south-1,Compute,rds.m5.large,12,7.52,Upgrade
+2026-10-27,AWS,us-east-1,Compute,c5.xlarge,720,13.73,Right-size
+2026-09-16,GCP,europe-west3,Storage,e2-medium,12,10.16,Right-size
+2026-09-26,GCP,ap-south-1,Compute,Premium_LRS,24,9.35,Right-size
+2026-09-21,AWS,us-east-1,Database,Premium_LRS,24,41.45,Scale Down
+2026-10-12,AWS,us-west-2,Database,Premium_LRS,720,35.37,Right-size
+2026-10-26,GCP,us-east-1,Cache,rds.m5.large,720,40.54,None
+2026-09-25,GCP,us-east-1,Cache,rds.m5.large,24,7.09,Scale Down
+2026-10-03,Azure,us-east-1,Compute,c5.xlarge,12,2.46,Upgrade
+2026-10-07,Azure,us-east-1,Compute,e2-medium,720,15.45,Upgrade
+2026-10-09,Azure,ap-south-1,Database,t3.micro,12,18.56,Scale Down
+2026-10-18,AWS,us-east-1,Compute,rds.m5.large,720,35.85,Scale Down
+2026-09-08,AWS,ap-south-1,Cache,t3.micro,24,13.23,Right-size
+2026-10-21,GCP,europe-west3,Storage,Premium_LRS,720,14.81,None
+2026-09-12,AWS,ap-south-1,Storage,e2-medium,12,4.06,Delete Unattached
+2026-10-26,AWS,us-east-1,Storage,rds.m5.large,720,14.0,None
+2026-09-13,AWS,ap-south-1,Compute,e2-medium,24,19.39,Right-size
+2026-09-21,Azure,ap-south-1,Compute,Premium_LRS,12,49.65,None
+2026-10-21,Azure,ap-south-1,Compute,c5.xlarge,12,11.23,None
+2026-10-11,GCP,us-west-2,Cache,rds.m5.large,12,45.7,Scale Down
+2026-10-06,AWS,europe-west3,Storage,t3.micro,12,25.61,Delete Unattached
+2026-10-15,Azure,europe-west3,Compute,t3.micro,24,33.48,Right-size
+2026-10-05,AWS,europe-west3,Cache,e2-medium,12,40.07,Upgrade
+2026-09-13,Azure,us-west-2,Database,t3.micro,720,42.11,Upgrade
+2026-10-11,Azure,us-east-1,Database,rds.m5.large,24,8.73,Right-size
+2026-09-07,GCP,us-west-2,Storage,rds.m5.large,24,5.33,Right-size
+2026-10-07,AWS,us-west-2,Storage,e2-medium,720,10.79,Right-size
+2026-09-16,GCP,us-west-2,Cache,e2-medium,720,18.88,None
+2026-10-04,Azure,us-east-1,Database,c5.xlarge,12,40.33,Scale Down
+2026-09-13,Azure,europe-west3,Database,rds.m5.large,720,19.43,None
+2026-09-20,GCP,us-east-1,Storage,rds.m5.large,24,43.08,None
+2026-10-08,GCP,europe-west3,Database,rds.m5.large,720,27.06,Delete Unattached
+2026-10-24,Azure,us-west-2,Compute,e2-medium,24,26.04,None
+2026-10-07,Azure,ap-south-1,Compute,t3.micro,12,45.68,None
+2026-09-11,Azure,us-east-1,Storage,Premium_LRS,720,34.86,Delete Unattached
+2026-10-19,AWS,us-west-2,Storage,e2-medium,12,43.4,Delete Unattached
+2026-09-15,GCP,us-east-1,Cache,t3.micro,720,15.42,Upgrade
+2026-10-08,Azure,ap-south-1,Compute,rds.m5.large,720,31.1,Upgrade
+2026-10-18,GCP,europe-west3,Storage,e2-medium,24,37.49,Scale Down
+2026-09-03,Azure,europe-west3,Compute,Premium_LRS,24,14.86,Upgrade
+2026-09-19,AWS,us-west-2,Database,rds.m5.large,12,32.94,None
+2026-10-17,AWS,us-east-1,Compute,t3.micro,24,1.95,None
+2026-10-16,Azure,us-east-1,Storage,Premium_LRS,720,17.58,Right-size
+2026-10-16,GCP,ap-south-1,Cache,rds.m5.large,24,21.32,None
+2026-10-01,Azure,us-west-2,Compute,rds.m5.large,720,14.96,Scale Down
+2026-09-11,GCP,us-west-2,Cache,rds.m5.large,720,47.26,Upgrade
+2026-09-11,GCP,us-west-2,Cache,Premium_LRS,24,32.07,None
+2026-09-04,GCP,us-east-1,Compute,c5.xlarge,720,3.6,Scale Down
+2026-10-08,AWS,europe-west3,Cache,t3.micro,12,19.07,Scale Down
+2026-10-14,AWS,ap-south-1,Database,rds.m5.large,24,22.85,None
+2026-10-19,AWS,us-west-2,Database,Premium_LRS,24,5.6,Right-size
+2026-10-07,AWS,europe-west3,Compute,e2-medium,24,20.12,Right-size
+2026-10-11,Azure,us-west-2,Database,t3.micro,24,33.94,None
+2026-09-03,AWS,us-west-2,Compute,e2-medium,12,46.25,Delete Unattached
+2026-09-01,Azure,us-east-1,Storage,t3.micro,12,18.37,Delete Unattached
+2026-09-15,GCP,us-east-1,Database,e2-medium,12,44.65,Right-size
+2026-10-04,Azure,us-west-2,Database,e2-medium,720,29.71,Scale Down
+2026-10-12,GCP,europe-west3,Storage,e2-medium,720,31.83,Right-size
+2026-10-20,Azure,us-east-1,Storage,rds.m5.large,24,35.78,Upgrade
+2026-10-30,Azure,us-west-2,Compute,rds.m5.large,24,13.13,Right-size
+2026-09-29,GCP,ap-south-1,Compute,rds.m5.large,12,47.01,Upgrade
+2026-10-07,Azure,us-west-2,Cache,e2-medium,720,22.75,Scale Down
+2026-09-02,AWS,ap-south-1,Storage,t3.micro,12,8.63,Right-size
+2026-10-29,AWS,europe-west3,Storage,t3.micro,12,29.44,Right-size
+2026-09-23,Azure,us-east-1,Cache,t3.micro,24,36.09,None
+2026-10-13,AWS,us-east-1,Cache,rds.m5.large,24,15.26,Upgrade
+2026-10-03,AWS,ap-south-1,Database,t3.micro,12,9.33,Scale Down
+2026-09-11,Azure,europe-west3,Cache,rds.m5.large,720,17.99,None
+2026-10-31,Azure,us-east-1,Compute,rds.m5.large,720,23.14,None
+2026-09-01,Azure,ap-south-1,Cache,t3.micro,720,41.96,Right-size
+2026-10-08,AWS,us-east-1,Compute,c5.xlarge,12,19.58,Right-size
+2026-10-10,AWS,europe-west3,Compute,rds.m5.large,12,28.73,Scale Down
+2026-09-28,AWS,europe-west3,Compute,c5.xlarge,720,40.53,Delete Unattached
+2026-10-27,GCP,us-west-2,Storage,c5.xlarge,24,2.42,Delete Unattached
+2026-09-11,Azure,ap-south-1,Compute,c5.xlarge,720,47.53,Delete Unattached
+2026-09-11,AWS,us-west-2,Cache,t3.micro,720,21.43,Right-size
+2026-09-12,Azure,us-east-1,Storage,c5.xlarge,720,5.67,Upgrade
+2026-10-26,AWS,us-east-1,Cache,c5.xlarge,24,48.75,Right-size
+2026-10-28,AWS,us-east-1,Compute,e2-medium,720,41.45,Right-size
+2026-10-18,Azure,ap-south-1,Storage,e2-medium,24,48.24,Delete Unattached
+2026-09-21,AWS,us-west-2,Compute,rds.m5.large,12,13.25,None
+2026-10-14,AWS,ap-south-1,Storage,Premium_LRS,720,40.19,Upgrade
+2026-10-18,AWS,europe-west3,Storage,t3.micro,12,5.51,None
+2026-09-14,GCP,europe-west3,Cache,e2-medium,24,22.45,Delete Unattached
+2026-09-04,Azure,us-east-1,Database,e2-medium,720,9.98,Upgrade
+2026-09-01,GCP,us-west-2,Cache,c5.xlarge,720,7.73,Delete Unattached
+2026-09-23,Azure,us-east-1,Compute,Premium_LRS,12,34.32,None
+2026-09-08,GCP,us-west-2,Storage,c5.xlarge,12,11.81,Delete Unattached
+2026-10-17,Azure,europe-west3,Database,rds.m5.large,12,34.37,Delete Unattached
+2026-10-31,GCP,europe-west3,Compute,t3.micro,24,31.09,Delete Unattached
+2026-10-23,GCP,europe-west3,Cache,Premium_LRS,24,1.48,Delete Unattached
+2026-09-13,GCP,us-east-1,Cache,c5.xlarge,12,19.23,Upgrade
+2026-10-09,Azure,us-east-1,Compute,Premium_LRS,24,36.94,Upgrade
+2026-09-30,Azure,ap-south-1,Database,Premium_LRS,12,30.68,Scale Down
+2026-09-24,GCP,us-west-2,Compute,rds.m5.large,24,15.91,None
+2026-09-07,GCP,ap-south-1,Database,t3.micro,12,12.09,Delete Unattached
+2026-09-05,AWS,us-east-1,Compute,t3.micro,24,33.46,Scale Down
+2026-10-20,GCP,us-east-1,Storage,rds.m5.large,12,40.58,Upgrade
+2026-10-01,AWS,us-west-2,Compute,c5.xlarge,24,13.75,None
+2026-10-30,Azure,us-east-1,Storage,rds.m5.large,720,12.34,Scale Down
+2026-10-25,GCP,us-east-1,Database,Premium_LRS,24,30.08,Right-size
+2026-10-05,AWS,us-east-1,Compute,c5.xlarge,12,27.44,None
+2026-09-04,Azure,us-west-2,Storage,t3.micro,24,33.78,None
+2026-10-18,GCP,us-east-1,Compute,t3.micro,720,27.08,Delete Unattached
+2026-09-15,Azure,ap-south-1,Compute,t3.micro,12,29.89,Delete Unattached
+2026-09-23,AWS,ap-south-1,Database,c5.xlarge,720,37.59,Scale Down
+2026-09-03,AWS,us-west-2,Storage,e2-medium,12,28.27,Scale Down
+2026-10-12,AWS,us-west-2,Database,rds.m5.large,12,25.63,None
+2026-09-10,Azure,us-west-2,Database,t3.micro,720,41.71,Scale Down
+2026-10-11,AWS,europe-west3,Storage,Premium_LRS,720,3.29,Delete Unattached
+2026-09-17,AWS,europe-west3,Cache,Premium_LRS,24,46.81,Scale Down
+2026-10-08,GCP,ap-south-1,Compute,c5.xlarge,720,18.13,Scale Down
+2026-09-21,GCP,us-west-2,Database,e2-medium,720,8.86,Scale Down
+2026-09-21,Azure,us-west-2,Storage,Premium_LRS,12,36.81,None
+2026-09-16,AWS,us-east-1,Database,c5.xlarge,24,24.87,Upgrade
+2026-09-15,AWS,us-east-1,Database,e2-medium,24,28.9,Scale Down
+2026-10-10,Azure,us-west-2,Cache,rds.m5.large,720,25.97,Upgrade
+2026-10-25,Azure,us-east-1,Storage,rds.m5.large,24,21.92,Scale Down
+2026-09-16,AWS,us-west-2,Storage,e2-medium,24,45.8,Scale Down
+2026-10-21,GCP,us-east-1,Database,Premium_LRS,720,12.6,None
+2026-09-26,GCP,us-east-1,Storage,c5.xlarge,24,20.93,Right-size
+2026-10-13,GCP,ap-south-1,Compute,e2-medium,24,45.15,Upgrade
+2026-09-10,AWS,europe-west3,Storage,e2-medium,720,37.46,Right-size
+2026-10-06,GCP,europe-west3,Compute,Premium_LRS,720,43.65,Upgrade
+2026-10-01,Azure,us-west-2,Cache,e2-medium,24,10.11,Right-size
+2026-09-06,GCP,us-east-1,Cache,e2-medium,12,38.7,None
+2026-10-13,GCP,us-west-2,Cache,t3.micro,720,6.16,Delete Unattached
+2026-10-07,AWS,us-west-2,Cache,Premium_LRS,24,6.24,Scale Down
+2026-09-20,Azure,europe-west3,Storage,c5.xlarge,24,0.69,None
+2026-10-07,AWS,us-east-1,Compute,t3.micro,720,18.54,Delete Unattached
+2026-09-30,AWS,ap-south-1,Compute,rds.m5.large,24,15.44,Upgrade
+2026-10-05,GCP,us-east-1,Storage,Premium_LRS,24,35.71,Delete Unattached
+2026-10-17,AWS,europe-west3,Cache,t3.micro,720,25.14,Upgrade
+2026-09-17,GCP,us-west-2,Database,c5.xlarge,720,38.13,Scale Down
+2026-10-18,GCP,ap-south-1,Storage,rds.m5.large,24,3.39,Upgrade
+2026-09-20,GCP,europe-west3,Cache,rds.m5.large,24,9.04,Delete Unattached
+2026-09-02,Azure,us-east-1,Compute,e2-medium,24,25.64,Upgrade
+2026-09-06,GCP,ap-south-1,Cache,Premium_LRS,24,11.25,Right-size
+2026-09-28,Azure,europe-west3,Compute,c5.xlarge,720,40.56,None
+2026-09-19,AWS,europe-west3,Storage,e2-medium,12,42.57,Scale Down
+2026-09-14,Azure,us-east-1,Database,c5.xlarge,720,33.57,Upgrade
+2026-10-29,Azure,us-west-2,Cache,e2-medium,24,6.42,Delete Unattached
+2026-10-12,Azure,ap-south-1,Database,c5.xlarge,24,8.81,Scale Down
+2026-09-10,Azure,europe-west3,Storage,c5.xlarge,12,13.02,Delete Unattached
+2026-10-28,GCP,us-east-1,Storage,Premium_LRS,12,16.58,None
+2026-10-18,Azure,europe-west3,Storage,c5.xlarge,12,45.86,Upgrade
+2026-09-01,AWS,ap-south-1,Compute,c5.xlarge,12,19.38,None
+2026-09-05,AWS,us-west-2,Cache,c5.xlarge,720,31.94,Upgrade
+2026-09-26,AWS,us-west-2,Compute,rds.m5.large,12,46.83,Scale Down
+2026-10-17,GCP,us-west-2,Database,t3.micro,720,21.17,None
+2026-09-14,Azure,europe-west3,Database,t3.micro,12,22.04,None
+2026-09-10,AWS,ap-south-1,Cache,t3.micro,12,27.24,None
+2026-09-14,Azure,us-west-2,Compute,c5.xlarge,24,48.79,Delete Unattached
+2026-10-25,GCP,ap-south-1,Database,e2-medium,24,39.53,Upgrade
+2026-09-12,Azure,ap-south-1,Storage,e2-medium,720,10.76,None
+2026-10-02,GCP,us-east-1,Cache,t3.micro,720,46.77,Right-size
+2026-10-21,Azure,us-west-2,Cache,c5.xlarge,720,37.62,Upgrade
+2026-09-16,GCP,us-west-2,Cache,rds.m5.large,12,30.23,Upgrade
+2026-10-09,Azure,us-east-1,Compute,c5.xlarge,12,28.11,None
+2026-10-03,AWS,us-east-1,Database,c5.xlarge,24,49.89,Delete Unattached
+2026-09-20,Azure,ap-south-1,Compute,rds.m5.large,720,43.13,Right-size
+2026-10-26,Azure,ap-south-1,Storage,rds.m5.large,12,40.42,Scale Down
+2026-10-16,GCP,us-east-1,Compute,e2-medium,720,26.21,None
+2026-10-17,GCP,us-east-1,Database,c5.xlarge,12,13.32,Upgrade
+2026-10-26,GCP,us-west-2,Compute,t3.micro,12,4.71,Delete Unattached
+2026-10-29,GCP,ap-south-1,Storage,c5.xlarge,24,8.78,Upgrade
+2026-10-10,GCP,europe-west3,Database,t3.micro,720,34.53,Upgrade
+2026-09-09,GCP,us-east-1,Compute,Premium_LRS,720,45.29,Right-size
+2026-10-17,AWS,ap-south-1,Compute,Premium_LRS,24,23.68,Delete Unattached
+2026-09-21,Azure,ap-south-1,Database,c5.xlarge,24,33.72,Right-size
+2026-09-12,Azure,us-east-1,Storage,Premium_LRS,24,31.25,Scale Down
+2026-09-04,AWS,us-east-1,Compute,rds.m5.large,720,41.99,None
+2026-09-17,Azure,us-west-2,Storage,e2-medium,720,17.58,None
+2026-10-10,GCP,us-east-1,Compute,e2-medium,24,36.82,None
+2026-09-07,AWS,us-east-1,Compute,t3.micro,12,8.77,Delete Unattached
+2026-09-10,Azure,europe-west3,Storage,Premium_LRS,24,29.52,Upgrade
+2026-10-05,Azure,europe-west3,Storage,rds.m5.large,24,20.33,Delete Unattached
+2026-10-18,GCP,us-west-2,Cache,t3.micro,24,19.94,Upgrade
+2026-10-04,Azure,us-west-2,Cache,Premium_LRS,720,18.38,Delete Unattached
+2026-10-04,GCP,europe-west3,Database,t3.micro,24,26.46,Scale Down
+2026-09-22,AWS,ap-south-1,Compute,t3.micro,720,6.74,Right-size
+2026-09-10,Azure,us-west-2,Compute,e2-medium,24,40.94,Right-size
+2026-09-03,AWS,europe-west3,Storage,rds.m5.large,12,39.19,None
+2026-10-08,Azure,us-east-1,Storage,e2-medium,12,48.35,None
+2026-10-18,GCP,us-east-1,Storage,Premium_LRS,24,16.92,Scale Down
+2026-09-07,GCP,us-west-2,Storage,t3.micro,12,6.86,Right-size
+2026-10-23,AWS,us-east-1,Database,Premium_LRS,24,35.73,None
+2026-09-15,AWS,us-east-1,Database,Premium_LRS,720,26.83,Upgrade
+2026-09-30,GCP,ap-south-1,Cache,Premium_LRS,24,25.18,Scale Down
+2026-09-02,Azure,us-west-2,Database,rds.m5.large,24,29.2,None
+2026-09-09,GCP,ap-south-1,Compute,e2-medium,720,1.14,None
+2026-09-10,GCP,us-east-1,Storage,e2-medium,12,5.33,Right-size
+2026-09-01,GCP,us-east-1,Database,Premium_LRS,720,30.97,Scale Down
+2026-10-11,AWS,europe-west3,Cache,t3.micro,720,30.11,None
+2026-09-28,Azure,europe-west3,Compute,rds.m5.large,12,5.82,None
+2026-09-24,AWS,us-east-1,Cache,t3.micro,12,3.3,Scale Down
+2026-09-03,AWS,europe-west3,Compute,t3.micro,24,2.94,Scale Down
+2026-10-31,AWS,europe-west3,Database,t3.micro,24,37.62,Delete Unattached
+2026-10-15,GCP,ap-south-1,Cache,rds.m5.large,720,34.44,Scale Down
+2026-10-04,GCP,ap-south-1,Compute,c5.xlarge,720,11.83,None
+2026-10-15,GCP,us-west-2,Cache,c5.xlarge,12,31.8,Upgrade
+2026-09-30,Azure,us-west-2,Storage,rds.m5.large,720,30.69,Delete Unattached
+2026-10-03,AWS,us-west-2,Cache,t3.micro,12,11.0,Scale Down
+2026-10-11,Azure,us-east-1,Database,Premium_LRS,24,16.93,None
+2026-09-27,GCP,ap-south-1,Database,Premium_LRS,720,3.73,Scale Down
+2026-09-06,AWS,us-east-1,Cache,e2-medium,720,20.94,Right-size
+2026-09-11,AWS,ap-south-1,Compute,rds.m5.large,12,46.22,Scale Down
+2026-09-12,AWS,ap-south-1,Database,rds.m5.large,24,0.86,Delete Unattached
+2026-09-23,Azure,us-west-2,Database,t3.micro,12,49.18,None
+2026-10-31,Azure,europe-west3,Compute,e2-medium,720,8.55,Scale Down
+2026-10-25,GCP,us-east-1,Database,rds.m5.large,720,38.96,None
+2026-09-01,AWS,europe-west3,Compute,c5.xlarge,720,12.18,Delete Unattached
+2026-09-03,AWS,us-east-1,Cache,Premium_LRS,24,22.25,Right-size
+2026-09-09,Azure,ap-south-1,Storage,rds.m5.large,24,15.22,Upgrade
+2026-10-18,GCP,europe-west3,Storage,Premium_LRS,24,28.29,Scale Down
+2026-10-18,AWS,europe-west3,Storage,c5.xlarge,24,17.38,Upgrade
+2026-10-21,GCP,us-east-1,Cache,rds.m5.large,12,8.62,Upgrade
+2026-10-05,GCP,ap-south-1,Compute,e2-medium,24,19.37,Delete Unattached
+2026-09-03,Azure,us-west-2,Compute,e2-medium,720,16.54,Right-size
+2026-10-26,GCP,ap-south-1,Compute,t3.micro,720,40.06,Delete Unattached
+2026-10-22,GCP,us-west-2,Storage,t3.micro,12,6.59,Scale Down
+2026-10-20,GCP,us-east-1,Compute,c5.xlarge,720,33.04,None
+2026-09-16,Azure,europe-west3,Cache,e2-medium,12,47.3,None
+2026-09-07,GCP,ap-south-1,Cache,rds.m5.large,12,37.2,None
+2026-10-04,AWS,ap-south-1,Storage,rds.m5.large,24,13.79,None
+2026-09-27,Azure,us-east-1,Database,c5.xlarge,720,40.27,Scale Down
+2026-10-22,Azure,ap-south-1,Cache,rds.m5.large,12,21.15,Delete Unattached
+2026-10-18,GCP,ap-south-1,Cache,c5.xlarge,12,42.17,Delete Unattached
+2026-10-28,AWS,us-east-1,Storage,c5.xlarge,24,42.75,Scale Down
+2026-09-30,AWS,us-west-2,Cache,rds.m5.large,12,20.21,None
+2026-10-29,GCP,us-east-1,Storage,c5.xlarge,24,34.34,Scale Down
+2026-09-02,AWS,ap-south-1,Cache,t3.micro,720,41.39,None
+2026-10-31,Azure,ap-south-1,Compute,Premium_LRS,12,29.15,Delete Unattached
+2026-09-29,AWS,europe-west3,Compute,e2-medium,720,39.61,Delete Unattached
+2026-09-18,AWS,ap-south-1,Storage,Premium_LRS,12,2.67,Upgrade
+2026-10-02,GCP,europe-west3,Database,rds.m5.large,12,33.5,Delete Unattached
+2026-10-29,AWS,ap-south-1,Compute,t3.micro,12,44.05,Delete Unattached
+2026-09-26,Azure,us-east-1,Compute,rds.m5.large,24,16.29,Scale Down
+2026-10-24,AWS,us-east-1,Storage,rds.m5.large,12,2.59,None
+2026-10-21,Azure,ap-south-1,Cache,e2-medium,24,10.05,None
+2026-09-07,Azure,us-west-2,Database,e2-medium,12,20.61,Delete Unattached
+2026-09-04,Azure,us-east-1,Compute,rds.m5.large,24,41.99,Scale Down
+2026-10-15,Azure,us-west-2,Database,rds.m5.large,12,9.45,Upgrade
+2026-10-07,GCP,us-east-1,Compute,c5.xlarge,720,30.98,Delete Unattached
+2026-10-09,Azure,us-east-1,Cache,rds.m5.large,720,23.59,Delete Unattached
+2026-10-12,GCP,europe-west3,Compute,e2-medium,12,4.42,None
+2026-09-28,AWS,ap-south-1,Cache,c5.xlarge,720,11.87,Scale Down
+2026-10-25,AWS,ap-south-1,Database,Premium_LRS,12,18.67,Scale Down
+2026-10-17,GCP,europe-west3,Compute,rds.m5.large,24,23.11,Upgrade
+2026-10-16,AWS,ap-south-1,Storage,Premium_LRS,12,48.45,None
+2026-10-18,Azure,us-east-1,Storage,e2-medium,12,21.12,Upgrade
+2026-10-11,GCP,europe-west3,Compute,Premium_LRS,24,49.19,Right-size
+2026-09-30,Azure,ap-south-1,Database,c5.xlarge,24,6.69,Right-size
+2026-09-02,AWS,ap-south-1,Database,Premium_LRS,12,45.81,Upgrade
+2026-09-20,GCP,europe-west3,Storage,Premium_LRS,24,6.28,None
+2026-10-18,GCP,us-west-2,Compute,t3.micro,24,30.14,Right-size
+2026-09-11,GCP,us-east-1,Cache,rds.m5.large,12,8.27,Right-size
+2026-10-22,AWS,ap-south-1,Storage,Premium_LRS,24,3.17,None
+2026-10-17,Azure,europe-west3,Database,rds.m5.large,24,48.94,Upgrade
+2026-09-16,AWS,us-east-1,Cache,Premium_LRS,12,25.59,None
+2026-10-30,AWS,ap-south-1,Compute,t3.micro,720,31.3,Right-size
+2026-10-07,AWS,us-west-2,Database,e2-medium,24,41.73,Delete Unattached
+2026-10-11,Azure,ap-south-1,Database,t3.micro,12,8.47,Scale Down
+2026-09-17,AWS,us-west-2,Compute,t3.micro,24,10.5,None
+2026-10-25,Azure,us-west-2,Cache,Premium_LRS,720,19.41,Delete Unattached
+2026-09-03,GCP,europe-west3,Storage,c5.xlarge,24,21.01,Right-size
+2026-10-04,GCP,ap-south-1,Storage,Premium_LRS,24,31.84,Delete Unattached
+2026-09-02,AWS,europe-west3,Cache,e2-medium,12,28.93,None
+2026-10-02,GCP,us-west-2,Storage,rds.m5.large,12,35.91,Upgrade
+2026-09-07,AWS,ap-south-1,Cache,e2-medium,24,36.59,Right-size
+2026-09-13,GCP,europe-west3,Compute,Premium_LRS,24,44.55,Delete Unattached
+2026-09-11,Azure,us-west-2,Database,t3.micro,12,40.72,Upgrade
+2026-09-11,GCP,us-east-1,Cache,rds.m5.large,24,41.79,Right-size
+2026-10-27,AWS,us-west-2,Cache,c5.xlarge,12,8.6,Delete Unattached
+2026-09-18,Azure,us-west-2,Cache,c5.xlarge,24,20.22,Delete Unattached
+2026-09-28,AWS,us-west-2,Database,rds.m5.large,24,38.4,Delete Unattached
+2026-10-13,Azure,europe-west3,Database,Premium_LRS,12,33.41,Scale Down
+2026-09-01,AWS,ap-south-1,Storage,c5.xlarge,720,43.1,Scale Down
+2026-09-27,GCP,europe-west3,Compute,e2-medium,24,33.66,Upgrade
+2026-09-28,Azure,ap-south-1,Compute,Premium_LRS,12,12.82,Upgrade
+2026-09-29,Azure,ap-south-1,Cache,rds.m5.large,12,37.72,None
+2026-10-26,GCP,ap-south-1,Compute,rds.m5.large,720,39.16,Delete Unattached
+2026-10-25,Azure,us-west-2,Storage,e2-medium,12,30.81,Upgrade
+2026-09-27,GCP,us-east-1,Cache,rds.m5.large,12,21.79,None
+2026-09-05,AWS,us-west-2,Storage,t3.micro,720,48.66,Right-size
+2026-09-10,AWS,us-west-2,Database,c5.xlarge,24,28.52,Upgrade
+2026-10-10,Azure,europe-west3,Compute,c5.xlarge,720,18.38,Delete Unattached
+2026-09-30,AWS,europe-west3,Cache,rds.m5.large,12,17.84,None
+2026-09-18,AWS,us-west-2,Database,t3.micro,720,28.97,Upgrade
+2026-10-29,Azure,ap-south-1,Compute,Premium_LRS,720,28.13,Right-size
+2026-10-01,AWS,europe-west3,Storage,e2-medium,12,31.75,Right-size
+2026-09-05,Azure,us-west-2,Storage,e2-medium,720,43.43,Right-size
+2026-09-14,Azure,ap-south-1,Cache,Premium_LRS,12,41.82,Upgrade
+2026-10-24,GCP,us-west-2,Cache,t3.micro,12,23.88,None
+2026-10-04,Azure,europe-west3,Storage,e2-medium,12,40.83,Right-size
+2026-10-09,AWS,ap-south-1,Storage,e2-medium,720,11.38,Right-size
+2026-09-15,GCP,us-west-2,Cache,t3.micro,720,18.14,Right-size
+2026-10-12,Azure,europe-west3,Storage,c5.xlarge,720,30.65,None
+2026-10-22,Azure,europe-west3,Database,Premium_LRS,12,5.72,Right-size
+2026-09-01,AWS,us-east-1,Storage,t3.micro,12,15.62,Delete Unattached
+2026-10-30,Azure,ap-south-1,Storage,t3.micro,24,11.63,Right-size
+2026-09-04,Azure,us-west-2,Storage,e2-medium,720,39.47,Upgrade
+2026-09-01,Azure,us-west-2,Compute,t3.micro,720,12.92,Scale Down
+2026-10-27,GCP,us-west-2,Storage,Premium_LRS,12,1.95,Upgrade
+2026-10-26,GCP,us-west-2,Storage,rds.m5.large,720,12.93,Upgrade
+2026-09-02,Azure,us-west-2,Cache,c5.xlarge,720,33.99,Scale Down
+2026-09-20,Azure,us-west-2,Cache,Premium_LRS,720,36.61,Scale Down
+2026-09-20,GCP,europe-west3,Storage,t3.micro,720,47.95,Upgrade
+2026-10-07,GCP,us-west-2,Compute,rds.m5.large,24,18.56,None
+2026-10-31,GCP,europe-west3,Storage,Premium_LRS,12,4.47,Scale Down
+2026-10-26,AWS,ap-south-1,Cache,rds.m5.large,12,10.55,Upgrade
+2026-09-09,AWS,ap-south-1,Cache,rds.m5.large,24,0.59,Delete Unattached
+2026-10-29,GCP,us-west-2,Compute,rds.m5.large,24,18.0,Scale Down
+2026-10-12,AWS,ap-south-1,Storage,e2-medium,24,42.67,Scale Down
+2026-10-17,AWS,us-east-1,Compute,c5.xlarge,720,24.85,Upgrade
+2026-10-30,GCP,us-east-1,Database,t3.micro,720,44.37,Right-size
+2026-09-10,Azure,us-west-2,Storage,c5.xlarge,24,42.08,Scale Down
+2026-10-01,Azure,us-west-2,Cache,rds.m5.large,12,35.18,None
+2026-10-24,Azure,us-west-2,Database,rds.m5.large,24,10.23,Right-size
+2026-09-08,Azure,europe-west3,Storage,rds.m5.large,720,42.09,Upgrade
+2026-10-13,GCP,ap-south-1,Storage,t3.micro,720,37.01,Scale Down
+2026-09-19,GCP,us-west-2,Compute,t3.micro,12,26.01,Right-size
+2026-10-24,GCP,europe-west3,Database,t3.micro,720,31.08,None
+2026-10-05,GCP,europe-west3,Cache,e2-medium,720,38.53,Upgrade
+2026-09-04,GCP,us-east-1,Storage,rds.m5.large,720,1.19,Scale Down
+2026-09-11,GCP,us-west-2,Storage,Premium_LRS,12,27.53,Scale Down
+2026-10-02,GCP,us-east-1,Compute,c5.xlarge,24,19.54,None
+2026-09-09,Azure,ap-south-1,Cache,rds.m5.large,24,36.8,Delete Unattached
+2026-10-31,GCP,us-east-1,Compute,Premium_LRS,720,0.61,Delete Unattached
+2026-10-29,GCP,us-west-2,Storage,rds.m5.large,12,24.1,Scale Down
+2026-09-13,GCP,us-west-2,Cache,Premium_LRS,12,16.49,Upgrade
+2026-09-07,AWS,europe-west3,Compute,Premium_LRS,12,33.16,Scale Down
+2026-10-16,Azure,europe-west3,Compute,Premium_LRS,720,8.05,Delete Unattached
+2026-10-27,Azure,ap-south-1,Cache,Premium_LRS,24,43.14,None
+2026-09-17,GCP,europe-west3,Cache,Premium_LRS,12,28.58,Upgrade
+2026-10-13,GCP,us-east-1,Database,Premium_LRS,720,39.34,Delete Unattached
+2026-10-24,Azure,us-west-2,Database,e2-medium,720,48.38,Upgrade
+2026-09-15,AWS,europe-west3,Storage,e2-medium,720,46.59,Upgrade
+2026-10-07,Azure,europe-west3,Cache,c5.xlarge,720,20.48,None
+2026-09-22,AWS,us-east-1,Storage,t3.micro,24,19.93,Right-size
+2026-09-16,Azure,us-east-1,Database,Premium_LRS,24,33.37,None
+2026-10-19,Azure,us-east-1,Compute,t3.micro,12,39.09,None
+2026-09-21,GCP,europe-west3,Cache,t3.micro,24,19.6,Delete Unattached
+2026-10-09,AWS,us-west-2,Cache,Premium_LRS,12,20.17,Upgrade
+2026-10-06,GCP,us-east-1,Cache,rds.m5.large,720,29.6,Delete Unattached
+2026-09-06,AWS,us-east-1,Storage,t3.micro,720,33.58,Upgrade
+2026-10-05,GCP,ap-south-1,Cache,Premium_LRS,720,48.08,Right-size
+2026-09-08,AWS,ap-south-1,Cache,Premium_LRS,24,14.18,Right-size
+2026-10-11,GCP,ap-south-1,Storage,c5.xlarge,24,43.41,Scale Down
+2026-09-23,GCP,europe-west3,Cache,e2-medium,24,1.06,Delete Unattached
+2026-09-01,GCP,us-east-1,Storage,Premium_LRS,720,4.76,Right-size
+2026-09-03,AWS,europe-west3,Database,e2-medium,12,22.99,Upgrade
+2026-09-01,AWS,ap-south-1,Database,t3.micro,24,48.05,Right-size
+2026-09-23,AWS,us-west-2,Compute,e2-medium,720,11.6,Delete Unattached
+2026-09-09,GCP,ap-south-1,Compute,t3.micro,720,22.6,None
+2026-09-28,GCP,us-east-1,Storage,Premium_LRS,720,0.52,Upgrade
+2026-09-05,GCP,europe-west3,Compute,t3.micro,720,10.03,Upgrade
+2026-10-01,Azure,us-west-2,Database,Premium_LRS,720,26.22,Upgrade
+2026-09-15,Azure,us-east-1,Compute,e2-medium,24,21.09,None
+2026-09-02,GCP,europe-west3,Database,e2-medium,24,26.19,Delete Unattached
+2026-09-15,GCP,europe-west3,Compute,rds.m5.large,12,17.59,Scale Down
+2026-09-12,AWS,ap-south-1,Database,Premium_LRS,720,10.04,None
+2026-09-09,AWS,ap-south-1,Database,t3.micro,24,2.06,Delete Unattached
+2026-10-23,Azure,us-west-2,Compute,e2-medium,24,36.31,Upgrade
+2026-10-18,Azure,us-west-2,Compute,rds.m5.large,12,22.45,Upgrade
+2026-09-25,Azure,us-east-1,Database,Premium_LRS,12,37.54,Scale Down
+2026-09-28,Azure,us-west-2,Storage,rds.m5.large,12,18.23,Upgrade
+2026-10-26,AWS,ap-south-1,Database,t3.micro,720,17.51,Upgrade
+2026-10-16,GCP,us-west-2,Cache,c5.xlarge,720,13.89,Delete Unattached
+2026-09-04,AWS,us-west-2,Database,t3.micro,24,41.59,Scale Down
+2026-09-07,GCP,ap-south-1,Compute,e2-medium,12,43.84,Scale Down
+2026-10-25,Azure,europe-west3,Database,rds.m5.large,24,33.61,Delete Unattached
+2026-10-30,GCP,us-west-2,Database,c5.xlarge,12,49.53,None
+2026-09-05,Azure,us-west-2,Database,rds.m5.large,12,6.85,Scale Down
+2026-09-11,AWS,us-west-2,Database,e2-medium,720,31.96,Right-size
+2026-09-28,AWS,ap-south-1,Cache,Premium_LRS,24,28.8,Right-size
+2026-09-01,GCP,europe-west3,Database,c5.xlarge,12,40.4,Right-size
+2026-09-10,Azure,us-east-1,Storage,c5.xlarge,12,12.94,None
+2026-10-25,GCP,us-east-1,Storage,c5.xlarge,720,37.86,None
+2026-09-25,GCP,us-east-1,Cache,Premium_LRS,720,23.66,Right-size
+2026-10-12,GCP,us-east-1,Storage,c5.xlarge,720,22.89,Upgrade
+2026-09-15,Azure,us-east-1,Storage,rds.m5.large,12,0.82,Right-size
+2026-09-22,GCP,us-east-1,Storage,t3.micro,720,30.18,Upgrade
+2026-10-09,GCP,europe-west3,Cache,e2-medium,720,21.88,Delete Unattached
+2026-09-23,AWS,ap-south-1,Storage,e2-medium,12,17.23,Upgrade
+2026-09-14,AWS,europe-west3,Cache,c5.xlarge,720,19.48,Right-size
+2026-10-17,AWS,europe-west3,Database,t3.micro,24,17.59,None
+2026-09-16,AWS,europe-west3,Storage,rds.m5.large,12,33.38,Delete Unattached
+2026-09-24,Azure,us-east-1,Cache,c5.xlarge,720,2.46,Upgrade
+2026-10-16,GCP,us-east-1,Compute,e2-medium,12,33.36,Upgrade
+2026-10-02,AWS,europe-west3,Database,c5.xlarge,12,26.88,Scale Down
+2026-09-14,Azure,ap-south-1,Compute,t3.micro,24,5.29,Upgrade
+2026-10-19,AWS,us-west-2,Storage,c5.xlarge,12,31.19,Upgrade
+2026-10-11,Azure,us-west-2,Compute,rds.m5.large,12,9.63,Scale Down
+2026-09-23,Azure,europe-west3,Compute,Premium_LRS,24,7.92,Delete Unattached
+2026-09-02,GCP,us-west-2,Cache,rds.m5.large,24,35.16,Upgrade
+2026-09-23,GCP,us-west-2,Compute,Premium_LRS,720,14.3,Right-size
+2026-10-16,AWS,us-west-2,Database,c5.xlarge,720,32.0,Right-size
+2026-10-21,GCP,europe-west3,Storage,t3.micro,12,10.26,Upgrade
+2026-09-02,Azure,europe-west3,Compute,t3.micro,24,5.22,None
+2026-09-24,AWS,us-east-1,Database,c5.xlarge,12,30.81,Upgrade
+2026-09-19,GCP,ap-south-1,Storage,rds.m5.large,720,21.84,Upgrade
+2026-09-11,AWS,europe-west3,Storage,rds.m5.large,24,28.95,Scale Down
+2026-09-04,AWS,us-west-2,Storage,rds.m5.large,12,5.56,Upgrade
+2026-09-23,AWS,europe-west3,Storage,e2-medium,24,15.57,Delete Unattached
+2026-10-02,Azure,ap-south-1,Compute,rds.m5.large,24,4.03,Scale Down
+2026-09-20,GCP,us-west-2,Database,e2-medium,12,3.89,Delete Unattached
+2026-09-15,GCP,ap-south-1,Cache,c5.xlarge,720,18.05,Scale Down
+2026-10-30,AWS,europe-west3,Storage,t3.micro,24,21.1,Delete Unattached
+2026-09-19,GCP,europe-west3,Database,Premium_LRS,24,23.38,Upgrade
+2026-09-24,AWS,us-east-1,Cache,Premium_LRS,12,30.95,Scale Down
+2026-10-17,GCP,us-west-2,Storage,rds.m5.large,24,26.61,Right-size
+2026-09-29,GCP,us-east-1,Cache,rds.m5.large,12,2.63,Upgrade
+2026-09-30,Azure,us-west-2,Cache,c5.xlarge,12,2.21,Upgrade
+2026-10-06,Azure,us-east-1,Database,rds.m5.large,720,9.15,Right-size
+2026-09-18,GCP,us-west-2,Compute,Premium_LRS,24,6.84,Upgrade
+2026-09-13,AWS,us-west-2,Compute,t3.micro,720,0.54,Scale Down
+2026-10-26,GCP,us-west-2,Database,t3.micro,24,14.32,Upgrade
+2026-10-09,Azure,europe-west3,Storage,c5.xlarge,24,19.3,Right-size
+2026-10-29,AWS,ap-south-1,Storage,Premium_LRS,12,16.9,Delete Unattached
+2026-10-30,GCP,europe-west3,Storage,c5.xlarge,720,19.97,None
+2026-09-21,Azure,us-east-1,Database,Premium_LRS,720,29.91,None
+2026-09-30,GCP,us-west-2,Cache,c5.xlarge,12,32.09,Right-size
+2026-09-08,AWS,ap-south-1,Compute,t3.micro,12,38.93,Upgrade
+2026-09-21,Azure,us-west-2,Compute,t3.micro,720,30.31,Delete Unattached
+2026-09-07,Azure,us-west-2,Compute,t3.micro,24,43.7,None
+2026-10-01,AWS,us-east-1,Storage,rds.m5.large,12,44.18,None
+2026-09-17,GCP,us-east-1,Storage,rds.m5.large,720,7.52,Delete Unattached
+2026-10-16,GCP,ap-south-1,Cache,Premium_LRS,12,45.12,None
+2026-10-28,GCP,europe-west3,Database,rds.m5.large,12,40.86,None
+2026-10-17,AWS,us-east-1,Cache,c5.xlarge,24,4.41,None
+2026-10-31,GCP,us-east-1,Compute,c5.xlarge,12,45.52,None
+2026-09-14,Azure,us-east-1,Database,t3.micro,720,13.31,Delete Unattached
+2026-10-06,AWS,us-east-1,Database,e2-medium,24,1.52,None
+2026-10-01,AWS,ap-south-1,Cache,t3.micro,24,24.26,Delete Unattached
+2026-09-22,GCP,us-west-2,Database,Premium_LRS,720,12.1,Scale Down
+2026-09-26,AWS,europe-west3,Storage,e2-medium,24,18.27,Scale Down
+2026-09-06,AWS,ap-south-1,Cache,rds.m5.large,720,20.68,Delete Unattached
+2026-09-04,AWS,us-west-2,Compute,c5.xlarge,24,46.32,Right-size
+2026-09-17,AWS,europe-west3,Compute,rds.m5.large,24,7.88,Scale Down
+2026-09-08,Azure,ap-south-1,Storage,c5.xlarge,24,2.91,Upgrade
+2026-09-21,AWS,ap-south-1,Database,rds.m5.large,720,21.14,Right-size
+2026-09-13,AWS,ap-south-1,Database,Premium_LRS,720,40.72,Scale Down
+2026-09-01,AWS,europe-west3,Database,rds.m5.large,12,9.81,None
+2026-09-20,AWS,us-east-1,Database,t3.micro,12,18.42,None
+2026-10-18,GCP,ap-south-1,Cache,rds.m5.large,720,16.72,Right-size
+2026-09-28,AWS,europe-west3,Storage,Premium_LRS,720,48.88,Upgrade
+2026-09-20,Azure,europe-west3,Storage,e2-medium,24,39.12,Upgrade
+2026-10-10,GCP,europe-west3,Storage,t3.micro,24,45.19,Delete Unattached
+2026-10-05,Azure,us-west-2,Cache,e2-medium,720,25.31,Scale Down
+2026-09-18,Azure,europe-west3,Compute,e2-medium,24,6.45,Upgrade
+2026-10-15,Azure,us-east-1,Compute,rds.m5.large,24,27.91,Delete Unattached
+2026-10-04,AWS,europe-west3,Storage,rds.m5.large,24,23.11,Scale Down
+2026-09-08,GCP,europe-west3,Storage,Premium_LRS,24,36.56,None
+2026-09-09,Azure,us-east-1,Storage,c5.xlarge,24,30.8,Delete Unattached
+2026-10-31,GCP,europe-west3,Storage,e2-medium,720,13.66,Delete Unattached
+2026-09-01,AWS,europe-west3,Compute,c5.xlarge,720,18.15,None
+2026-10-13,Azure,ap-south-1,Cache,Premium_LRS,24,33.61,None
+2026-09-19,Azure,us-west-2,Cache,t3.micro,12,45.31,Right-size
+2026-09-28,Azure,europe-west3,Cache,t3.micro,12,9.66,Right-size
+2026-09-09,GCP,europe-west3,Cache,rds.m5.large,720,30.33,None
+2026-10-05,Azure,ap-south-1,Compute,rds.m5.large,12,13.12,Scale Down
+2026-10-07,AWS,us-east-1,Database,rds.m5.large,12,36.57,None
+2026-10-28,GCP,ap-south-1,Compute,rds.m5.large,720,2.95,None
+2026-10-03,GCP,us-west-2,Compute,Premium_LRS,720,23.45,None
+2026-09-16,Azure,us-west-2,Database,e2-medium,24,29.92,None
+2026-10-13,Azure,us-east-1,Cache,rds.m5.large,720,28.43,Scale Down
+2026-09-07,Azure,ap-south-1,Compute,rds.m5.large,24,29.41,Upgrade
+2026-09-05,Azure,europe-west3,Cache,Premium_LRS,12,15.37,Delete Unattached
+2026-09-27,AWS,us-east-1,Cache,c5.xlarge,24,21.1,Upgrade
+2026-10-29,GCP,us-west-2,Storage,Premium_LRS,720,41.51,Scale Down
+2026-09-21,GCP,ap-south-1,Cache,e2-medium,720,13.76,None
+2026-10-13,Azure,us-east-1,Database,t3.micro,12,14.17,Delete Unattached
+2026-09-29,Azure,us-east-1,Cache,t3.micro,12,7.84,Right-size
+2026-10-06,GCP,us-west-2,Database,rds.m5.large,720,22.0,Upgrade
+2026-10-01,GCP,ap-south-1,Database,rds.m5.large,720,6.46,Delete Unattached
+2026-10-10,Azure,us-west-2,Storage,Premium_LRS,24,14.45,None
+2026-10-05,GCP,us-east-1,Cache,Premium_LRS,12,48.91,Scale Down
+2026-10-05,GCP,us-east-1,Compute,t3.micro,720,23.09,Upgrade
+2026-09-19,GCP,europe-west3,Cache,rds.m5.large,24,21.9,Delete Unattached
+2026-10-19,AWS,us-east-1,Database,Premium_LRS,720,6.54,Delete Unattached
+2026-09-05,Azure,europe-west3,Compute,c5.xlarge,24,7.27,Scale Down
+2026-10-02,Azure,us-east-1,Compute,Premium_LRS,720,48.21,Delete Unattached
+2026-09-23,AWS,us-west-2,Storage,rds.m5.large,720,6.34,None
+2026-10-24,AWS,ap-south-1,Storage,t3.micro,720,9.8,Upgrade
+2026-09-10,GCP,ap-south-1,Storage,Premium_LRS,720,3.35,Delete Unattached
+2026-10-19,GCP,us-east-1,Compute,t3.micro,720,44.01,None
+2026-10-28,Azure,europe-west3,Storage,t3.micro,24,45.83,Scale Down
+2026-09-05,AWS,us-west-2,Database,c5.xlarge,720,36.4,Scale Down
+2026-10-29,AWS,us-west-2,Cache,c5.xlarge,24,35.67,Scale Down
+2026-09-02,GCP,europe-west3,Cache,t3.micro,720,18.35,Upgrade
+2026-09-09,Azure,us-east-1,Storage,e2-medium,720,48.89,Upgrade
+2026-09-11,Azure,us-west-2,Cache,rds.m5.large,24,41.93,Right-size
+2026-09-05,GCP,us-east-1,Storage,c5.xlarge,12,32.92,Scale Down
+2026-09-02,GCP,us-west-2,Storage,rds.m5.large,12,5.8,None
+2026-10-30,AWS,us-west-2,Database,c5.xlarge,24,44.51,Delete Unattached
+2026-10-29,Azure,us-west-2,Cache,c5.xlarge,12,13.23,Delete Unattached
+2026-09-26,AWS,europe-west3,Storage,rds.m5.large,24,20.55,Right-size
+2026-10-02,GCP,ap-south-1,Compute,e2-medium,24,3.41,Upgrade
+2026-10-26,Azure,us-east-1,Compute,t3.micro,720,27.53,Scale Down
+2026-10-06,GCP,europe-west3,Cache,t3.micro,24,46.57,None
+2026-09-29,AWS,us-west-2,Cache,e2-medium,720,24.21,Delete Unattached
+2026-09-23,AWS,ap-south-1,Database,Premium_LRS,720,42.88,None
+2026-10-23,Azure,europe-west3,Database,c5.xlarge,12,5.97,None
+2026-10-01,AWS,europe-west3,Compute,Premium_LRS,24,28.9,Delete Unattached
+2026-10-28,AWS,ap-south-1,Storage,Premium_LRS,24,17.59,Right-size
+2026-10-11,AWS,ap-south-1,Compute,rds.m5.large,720,10.42,Upgrade
+2026-09-02,Azure,ap-south-1,Database,t3.micro,720,14.93,None
+2026-09-21,Azure,us-west-2,Storage,t3.micro,720,49.2,Right-size
+2026-09-20,GCP,ap-south-1,Cache,c5.xlarge,12,19.87,Upgrade
+2026-10-24,Azure,ap-south-1,Database,rds.m5.large,720,7.48,None
+2026-09-09,AWS,us-west-2,Compute,c5.xlarge,720,19.38,Upgrade
+2026-09-19,AWS,ap-south-1,Cache,rds.m5.large,12,0.62,Upgrade
+2026-09-10,Azure,us-east-1,Compute,t3.micro,12,10.43,Delete Unattached
+2026-10-23,Azure,us-east-1,Database,c5.xlarge,24,6.45,Upgrade
+2026-10-25,GCP,us-east-1,Storage,Premium_LRS,720,23.41,Scale Down
+2026-10-02,GCP,ap-south-1,Compute,rds.m5.large,720,23.66,Delete Unattached
+2026-10-04,AWS,ap-south-1,Storage,e2-medium,24,35.11,Delete Unattached
+2026-10-17,AWS,ap-south-1,Storage,t3.micro,720,46.37,None
+2026-10-07,Azure,ap-south-1,Cache,e2-medium,720,32.3,None
+2026-10-31,AWS,us-east-1,Compute,t3.micro,12,41.95,None
+2026-10-16,AWS,us-east-1,Storage,Premium_LRS,720,11.75,Scale Down
+2026-09-13,Azure,us-east-1,Cache,t3.micro,24,29.18,Scale Down
+2026-09-29,AWS,us-east-1,Compute,t3.micro,12,10.93,Right-size
+2026-09-28,AWS,us-east-1,Cache,c5.xlarge,24,23.6,None
+2026-09-30,GCP,us-west-2,Cache,rds.m5.large,720,44.04,Scale Down
+2026-10-26,AWS,us-east-1,Compute,Premium_LRS,12,46.76,Upgrade
+2026-10-02,Azure,us-west-2,Database,t3.micro,24,46.67,Upgrade
+2026-09-29,AWS,us-west-2,Storage,e2-medium,720,34.34,Right-size
+2026-09-03,AWS,europe-west3,Database,c5.xlarge,720,14.24,Delete Unattached
+2026-09-01,AWS,us-east-1,Cache,e2-medium,12,14.71,Delete Unattached
+2026-09-22,Azure,europe-west3,Storage,Premium_LRS,720,3.74,Upgrade
+2026-09-03,AWS,ap-south-1,Compute,Premium_LRS,24,49.54,None
+2026-09-10,Azure,europe-west3,Storage,Premium_LRS,720,42.78,Scale Down
+2026-09-29,GCP,ap-south-1,Storage,Premium_LRS,24,40.28,Delete Unattached
+2026-09-23,AWS,europe-west3,Cache,e2-medium,720,2.83,Right-size
+2026-09-22,Azure,europe-west3,Compute,rds.m5.large,12,10.31,Scale Down
+2026-09-19,Azure,europe-west3,Compute,c5.xlarge,24,11.2,None
+2026-10-13,Azure,ap-south-1,Cache,Premium_LRS,720,32.24,Delete Unattached
+2026-10-06,AWS,europe-west3,Cache,rds.m5.large,720,25.43,Right-size
+2026-09-08,AWS,us-west-2,Storage,t3.micro,12,3.94,Upgrade
+2026-10-12,GCP,ap-south-1,Cache,c5.xlarge,720,10.75,Scale Down
+2026-10-18,AWS,europe-west3,Database,Premium_LRS,720,9.11,None
+2026-09-03,Azure,europe-west3,Compute,c5.xlarge,12,15.06,Scale Down
+2026-09-02,AWS,ap-south-1,Compute,e2-medium,720,36.96,None
+2026-09-28,Azure,europe-west3,Cache,t3.micro,24,38.7,Delete Unattached
+2026-09-04,Azure,ap-south-1,Storage,t3.micro,24,24.87,Upgrade
+2026-09-06,GCP,ap-south-1,Database,Premium_LRS,720,20.27,Delete Unattached
+2026-09-12,GCP,ap-south-1,Cache,Premium_LRS,720,5.74,Upgrade
+2026-10-08,Azure,us-west-2,Storage,e2-medium,720,33.72,Upgrade
+2026-10-06,Azure,europe-west3,Cache,rds.m5.large,12,28.73,None
+2026-09-09,AWS,us-west-2,Storage,c5.xlarge,12,17.11,Right-size
+2026-09-15,AWS,us-west-2,Storage,e2-medium,720,48.03,Right-size
+2026-10-07,GCP,us-west-2,Cache,e2-medium,720,14.05,Upgrade
+2026-09-16,GCP,ap-south-1,Storage,t3.micro,720,9.08,Delete Unattached
+2026-10-10,GCP,us-east-1,Compute,rds.m5.large,12,48.84,Scale Down
+2026-09-21,GCP,us-west-2,Cache,t3.micro,720,22.7,Scale Down
+2026-10-01,AWS,us-east-1,Cache,e2-medium,24,6.59,Upgrade
+2026-10-31,GCP,europe-west3,Compute,e2-medium,12,38.54,Delete Unattached
+2026-10-21,Azure,europe-west3,Cache,rds.m5.large,12,44.57,Right-size
+2026-10-22,AWS,us-east-1,Database,rds.m5.large,24,6.65,Delete Unattached
+2026-10-05,Azure,us-west-2,Compute,Premium_LRS,24,19.58,Delete Unattached
+2026-10-14,GCP,us-east-1,Cache,rds.m5.large,720,44.54,Upgrade
+2026-09-16,AWS,europe-west3,Database,Premium_LRS,24,24.68,Upgrade
+2026-10-28,AWS,europe-west3,Database,Premium_LRS,24,49.35,Upgrade
+2026-09-06,GCP,ap-south-1,Cache,Premium_LRS,24,26.25,None
+2026-09-13,GCP,ap-south-1,Database,t3.micro,12,8.23,None
+2026-09-03,GCP,us-west-2,Cache,c5.xlarge,12,11.98,Delete Unattached
+2026-10-19,AWS,ap-south-1,Cache,Premium_LRS,720,40.14,Delete Unattached
+2026-09-11,AWS,us-west-2,Compute,rds.m5.large,12,3.88,Upgrade
+2026-10-21,AWS,ap-south-1,Compute,c5.xlarge,720,9.84,Right-size
+2026-09-01,GCP,ap-south-1,Cache,t3.micro,12,32.33,None
+2026-10-31,AWS,europe-west3,Compute,Premium_LRS,24,39.85,Delete Unattached
+2026-09-16,AWS,ap-south-1,Compute,rds.m5.large,24,25.9,Delete Unattached
+2026-09-04,Azure,europe-west3,Compute,Premium_LRS,720,37.49,Delete Unattached
+2026-09-30,Azure,us-west-2,Cache,t3.micro,720,38.73,Upgrade
+2026-09-04,AWS,europe-west3,Database,e2-medium,24,5.57,Upgrade
+2026-10-11,GCP,us-west-2,Storage,t3.micro,720,10.2,None
+2026-09-09,Azure,us-east-1,Storage,e2-medium,12,10.76,None
+2026-10-11,Azure,ap-south-1,Storage,Premium_LRS,24,49.5,Scale Down
+2026-10-30,GCP,us-east-1,Database,e2-medium,720,40.0,Delete Unattached
+2026-09-29,GCP,europe-west3,Storage,t3.micro,12,28.51,Delete Unattached
+2026-09-04,GCP,ap-south-1,Storage,t3.micro,12,48.35,Scale Down
+2026-09-24,AWS,ap-south-1,Storage,t3.micro,720,25.24,Scale Down
+2026-09-04,Azure,us-west-2,Cache,rds.m5.large,12,13.77,Delete Unattached
+2026-10-16,Azure,us-east-1,Compute,e2-medium,720,4.48,None
+2026-10-12,Azure,europe-west3,Compute,t3.micro,12,32.29,Upgrade
+2026-10-15,Azure,us-east-1,Cache,Premium_LRS,12,2.76,Right-size
+2026-10-02,AWS,ap-south-1,Database,t3.micro,24,45.32,Scale Down
+2026-09-18,GCP,europe-west3,Storage,e2-medium,12,32.29,None
+2026-09-10,GCP,europe-west3,Cache,t3.micro,720,9.85,Right-size
+2026-10-22,Azure,europe-west3,Cache,e2-medium,12,32.58,Upgrade
+2026-10-02,Azure,ap-south-1,Cache,rds.m5.large,24,29.49,Upgrade
+2026-09-14,AWS,europe-west3,Storage,rds.m5.large,12,20.15,Scale Down
+2026-09-23,AWS,us-west-2,Database,e2-medium,12,28.47,Upgrade
+2026-09-30,GCP,europe-west3,Compute,rds.m5.large,12,31.6,Delete Unattached
+2026-10-26,AWS,europe-west3,Cache,t3.micro,12,21.85,Upgrade
+2026-10-12,AWS,us-west-2,Database,e2-medium,720,18.28,Right-size
+2026-10-26,GCP,us-east-1,Database,rds.m5.large,24,26.7,Upgrade
+2026-10-21,AWS,europe-west3,Cache,rds.m5.large,24,48.63,Right-size
+2026-10-24,GCP,us-west-2,Database,Premium_LRS,12,22.06,None
+2026-09-21,GCP,us-east-1,Database,c5.xlarge,720,19.73,Delete Unattached
+2026-09-26,GCP,ap-south-1,Database,e2-medium,12,7.91,None
+2026-09-13,GCP,us-east-1,Cache,c5.xlarge,720,2.49,None
+2026-10-30,Azure,europe-west3,Database,rds.m5.large,12,46.77,None
+2026-09-03,Azure,europe-west3,Storage,c5.xlarge,24,44.14,Scale Down
+2026-10-08,GCP,us-east-1,Database,c5.xlarge,720,22.12,Delete Unattached
+2026-09-16,GCP,europe-west3,Cache,Premium_LRS,12,25.2,Right-size
+2026-09-13,AWS,us-west-2,Cache,Premium_LRS,24,33.19,Upgrade
+2026-09-14,GCP,ap-south-1,Database,e2-medium,12,49.49,Delete Unattached
+2026-10-17,AWS,us-west-2,Database,e2-medium,720,48.4,Right-size
+2026-10-03,Azure,us-east-1,Storage,e2-medium,24,33.3,Scale Down
+2026-10-28,AWS,ap-south-1,Compute,c5.xlarge,720,6.12,Upgrade
+2026-09-03,GCP,us-west-2,Database,rds.m5.large,24,45.21,Right-size
+2026-09-22,Azure,ap-south-1,Cache,Premium_LRS,720,17.81,Delete Unattached
+2026-10-13,GCP,us-east-1,Database,rds.m5.large,720,48.56,Right-size
+2026-09-22,Azure,europe-west3,Cache,t3.micro,12,26.09,Scale Down
+2026-09-27,AWS,us-west-2,Database,t3.micro,24,36.49,Scale Down
+2026-10-04,Azure,ap-south-1,Database,rds.m5.large,720,1.65,Scale Down
+2026-10-06,GCP,ap-south-1,Compute,rds.m5.large,24,12.07,Delete Unattached
+2026-10-02,Azure,us-east-1,Cache,rds.m5.large,12,36.19,None
+2026-10-23,AWS,us-west-2,Storage,t3.micro,24,23.18,Delete Unattached
+2026-10-04,Azure,us-west-2,Cache,e2-medium,12,3.21,Scale Down
+2026-09-07,Azure,europe-west3,Database,e2-medium,24,5.2,Scale Down
+2026-09-14,GCP,europe-west3,Storage,e2-medium,12,33.39,Scale Down
+2026-10-28,AWS,ap-south-1,Storage,t3.micro,720,41.06,Scale Down
+2026-09-14,GCP,us-west-2,Compute,Premium_LRS,12,18.92,Upgrade
+2026-10-19,AWS,us-west-2,Storage,rds.m5.large,12,41.49,None
+2026-10-03,Azure,europe-west3,Database,e2-medium,12,46.16,None
+2026-09-04,AWS,europe-west3,Cache,t3.micro,24,33.67,Upgrade
+2026-10-07,AWS,ap-south-1,Storage,Premium_LRS,720,4.23,Right-size
+2026-10-29,GCP,us-west-2,Cache,rds.m5.large,720,18.81,Right-size
+2026-09-15,Azure,europe-west3,Cache,c5.xlarge,24,4.56,None
+2026-09-10,GCP,ap-south-1,Storage,rds.m5.large,720,17.5,Upgrade
+2026-09-01,GCP,us-west-2,Database,c5.xlarge,720,12.93,Right-size
+2026-10-05,GCP,europe-west3,Compute,rds.m5.large,24,6.08,None
+2026-10-01,GCP,ap-south-1,Storage,Premium_LRS,720,47.6,None
+2026-10-11,Azure,us-east-1,Compute,t3.micro,12,6.23,None
+2026-10-06,GCP,ap-south-1,Compute,rds.m5.large,24,27.22,Right-size
+2026-10-25,GCP,europe-west3,Database,e2-medium,720,13.16,Scale Down
+2026-10-02,AWS,us-east-1,Database,Premium_LRS,720,9.13,None
+2026-10-16,GCP,us-west-2,Database,Premium_LRS,720,40.12,Right-size
+2026-09-29,Azure,europe-west3,Storage,e2-medium,24,40.21,None
+2026-10-10,GCP,us-west-2,Storage,e2-medium,12,36.93,Delete Unattached
+2026-10-30,GCP,ap-south-1,Cache,Premium_LRS,24,6.54,None
+2026-10-12,Azure,europe-west3,Compute,e2-medium,12,43.83,Right-size
+2026-10-10,Azure,us-west-2,Compute,Premium_LRS,720,12.01,Delete Unattached
+2026-09-17,Azure,us-west-2,Cache,c5.xlarge,720,35.59,None
+2026-10-23,Azure,europe-west3,Database,c5.xlarge,12,24.01,Delete Unattached
+2026-09-29,AWS,europe-west3,Compute,c5.xlarge,24,46.45,Scale Down
+2026-10-23,Azure,ap-south-1,Cache,e2-medium,24,7.95,Scale Down
+2026-10-20,Azure,europe-west3,Database,t3.micro,12,18.99,Scale Down
+2026-09-21,GCP,us-west-2,Compute,Premium_LRS,24,28.45,Scale Down
+2026-10-12,AWS,europe-west3,Cache,t3.micro,720,20.23,Upgrade
+2026-10-28,AWS,us-west-2,Storage,Premium_LRS,24,45.69,None
+2026-09-16,Azure,europe-west3,Storage,rds.m5.large,24,41.76,None
+2026-10-25,GCP,us-west-2,Storage,e2-medium,24,11.76,Upgrade
+2026-10-24,Azure,us-west-2,Database,rds.m5.large,24,0.98,Scale Down
+2026-09-18,Azure,ap-south-1,Storage,Premium_LRS,24,13.53,Delete Unattached
+2026-09-05,GCP,europe-west3,Database,rds.m5.large,24,20.91,Delete Unattached
+2026-09-01,Azure,us-east-1,Compute,e2-medium,12,45.43,Delete Unattached
+2026-09-19,Azure,us-east-1,Cache,rds.m5.large,12,19.93,Delete Unattached
+2026-09-22,Azure,us-east-1,Cache,Premium_LRS,24,30.84,Upgrade
+2026-09-26,AWS,us-west-2,Compute,c5.xlarge,24,30.0,Right-size
+2026-09-18,Azure,us-east-1,Compute,t3.micro,12,20.06,Scale Down
+2026-10-29,AWS,us-east-1,Cache,t3.micro,720,37.75,Scale Down
+2026-09-14,GCP,ap-south-1,Cache,c5.xlarge,12,23.45,Delete Unattached
+2026-10-31,AWS,ap-south-1,Cache,e2-medium,720,31.03,None
+2026-09-11,Azure,ap-south-1,Cache,Premium_LRS,24,3.93,Scale Down
+2026-10-08,AWS,ap-south-1,Database,e2-medium,720,36.59,Delete Unattached
+2026-10-23,GCP,ap-south-1,Cache,rds.m5.large,24,48.24,Upgrade
+2026-09-25,GCP,ap-south-1,Compute,e2-medium,24,13.97,None
+2026-09-08,Azure,europe-west3,Cache,Premium_LRS,24,46.63,Upgrade
+2026-10-12,Azure,europe-west3,Database,c5.xlarge,24,21.98,Upgrade
+2026-10-20,AWS,us-west-2,Cache,c5.xlarge,720,4.79,None
+2026-09-25,GCP,europe-west3,Cache,rds.m5.large,720,6.14,Right-size
+2026-10-05,Azure,us-east-1,Storage,e2-medium,12,14.07,None
+2026-10-11,GCP,us-west-2,Compute,t3.micro,720,15.02,Scale Down
+2026-10-18,Azure,us-east-1,Cache,rds.m5.large,12,40.25,Right-size
+2026-09-04,GCP,us-west-2,Storage,Premium_LRS,12,38.89,Scale Down
+2026-09-06,GCP,ap-south-1,Compute,e2-medium,24,12.64,Upgrade
+2026-10-18,GCP,us-east-1,Storage,c5.xlarge,720,12.76,Upgrade
+2026-09-21,Azure,ap-south-1,Storage,t3.micro,720,34.14,Scale Down
+2026-10-22,GCP,us-west-2,Compute,Premium_LRS,24,1.38,Upgrade
+2026-10-05,AWS,europe-west3,Database,t3.micro,24,13.48,Scale Down
+2026-10-19,AWS,us-west-2,Cache,e2-medium,12,5.84,Right-size
+2026-09-21,AWS,us-west-2,Database,Premium_LRS,720,4.33,Delete Unattached
+2026-10-30,AWS,ap-south-1,Compute,c5.xlarge,12,47.11,None
+2026-09-29,GCP,europe-west3,Storage,t3.micro,720,49.56,Upgrade
+2026-09-18,GCP,us-east-1,Compute,Premium_LRS,24,41.67,Upgrade
+2026-09-18,AWS,us-west-2,Cache,rds.m5.large,12,40.08,Delete Unattached
+2026-10-24,GCP,ap-south-1,Compute,e2-medium,12,36.8,None
+2026-10-21,Azure,europe-west3,Compute,t3.micro,720,8.99,Right-size
+2026-10-19,AWS,ap-south-1,Database,t3.micro,24,45.07,Scale Down
+2026-09-28,Azure,europe-west3,Storage,Premium_LRS,12,34.83,None
+2026-09-05,Azure,us-west-2,Cache,Premium_LRS,24,5.85,Delete Unattached
+2026-10-15,AWS,europe-west3,Cache,rds.m5.large,720,41.27,None
+2026-09-09,AWS,us-west-2,Storage,Premium_LRS,720,33.15,None
+2026-09-29,AWS,us-east-1,Cache,c5.xlarge,12,46.83,Upgrade
+2026-10-31,GCP,us-west-2,Compute,e2-medium,720,10.41,Scale Down
+2026-09-10,Azure,us-east-1,Database,c5.xlarge,720,16.0,Right-size
+2026-10-31,Azure,us-east-1,Cache,rds.m5.large,12,11.12,Right-size
+2026-09-21,Azure,us-west-2,Cache,e2-medium,24,10.64,Right-size
+2026-10-14,AWS,europe-west3,Compute,t3.micro,720,43.75,Upgrade
+2026-10-02,Azure,europe-west3,Cache,Premium_LRS,24,19.72,None
+2026-10-07,GCP,europe-west3,Compute,Premium_LRS,24,30.6,None
+2026-10-07,GCP,europe-west3,Cache,t3.micro,720,38.43,None
+2026-10-31,Azure,ap-south-1,Storage,c5.xlarge,720,4.27,Delete Unattached
+2026-10-06,Azure,europe-west3,Database,e2-medium,720,19.73,Delete Unattached
+2026-10-03,AWS,us-west-2,Cache,t3.micro,12,6.66,Scale Down
+2026-09-01,Azure,us-west-2,Database,e2-medium,720,35.41,Right-size
+2026-09-08,GCP,europe-west3,Database,c5.xlarge,12,28.17,None
+2026-09-20,AWS,us-east-1,Cache,t3.micro,24,29.45,Scale Down
+2026-10-26,GCP,ap-south-1,Compute,Premium_LRS,720,33.39,Right-size
+2026-09-21,AWS,us-east-1,Cache,Premium_LRS,24,17.96,Upgrade
+2026-10-21,GCP,us-east-1,Storage,e2-medium,720,11.97,Right-size
+2026-09-18,AWS,ap-south-1,Cache,t3.micro,24,7.14,Right-size
+2026-10-25,AWS,us-east-1,Database,t3.micro,24,24.85,Delete Unattached
+2026-09-10,AWS,europe-west3,Database,e2-medium,720,33.77,Scale Down
+2026-09-30,AWS,europe-west3,Cache,e2-medium,24,39.68,None
+2026-10-16,AWS,us-west-2,Cache,c5.xlarge,720,34.97,Scale Down
+2026-10-26,AWS,us-east-1,Cache,c5.xlarge,12,1.77,None
+2026-09-30,GCP,us-west-2,Compute,c5.xlarge,720,38.98,Delete Unattached
+2026-10-19,GCP,us-west-2,Database,Premium_LRS,24,44.97,Right-size
+2026-09-18,GCP,europe-west3,Cache,t3.micro,12,31.73,None
+2026-09-02,GCP,europe-west3,Database,rds.m5.large,12,9.02,Right-size
+2026-09-22,Azure,ap-south-1,Cache,e2-medium,12,36.3,Right-size
+2026-10-31,AWS,us-west-2,Storage,Premium_LRS,720,27.19,Upgrade
+2026-09-02,AWS,us-west-2,Database,t3.micro,12,39.19,Scale Down
+2026-10-20,GCP,europe-west3,Cache,e2-medium,12,24.37,Right-size
+2026-09-08,Azure,us-east-1,Compute,c5.xlarge,24,48.22,None
+2026-09-20,Azure,europe-west3,Compute,e2-medium,24,34.94,Scale Down
+2026-09-17,GCP,ap-south-1,Database,rds.m5.large,720,33.91,Upgrade
+2026-10-03,Azure,us-west-2,Compute,Premium_LRS,720,15.71,Delete Unattached
+2026-09-10,AWS,us-west-2,Compute,e2-medium,24,49.33,Scale Down
+2026-10-31,GCP,europe-west3,Compute,t3.micro,12,43.86,Scale Down
+2026-09-18,Azure,europe-west3,Database,c5.xlarge,12,42.67,Scale Down
+2026-09-13,AWS,us-east-1,Compute,Premium_LRS,24,30.57,Upgrade
+2026-10-17,GCP,us-west-2,Cache,t3.micro,24,40.44,Delete Unattached
+2026-10-29,GCP,us-east-1,Compute,e2-medium,12,5.58,Scale Down
+2026-10-16,AWS,ap-south-1,Compute,c5.xlarge,24,6.88,None
+2026-10-01,AWS,europe-west3,Cache,t3.micro,720,49.17,Right-size
+2026-10-05,Azure,europe-west3,Compute,e2-medium,24,39.08,Upgrade
+2026-09-04,AWS,ap-south-1,Storage,Premium_LRS,12,39.71,Delete Unattached
+2026-10-06,AWS,europe-west3,Cache,c5.xlarge,720,10.58,None
+2026-09-22,GCP,us-east-1,Storage,t3.micro,24,44.56,Scale Down
+2026-10-23,Azure,us-east-1,Cache,e2-medium,12,37.11,Upgrade
+2026-09-14,GCP,us-west-2,Storage,c5.xlarge,24,32.26,Delete Unattached
+2026-10-10,Azure,ap-south-1,Compute,e2-medium,12,41.36,Delete Unattached
+2026-09-21,Azure,europe-west3,Database,e2-medium,12,30.32,Right-size
+2026-10-17,Azure,us-west-2,Storage,rds.m5.large,720,11.42,Scale Down
+2026-09-16,Azure,us-east-1,Cache,t3.micro,24,7.89,Scale Down
+2026-09-30,GCP,europe-west3,Compute,rds.m5.large,12,25.19,Right-size
+2026-10-22,AWS,us-east-1,Storage,e2-medium,24,46.66,Scale Down
+2026-09-12,Azure,us-west-2,Cache,c5.xlarge,720,38.36,None
+2026-09-07,AWS,europe-west3,Storage,Premium_LRS,12,13.41,Scale Down
+2026-10-15,Azure,us-west-2,Cache,t3.micro,12,3.64,Delete Unattached
+2026-10-11,AWS,us-east-1,Compute,Premium_LRS,720,1.97,Scale Down
+2026-10-25,GCP,ap-south-1,Compute,rds.m5.large,12,5.83,Scale Down
+2026-09-26,Azure,us-west-2,Cache,e2-medium,24,41.92,None
+2026-09-25,Azure,us-east-1,Storage,e2-medium,720,5.52,None
+2026-09-12,GCP,europe-west3,Cache,rds.m5.large,720,15.46,None
+2026-10-18,GCP,ap-south-1,Compute,rds.m5.large,24,3.71,Scale Down
+2026-09-25,Azure,europe-west3,Compute,Premium_LRS,12,41.42,Right-size
+2026-10-29,Azure,us-east-1,Storage,Premium_LRS,12,30.19,Upgrade
+2026-10-13,Azure,ap-south-1,Cache,e2-medium,24,15.15,Delete Unattached
+2026-09-04,AWS,europe-west3,Storage,rds.m5.large,24,1.53,None
+2026-10-28,GCP,us-east-1,Database,Premium_LRS,24,24.2,Scale Down
+2026-09-04,Azure,europe-west3,Storage,e2-medium,12,22.28,Delete Unattached
+2026-09-23,AWS,us-east-1,Storage,Premium_LRS,720,42.82,Scale Down
+2026-10-08,GCP,europe-west3,Cache,c5.xlarge,720,19.01,Delete Unattached
+2026-10-28,AWS,europe-west3,Storage,Premium_LRS,24,13.38,Upgrade
+2026-09-20,Azure,us-west-2,Database,e2-medium,12,44.34,None
+2026-10-28,GCP,ap-south-1,Cache,t3.micro,720,21.55,Delete Unattached
+2026-09-18,GCP,europe-west3,Storage,c5.xlarge,24,12.77,Scale Down
+2026-10-13,AWS,us-west-2,Storage,e2-medium,720,5.18,Scale Down
+2026-09-17,Azure,ap-south-1,Compute,t3.micro,720,41.52,Right-size
+2026-10-14,AWS,ap-south-1,Database,Premium_LRS,12,2.26,Scale Down
+2026-09-06,AWS,ap-south-1,Cache,rds.m5.large,720,25.34,Right-size
+2026-10-03,Azure,us-east-1,Cache,rds.m5.large,24,37.58,Right-size
+2026-10-28,Azure,us-east-1,Database,Premium_LRS,720,19.08,Upgrade
+2026-10-05,Azure,ap-south-1,Database,e2-medium,720,0.87,Delete Unattached
+2026-10-08,GCP,us-west-2,Database,rds.m5.large,720,10.67,Delete Unattached
+2026-10-13,Azure,europe-west3,Storage,c5.xlarge,12,28.53,None
+2026-09-10,GCP,europe-west3,Database,c5.xlarge,12,43.65,None
+2026-09-17,AWS,ap-south-1,Cache,t3.micro,720,44.58,Delete Unattached
+2026-09-14,Azure,europe-west3,Storage,Premium_LRS,720,13.25,Upgrade
+2026-09-17,AWS,ap-south-1,Compute,c5.xlarge,12,7.79,Scale Down
+2026-10-29,GCP,us-west-2,Storage,c5.xlarge,720,8.9,Delete Unattached
+2026-09-04,GCP,ap-south-1,Storage,t3.micro,12,35.35,None
+2026-10-25,AWS,europe-west3,Cache,c5.xlarge,24,42.29,Scale Down
+2026-10-03,AWS,ap-south-1,Compute,Premium_LRS,720,29.68,Right-size
+2026-09-11,Azure,us-east-1,Compute,rds.m5.large,12,6.09,Scale Down
+2026-10-15,Azure,europe-west3,Cache,Premium_LRS,720,20.25,None
+2026-10-19,AWS,us-east-1,Compute,e2-medium,720,32.32,Delete Unattached
+2026-10-15,AWS,europe-west3,Cache,c5.xlarge,12,29.74,None
+2026-10-05,GCP,us-west-2,Storage,c5.xlarge,24,34.57,None
+2026-09-23,Azure,us-east-1,Database,Premium_LRS,12,49.18,Upgrade
+2026-09-25,Azure,ap-south-1,Cache,rds.m5.large,720,40.88,Scale Down
+2026-10-13,Azure,us-east-1,Database,e2-medium,24,44.9,Scale Down
+2026-09-05,AWS,europe-west3,Storage,t3.micro,720,30.2,Upgrade
+2026-10-08,GCP,us-west-2,Database,e2-medium,24,15.42,Scale Down
+2026-10-11,AWS,ap-south-1,Database,rds.m5.large,720,27.68,None
+2026-09-04,Azure,europe-west3,Database,e2-medium,12,26.52,Upgrade
+2026-10-03,GCP,us-west-2,Cache,Premium_LRS,12,49.13,Delete Unattached
+2026-10-05,Azure,us-west-2,Storage,Premium_LRS,24,48.96,Scale Down
+2026-10-11,Azure,us-east-1,Compute,c5.xlarge,720,15.91,Right-size
+2026-09-12,GCP,europe-west3,Database,rds.m5.large,24,26.9,Delete Unattached
+2026-09-06,GCP,us-west-2,Storage,Premium_LRS,720,7.5,Delete Unattached
+2026-10-15,GCP,us-west-2,Cache,t3.micro,24,12.41,Scale Down
+2026-10-02,Azure,us-east-1,Compute,Premium_LRS,720,47.62,Delete Unattached
+2026-09-19,GCP,europe-west3,Storage,e2-medium,720,11.73,None
+2026-09-11,Azure,us-west-2,Compute,rds.m5.large,720,22.79,Delete Unattached
+2026-09-03,Azure,us-west-2,Compute,rds.m5.large,24,12.48,Right-size
+2026-09-22,GCP,us-west-2,Cache,e2-medium,720,40.6,Right-size
+2026-09-27,Azure,ap-south-1,Compute,t3.micro,720,18.41,Upgrade
+2026-10-18,AWS,us-west-2,Database,rds.m5.large,12,33.97,Upgrade
+2026-09-01,GCP,us-west-2,Storage,Premium_LRS,12,42.47,Delete Unattached
+2026-09-24,AWS,ap-south-1,Compute,t3.micro,720,26.87,Upgrade
+2026-10-09,Azure,ap-south-1,Compute,t3.micro,24,6.51,Right-size
+2026-09-11,Azure,ap-south-1,Database,c5.xlarge,12,30.76,Upgrade
+2026-09-05,GCP,europe-west3,Database,t3.micro,720,27.92,Delete Unattached
+2026-10-28,Azure,us-west-2,Cache,t3.micro,24,49.87,Delete Unattached
+2026-09-20,AWS,europe-west3,Storage,rds.m5.large,24,36.8,Right-size
+2026-10-18,Azure,ap-south-1,Compute,rds.m5.large,720,22.44,Upgrade
+2026-09-06,AWS,ap-south-1,Storage,t3.micro,12,45.72,Upgrade
+2026-10-02,AWS,ap-south-1,Database,rds.m5.large,720,14.29,Upgrade
+2026-10-12,GCP,europe-west3,Compute,Premium_LRS,24,22.81,Scale Down
+2026-10-05,GCP,us-west-2,Database,e2-medium,12,1.66,Delete Unattached
+2026-10-12,Azure,us-west-2,Cache,rds.m5.large,12,29.25,None
+2026-10-14,GCP,us-east-1,Compute,t3.micro,24,23.33,Upgrade
+2026-09-08,AWS,us-east-1,Compute,t3.micro,24,27.53,Delete Unattached
+2026-09-19,Azure,us-east-1,Cache,Premium_LRS,12,23.27,Delete Unattached
+2026-10-29,Azure,us-east-1,Cache,Premium_LRS,12,17.31,Right-size
+2026-09-14,Azure,ap-south-1,Database,t3.micro,12,7.48,Scale Down
+2026-09-12,Azure,europe-west3,Compute,e2-medium,720,27.15,None
+2026-10-29,Azure,us-east-1,Compute,Premium_LRS,720,47.64,None
+2026-09-08,GCP,ap-south-1,Database,Premium_LRS,24,10.21,Right-size
+2026-10-29,GCP,us-west-2,Database,e2-medium,24,48.59,Scale Down
+2026-10-02,Azure,us-west-2,Storage,c5.xlarge,12,28.87,None
+2026-09-29,GCP,ap-south-1,Database,t3.micro,24,32.61,None
+2026-09-27,Azure,us-east-1,Compute,e2-medium,12,42.73,Scale Down
+2026-10-02,Azure,us-east-1,Compute,Premium_LRS,720,2.56,Scale Down
+2026-10-08,GCP,ap-south-1,Cache,rds.m5.large,720,31.34,Upgrade
+2026-10-03,AWS,us-west-2,Cache,e2-medium,12,40.59,Upgrade
+2026-10-29,GCP,us-west-2,Compute,t3.micro,24,23.78,Upgrade
+2026-10-12,AWS,ap-south-1,Storage,Premium_LRS,24,30.74,None
+2026-10-13,GCP,ap-south-1,Database,e2-medium,12,9.21,Delete Unattached
+2026-10-31,Azure,us-west-2,Cache,e2-medium,24,32.39,Upgrade
+2026-10-24,AWS,europe-west3,Compute,e2-medium,12,4.3,None
+2026-10-18,AWS,us-east-1,Compute,Premium_LRS,24,19.78,None
+2026-10-28,Azure,us-east-1,Database,c5.xlarge,12,20.08,None
+2026-09-24,GCP,ap-south-1,Compute,e2-medium,12,14.2,Right-size
+2026-10-10,AWS,us-east-1,Cache,Premium_LRS,720,18.51,Right-size
+2026-10-02,AWS,us-east-1,Cache,Premium_LRS,720,28.8,Delete Unattached
+2026-09-16,GCP,europe-west3,Compute,e2-medium,720,25.9,Delete Unattached
+2026-09-28,GCP,us-west-2,Storage,c5.xlarge,24,8.3,Scale Down
+2026-10-27,GCP,europe-west3,Compute,Premium_LRS,720,41.11,Upgrade
+2026-09-06,AWS,us-east-1,Cache,t3.micro,24,19.38,Upgrade
+2026-10-22,Azure,europe-west3,Cache,e2-medium,12,25.26,Scale Down
+2026-10-04,Azure,europe-west3,Compute,e2-medium,720,18.06,Upgrade
+2026-09-29,AWS,ap-south-1,Database,rds.m5.large,24,47.01,Scale Down
+2026-09-21,Azure,us-west-2,Cache,e2-medium,12,21.25,None
+2026-10-21,AWS,us-east-1,Cache,c5.xlarge,24,35.34,Right-size
+2026-10-11,GCP,europe-west3,Storage,e2-medium,24,35.06,Scale Down
+2026-10-15,Azure,ap-south-1,Cache,e2-medium,720,20.71,None
+2026-09-28,Azure,us-west-2,Storage,rds.m5.large,12,44.15,Scale Down
+2026-10-09,AWS,us-west-2,Cache,e2-medium,24,27.06,None
+2026-09-11,GCP,us-west-2,Database,c5.xlarge,12,16.55,Scale Down
+2026-10-31,GCP,us-east-1,Cache,rds.m5.large,24,29.37,Scale Down
+2026-10-30,Azure,us-west-2,Compute,c5.xlarge,12,33.57,None
+2026-09-06,Azure,us-east-1,Cache,e2-medium,720,35.4,Right-size
+2026-09-13,GCP,europe-west3,Compute,Premium_LRS,720,47.59,Right-size
+2026-10-24,GCP,us-east-1,Compute,e2-medium,720,38.99,Delete Unattached
+2026-09-07,GCP,us-west-2,Storage,rds.m5.large,720,9.95,Upgrade
+2026-09-24,Azure,ap-south-1,Compute,rds.m5.large,24,10.43,Upgrade
+2026-10-03,AWS,europe-west3,Storage,t3.micro,720,42.93,Right-size
+2026-09-27,GCP,europe-west3,Storage,c5.xlarge,12,24.64,None
+2026-09-17,GCP,us-east-1,Storage,c5.xlarge,720,48.84,Delete Unattached
+2026-09-05,AWS,europe-west3,Compute,Premium_LRS,720,5.36,Scale Down
+2026-10-07,Azure,ap-south-1,Cache,rds.m5.large,24,9.91,None
+2026-09-03,AWS,us-east-1,Database,c5.xlarge,720,16.89,Upgrade
+2026-10-06,Azure,europe-west3,Database,rds.m5.large,720,11.23,Delete Unattached
+2026-10-25,AWS,ap-south-1,Database,t3.micro,720,42.58,Scale Down
+2026-10-08,GCP,europe-west3,Database,e2-medium,720,27.18,None
+2026-09-29,Azure,us-west-2,Compute,e2-medium,12,21.22,Scale Down
+2026-10-27,Azure,europe-west3,Storage,t3.micro,12,11.14,Right-size
+2026-10-12,Azure,ap-south-1,Cache,e2-medium,12,9.14,Delete Unattached
+2026-09-05,GCP,us-east-1,Cache,t3.micro,12,27.27,Upgrade
+2026-10-21,Azure,ap-south-1,Cache,e2-medium,720,16.45,None
+2026-10-17,GCP,us-west-2,Database,e2-medium,720,45.5,Scale Down
+2026-09-26,Azure,us-east-1,Database,t3.micro,720,36.98,Right-size
+2026-10-23,AWS,europe-west3,Database,e2-medium,24,34.32,Delete Unattached
+2026-10-17,AWS,us-west-2,Database,Premium_LRS,720,19.21,None
+2026-09-12,AWS,europe-west3,Compute,rds.m5.large,12,27.49,Right-size
+2026-10-05,AWS,us-east-1,Storage,rds.m5.large,24,23.41,Upgrade
+2026-10-09,GCP,ap-south-1,Compute,rds.m5.large,12,1.04,Scale Down
+2026-10-26,Azure,europe-west3,Cache,rds.m5.large,720,24.41,Delete Unattached
+2026-09-01,Azure,europe-west3,Database,rds.m5.large,12,5.9,None
+2026-10-22,Azure,ap-south-1,Storage,rds.m5.large,720,11.37,Delete Unattached
+2026-09-05,Azure,europe-west3,Database,c5.xlarge,12,26.24,Delete Unattached
+2026-09-11,Azure,europe-west3,Compute,Premium_LRS,720,45.77,Upgrade
+2026-10-11,Azure,us-east-1,Storage,rds.m5.large,24,37.35,Delete Unattached
+2026-10-11,Azure,ap-south-1,Database,Premium_LRS,12,6.53,None
+2026-09-06,Azure,europe-west3,Database,Premium_LRS,24,9.27,Delete Unattached
+2026-10-08,AWS,us-east-1,Compute,t3.micro,24,35.94,None
+2026-10-31,AWS,us-west-2,Cache,Premium_LRS,12,47.21,Delete Unattached
+2026-10-29,AWS,us-east-1,Storage,Premium_LRS,720,24.33,None
+2026-10-06,GCP,ap-south-1,Compute,Premium_LRS,12,31.58,Upgrade
+2026-10-14,AWS,us-east-1,Storage,e2-medium,720,19.55,Delete Unattached
+2026-10-07,AWS,europe-west3,Compute,c5.xlarge,24,30.8,Upgrade
+2026-10-31,Azure,ap-south-1,Storage,Premium_LRS,12,0.76,Right-size
+2026-10-05,Azure,us-west-2,Cache,c5.xlarge,24,30.4,Right-size
+2026-10-19,AWS,ap-south-1,Compute,e2-medium,720,24.94,None
+2026-09-25,AWS,us-east-1,Compute,rds.m5.large,24,49.55,Upgrade
+2026-10-14,GCP,us-east-1,Database,rds.m5.large,720,12.32,Delete Unattached
+2026-10-21,Azure,ap-south-1,Database,Premium_LRS,12,49.98,Upgrade
+2026-09-30,Azure,europe-west3,Compute,c5.xlarge,12,31.61,Scale Down
+2026-10-09,GCP,us-west-2,Database,e2-medium,12,28.7,Upgrade
+2026-10-02,Azure,us-east-1,Cache,rds.m5.large,720,9.82,Delete Unattached
+2026-10-03,GCP,europe-west3,Database,Premium_LRS,12,24.74,Delete Unattached
+2026-09-26,Azure,ap-south-1,Database,c5.xlarge,720,1.41,Right-size
+2026-09-06,AWS,ap-south-1,Cache,t3.micro,24,5.75,Scale Down
+2026-09-02,Azure,ap-south-1,Database,t3.micro,24,6.71,Upgrade
+2026-09-13,Azure,ap-south-1,Compute,e2-medium,24,16.41,Upgrade
+2026-10-06,Azure,us-west-2,Storage,c5.xlarge,720,4.72,Scale Down
+2026-10-29,AWS,us-west-2,Storage,rds.m5.large,720,34.86,Right-size
+2026-10-07,AWS,ap-south-1,Cache,rds.m5.large,24,45.05,None
+2026-09-22,AWS,ap-south-1,Compute,rds.m5.large,12,47.48,Scale Down
+2026-09-21,GCP,europe-west3,Storage,t3.micro,12,32.73,Scale Down
+2026-10-09,Azure,europe-west3,Database,t3.micro,720,25.71,Delete Unattached
+2026-10-20,GCP,us-west-2,Storage,Premium_LRS,720,46.32,None
+2026-09-12,AWS,europe-west3,Compute,rds.m5.large,720,24.5,Scale Down
+2026-10-05,Azure,ap-south-1,Storage,e2-medium,12,24.17,Right-size
+2026-10-09,GCP,us-east-1,Database,c5.xlarge,12,7.36,Scale Down
+2026-10-18,Azure,ap-south-1,Database,e2-medium,24,0.61,None
+2026-09-23,GCP,europe-west3,Database,e2-medium,720,39.31,Scale Down
+2026-10-26,AWS,ap-south-1,Storage,c5.xlarge,24,3.17,Right-size
+2026-09-13,Azure,ap-south-1,Compute,e2-medium,720,3.85,Delete Unattached
+2026-09-02,Azure,us-west-2,Storage,Premium_LRS,24,38.34,None
+2026-09-20,AWS,us-east-1,Database,c5.xlarge,720,30.84,Right-size
+2026-09-16,AWS,us-east-1,Storage,c5.xlarge,12,38.62,None
+2026-09-05,GCP,us-east-1,Compute,c5.xlarge,12,33.83,Upgrade
+2026-10-20,Azure,europe-west3,Database,t3.micro,24,34.06,None
+2026-10-20,Azure,europe-west3,Cache,Premium_LRS,12,10.38,Right-size
+2026-09-16,AWS,us-east-1,Cache,Premium_LRS,720,38.78,Scale Down
+2026-09-05,GCP,ap-south-1,Compute,e2-medium,720,8.23,Scale Down
+2026-09-26,Azure,europe-west3,Compute,Premium_LRS,12,9.12,Upgrade
+2026-09-23,Azure,us-east-1,Compute,rds.m5.large,720,45.68,Right-size
+2026-10-12,AWS,ap-south-1,Cache,c5.xlarge,12,20.71,Scale Down
+2026-09-30,AWS,us-east-1,Database,t3.micro,24,2.23,Scale Down
+2026-10-02,GCP,us-east-1,Compute,e2-medium,24,32.71,Right-size
+2026-09-14,Azure,europe-west3,Storage,e2-medium,12,20.91,Upgrade
+2026-09-05,GCP,ap-south-1,Cache,c5.xlarge,24,26.45,Scale Down
+2026-10-08,GCP,us-west-2,Storage,e2-medium,12,26.15,Scale Down
+2026-10-01,AWS,us-west-2,Storage,e2-medium,720,29.06,Delete Unattached
+2026-10-07,Azure,europe-west3,Cache,Premium_LRS,12,0.87,Upgrade
+2026-10-20,AWS,us-west-2,Database,c5.xlarge,12,23.71,Right-size
+2026-10-23,AWS,us-west-2,Database,e2-medium,12,5.46,Scale Down
+2026-10-07,AWS,us-west-2,Compute,Premium_LRS,24,7.54,None
+2026-09-16,Azure,ap-south-1,Storage,Premium_LRS,720,25.21,None
+2026-10-30,GCP,us-west-2,Cache,Premium_LRS,720,34.7,Delete Unattached
+2026-10-30,AWS,us-east-1,Cache,t3.micro,24,0.68,Upgrade
+2026-09-16,AWS,us-east-1,Cache,t3.micro,12,19.61,Delete Unattached
+2026-09-21,Azure,us-west-2,Cache,t3.micro,720,47.71,None
+2026-09-18,GCP,europe-west3,Compute,c5.xlarge,24,41.68,None
+2026-09-28,AWS,us-west-2,Compute,t3.micro,24,27.47,Right-size
+2026-10-28,GCP,europe-west3,Storage,t3.micro,24,48.5,Scale Down
+2026-09-18,Azure,europe-west3,Database,rds.m5.large,24,38.1,Upgrade
+2026-10-27,GCP,us-west-2,Cache,c5.xlarge,12,23.67,Delete Unattached
+2026-10-02,AWS,us-east-1,Storage,t3.micro,720,20.39,None
+2026-09-11,AWS,us-west-2,Compute,t3.micro,24,48.2,Right-size
+2026-10-15,AWS,us-east-1,Cache,t3.micro,720,45.58,Upgrade
+2026-10-26,AWS,us-east-1,Database,c5.xlarge,24,27.95,Delete Unattached
+2026-09-22,AWS,ap-south-1,Storage,t3.micro,12,27.82,None
+2026-09-02,AWS,us-west-2,Cache,Premium_LRS,720,24.5,None
+2026-10-09,AWS,europe-west3,Storage,rds.m5.large,12,24.51,Scale Down
+2026-09-16,AWS,europe-west3,Database,Premium_LRS,12,39.78,Scale Down
+2026-10-01,GCP,us-west-2,Compute,rds.m5.large,24,38.9,Scale Down
+2026-09-09,Azure,us-east-1,Compute,t3.micro,720,13.28,Right-size
+2026-10-03,GCP,ap-south-1,Database,rds.m5.large,720,25.64,Right-size
+2026-09-26,GCP,europe-west3,Compute,Premium_LRS,12,18.19,Upgrade
+2026-09-27,GCP,europe-west3,Database,Premium_LRS,24,36.96,Scale Down
+2026-09-05,Azure,europe-west3,Cache,rds.m5.large,12,13.33,Delete Unattached
+2026-09-10,Azure,ap-south-1,Storage,Premium_LRS,12,14.64,Upgrade
+2026-10-29,AWS,us-west-2,Storage,t3.micro,24,18.69,None
+2026-09-09,AWS,us-east-1,Cache,Premium_LRS,12,14.8,Delete Unattached
+2026-09-24,Azure,europe-west3,Database,t3.micro,12,15.99,Right-size
+2026-10-03,GCP,us-east-1,Database,rds.m5.large,720,2.04,Delete Unattached
+2026-09-08,AWS,ap-south-1,Database,t3.micro,720,11.99,Right-size
+2026-10-23,GCP,us-west-2,Database,Premium_LRS,720,9.78,Scale Down
+2026-10-11,GCP,us-west-2,Database,rds.m5.large,12,3.88,Upgrade
+2026-09-29,AWS,europe-west3,Cache,e2-medium,24,34.67,None
+2026-10-31,AWS,us-east-1,Database,Premium_LRS,720,8.14,Right-size
+2026-10-21,AWS,ap-south-1,Storage,Premium_LRS,24,28.32,Upgrade
+2026-10-30,AWS,us-east-1,Database,t3.micro,24,19.43,Delete Unattached
+2026-10-13,AWS,us-west-2,Compute,c5.xlarge,12,30.26,Upgrade
+2026-09-27,AWS,ap-south-1,Compute,e2-medium,24,9.94,Scale Down
+2026-10-24,GCP,ap-south-1,Cache,c5.xlarge,720,20.09,Scale Down
+2026-10-23,AWS,europe-west3,Database,c5.xlarge,720,11.94,Upgrade
+2026-10-24,AWS,ap-south-1,Compute,Premium_LRS,12,20.51,Delete Unattached
+2026-10-04,AWS,ap-south-1,Storage,rds.m5.large,24,12.65,Upgrade
+2026-09-22,Azure,us-east-1,Database,rds.m5.large,720,14.16,Delete Unattached
+2026-09-16,GCP,europe-west3,Compute,t3.micro,12,25.09,Upgrade
+2026-10-01,Azure,us-east-1,Storage,e2-medium,24,4.15,None
+2026-10-13,AWS,europe-west3,Cache,e2-medium,12,24.82,None
+2026-09-14,AWS,ap-south-1,Compute,Premium_LRS,24,7.97,Right-size
+2026-09-16,Azure,us-east-1,Storage,e2-medium,24,14.67,Delete Unattached
+2026-10-05,GCP,ap-south-1,Storage,Premium_LRS,24,34.19,None
+2026-10-24,Azure,ap-south-1,Storage,c5.xlarge,720,12.03,Right-size
+2026-10-09,GCP,europe-west3,Cache,rds.m5.large,24,8.55,None
+2026-10-26,GCP,ap-south-1,Storage,c5.xlarge,720,42.11,None
+2026-10-27,GCP,us-east-1,Storage,c5.xlarge,24,48.64,Upgrade
+2026-10-03,Azure,us-west-2,Cache,rds.m5.large,12,13.8,Upgrade
+2026-10-11,GCP,us-west-2,Compute,t3.micro,720,35.66,Upgrade
+2026-09-09,GCP,europe-west3,Cache,rds.m5.large,24,41.89,Upgrade
+2026-10-27,AWS,us-east-1,Cache,t3.micro,720,44.61,Right-size
+2026-10-14,Azure,ap-south-1,Storage,rds.m5.large,24,32.9,None
+2026-10-23,Azure,us-west-2,Compute,e2-medium,12,43.6,Scale Down
+2026-09-21,GCP,us-east-1,Storage,t3.micro,24,1.73,None
+2026-10-24,GCP,europe-west3,Database,rds.m5.large,720,4.43,Scale Down
+2026-10-16,GCP,us-west-2,Storage,c5.xlarge,24,29.54,None
+2026-09-06,AWS,ap-south-1,Compute,t3.micro,24,16.18,Upgrade
+2026-10-18,AWS,us-west-2,Database,c5.xlarge,12,20.52,Scale Down
+2026-09-17,AWS,us-east-1,Compute,Premium_LRS,24,29.63,None
+2026-09-07,Azure,europe-west3,Storage,c5.xlarge,720,28.92,Scale Down
+2026-09-12,GCP,ap-south-1,Compute,rds.m5.large,720,29.62,Scale Down
+2026-10-15,AWS,europe-west3,Compute,Premium_LRS,720,7.25,None
+2026-09-14,AWS,europe-west3,Compute,Premium_LRS,24,42.93,Delete Unattached
+2026-09-23,GCP,ap-south-1,Cache,e2-medium,12,12.28,Right-size
+2026-10-27,AWS,us-east-1,Database,t3.micro,24,1.75,None
+2026-10-17,AWS,europe-west3,Compute,e2-medium,12,4.03,Right-size
+2026-09-28,GCP,us-west-2,Storage,Premium_LRS,24,12.39,Upgrade
+2026-09-26,GCP,us-west-2,Cache,t3.micro,12,29.15,None
+2026-09-12,AWS,europe-west3,Compute,e2-medium,24,17.49,None
+2026-09-04,AWS,us-east-1,Database,e2-medium,12,7.25,Delete Unattached
+2026-10-19,Azure,us-west-2,Compute,c5.xlarge,720,24.4,Right-size
+2026-10-20,AWS,ap-south-1,Cache,c5.xlarge,12,11.53,Delete Unattached
+2026-09-25,Azure,europe-west3,Database,rds.m5.large,24,23.17,Right-size
+2026-09-03,Azure,europe-west3,Storage,Premium_LRS,720,48.41,Upgrade
+2026-10-05,GCP,us-east-1,Database,rds.m5.large,12,6.65,Scale Down
+2026-10-13,AWS,europe-west3,Storage,t3.micro,12,0.78,Delete Unattached
+2026-09-15,Azure,europe-west3,Cache,rds.m5.large,12,18.93,Right-size
+2026-09-06,Azure,us-west-2,Storage,Premium_LRS,720,12.18,None
+2026-09-28,AWS,us-west-2,Cache,Premium_LRS,12,12.6,None
+2026-10-14,AWS,ap-south-1,Compute,Premium_LRS,24,34.74,Upgrade
+2026-09-11,GCP,ap-south-1,Cache,Premium_LRS,12,11.86,Upgrade
+2026-09-07,Azure,us-west-2,Compute,e2-medium,12,18.29,None
+2026-09-03,GCP,us-west-2,Storage,c5.xlarge,24,0.83,Upgrade
+2026-09-11,Azure,us-east-1,Storage,rds.m5.large,12,40.21,Scale Down
+2026-10-07,Azure,europe-west3,Database,rds.m5.large,24,29.92,Upgrade
+2026-10-23,Azure,ap-south-1,Storage,rds.m5.large,24,26.24,Delete Unattached
+2026-10-04,Azure,us-east-1,Cache,t3.micro,12,8.33,Right-size
+2026-09-07,Azure,us-east-1,Database,t3.micro,24,41.29,Scale Down
+2026-10-16,Azure,us-west-2,Storage,Premium_LRS,12,44.79,None
+2026-09-18,GCP,europe-west3,Database,c5.xlarge,12,20.45,Scale Down
+2026-09-24,GCP,europe-west3,Compute,e2-medium,24,26.0,Delete Unattached
+2026-10-21,AWS,ap-south-1,Storage,rds.m5.large,24,22.57,Right-size
+2026-09-04,Azure,europe-west3,Database,Premium_LRS,24,17.15,Right-size
+2026-10-13,AWS,us-west-2,Database,Premium_LRS,12,13.29,Upgrade
+2026-09-02,AWS,us-west-2,Database,Premium_LRS,720,41.14,Right-size
+2026-09-28,AWS,us-west-2,Storage,rds.m5.large,24,35.16,None
+2026-09-02,GCP,us-east-1,Compute,c5.xlarge,24,45.55,None
+2026-10-05,GCP,ap-south-1,Compute,rds.m5.large,12,32.05,None
+2026-10-19,Azure,us-west-2,Storage,t3.micro,24,12.41,Scale Down
+2026-09-29,AWS,us-west-2,Database,rds.m5.large,12,28.64,Upgrade
+2026-09-17,Azure,us-east-1,Compute,Premium_LRS,12,15.55,None
+2026-09-13,GCP,ap-south-1,Cache,rds.m5.large,24,30.13,Scale Down
+2026-09-24,AWS,us-west-2,Cache,c5.xlarge,720,21.46,Scale Down
+2026-10-10,Azure,us-west-2,Cache,Premium_LRS,12,5.66,Scale Down
+2026-10-07,AWS,europe-west3,Storage,e2-medium,12,9.82,Delete Unattached
+2026-10-28,AWS,europe-west3,Storage,rds.m5.large,24,24.25,Scale Down
+2026-10-28,AWS,europe-west3,Database,c5.xlarge,24,18.61,None
+2026-10-23,Azure,us-west-2,Compute,rds.m5.large,720,1.12,Right-size
+2026-10-14,AWS,ap-south-1,Cache,Premium_LRS,24,7.81,Right-size
+2026-10-03,AWS,europe-west3,Compute,Premium_LRS,12,13.67,Delete Unattached
+2026-10-29,Azure,us-east-1,Database,Premium_LRS,720,29.08,Scale Down
+2026-09-29,GCP,europe-west3,Database,t3.micro,720,18.74,Right-size
+2026-10-15,AWS,us-east-1,Storage,Premium_LRS,12,43.11,Right-size
+2026-10-25,GCP,us-west-2,Compute,c5.xlarge,12,34.1,Upgrade
+2026-10-29,Azure,ap-south-1,Database,rds.m5.large,720,47.83,Scale Down
+2026-09-15,Azure,us-west-2,Cache,t3.micro,720,5.88,Delete Unattached
+2026-09-13,AWS,europe-west3,Database,Premium_LRS,720,23.25,Scale Down
+2026-10-14,GCP,europe-west3,Storage,c5.xlarge,24,48.29,Scale Down
+2026-09-07,Azure,us-west-2,Storage,t3.micro,720,12.9,None
+2026-10-25,GCP,us-east-1,Storage,rds.m5.large,720,41.65,Scale Down
+2026-10-12,AWS,us-west-2,Compute,e2-medium,720,43.78,Right-size
+2026-09-29,Azure,europe-west3,Database,e2-medium,24,45.73,Upgrade
+2026-10-13,AWS,us-east-1,Database,c5.xlarge,12,28.27,Upgrade
+2026-10-02,Azure,us-west-2,Storage,c5.xlarge,12,34.65,Scale Down
+2026-09-25,AWS,us-west-2,Storage,t3.micro,12,48.52,Scale Down
+2026-10-10,Azure,us-west-2,Compute,rds.m5.large,12,39.77,Delete Unattached
+2026-09-10,GCP,us-east-1,Storage,rds.m5.large,24,40.74,None
+2026-09-08,GCP,ap-south-1,Database,c5.xlarge,12,41.78,Delete Unattached
+2026-09-14,GCP,us-east-1,Compute,c5.xlarge,12,33.27,Upgrade
+2026-09-20,GCP,ap-south-1,Cache,t3.micro,720,25.23,Upgrade
+2026-10-07,AWS,us-east-1,Compute,t3.micro,12,34.27,Right-size
+2026-09-12,AWS,europe-west3,Database,Premium_LRS,24,31.64,Delete Unattached
+2026-10-11,GCP,ap-south-1,Database,Premium_LRS,24,49.45,Right-size
+2026-09-24,AWS,europe-west3,Storage,t3.micro,720,35.97,Upgrade
+2026-09-03,Azure,us-west-2,Compute,Premium_LRS,12,4.53,Delete Unattached
+2026-09-19,GCP,us-east-1,Storage,Premium_LRS,720,46.4,Delete Unattached
+2026-09-25,Azure,europe-west3,Storage,rds.m5.large,24,35.53,Upgrade
+2026-09-30,Azure,us-west-2,Database,Premium_LRS,24,42.89,Right-size
+2026-10-31,GCP,ap-south-1,Database,e2-medium,24,43.09,Right-size
+2026-10-02,Azure,ap-south-1,Database,e2-medium,720,17.7,None
+2026-09-07,Azure,us-east-1,Database,rds.m5.large,12,26.69,Upgrade
+2026-10-09,AWS,us-west-2,Database,t3.micro,720,40.09,None
+2026-10-08,AWS,europe-west3,Compute,c5.xlarge,24,22.35,Delete Unattached
+2026-10-19,AWS,europe-west3,Compute,rds.m5.large,720,12.81,None
+2026-10-18,GCP,ap-south-1,Compute,e2-medium,720,27.79,Scale Down
+2026-09-25,Azure,us-west-2,Cache,c5.xlarge,720,34.58,Upgrade
+2026-09-05,GCP,us-east-1,Storage,c5.xlarge,720,48.81,Delete Unattached
+2026-10-28,AWS,ap-south-1,Database,t3.micro,720,22.94,None
+2026-09-21,AWS,europe-west3,Database,e2-medium,720,36.61,None
+2026-10-28,Azure,europe-west3,Database,e2-medium,12,16.5,None
+2026-10-16,Azure,us-west-2,Cache,c5.xlarge,720,38.44,Right-size
+2026-10-06,Azure,europe-west3,Storage,e2-medium,12,10.25,None
+2026-10-03,Azure,us-east-1,Cache,t3.micro,24,28.24,None
+2026-10-15,Azure,us-east-1,Storage,c5.xlarge,720,31.25,None
+2026-10-31,Azure,us-west-2,Database,e2-medium,24,22.01,Scale Down
+2026-10-06,GCP,ap-south-1,Storage,t3.micro,24,2.25,Right-size
+2026-10-30,GCP,us-west-2,Storage,t3.micro,24,14.74,Delete Unattached
+2026-10-31,GCP,europe-west3,Cache,Premium_LRS,720,41.41,Right-size
+2026-10-06,Azure,ap-south-1,Compute,Premium_LRS,720,1.84,Upgrade
+2026-09-03,Azure,europe-west3,Database,t3.micro,720,27.18,Upgrade
+2026-10-10,AWS,ap-south-1,Compute,rds.m5.large,24,18.93,Right-size
+2026-10-14,AWS,us-east-1,Database,Premium_LRS,720,36.41,Delete Unattached
+2026-09-16,AWS,europe-west3,Cache,e2-medium,24,19.66,Right-size
+2026-09-19,GCP,europe-west3,Database,c5.xlarge,24,32.25,Delete Unattached
+2026-09-17,Azure,europe-west3,Database,Premium_LRS,24,30.32,Delete Unattached
+2026-09-17,Azure,europe-west3,Storage,rds.m5.large,24,17.34,Upgrade
+2026-09-10,Azure,ap-south-1,Database,rds.m5.large,720,34.68,None
+2026-09-27,AWS,europe-west3,Compute,e2-medium,12,46.69,Right-size
+2026-09-27,AWS,ap-south-1,Cache,e2-medium,12,25.63,Upgrade
+2026-10-20,Azure,ap-south-1,Storage,c5.xlarge,12,2.83,Right-size
+2026-10-09,Azure,europe-west3,Cache,c5.xlarge,12,17.24,None
+2026-09-16,Azure,us-west-2,Database,Premium_LRS,720,31.76,None
+2026-10-29,AWS,us-east-1,Database,c5.xlarge,12,28.29,Delete Unattached
+2026-09-15,Azure,us-west-2,Database,t3.micro,720,37.55,Upgrade
+2026-10-30,GCP,us-west-2,Storage,c5.xlarge,12,28.27,Scale Down
+2026-09-16,AWS,us-east-1,Database,t3.micro,24,8.16,Delete Unattached
+2026-09-01,Azure,us-east-1,Compute,t3.micro,720,31.2,None
+2026-10-31,AWS,us-west-2,Database,c5.xlarge,24,5.36,None
+2026-10-02,GCP,europe-west3,Storage,c5.xlarge,24,40.7,Delete Unattached
+2026-09-02,GCP,us-west-2,Database,e2-medium,24,7.34,Right-size
+2026-09-03,GCP,europe-west3,Compute,Premium_LRS,720,31.97,None
+2026-09-06,Azure,us-west-2,Cache,t3.micro,24,46.77,None
+2026-09-30,Azure,ap-south-1,Storage,c5.xlarge,720,5.41,None
+2026-09-07,Azure,us-west-2,Cache,c5.xlarge,12,25.98,Right-size
+2026-10-02,AWS,ap-south-1,Cache,c5.xlarge,720,9.24,Scale Down
+2026-09-23,Azure,europe-west3,Database,rds.m5.large,12,13.71,Scale Down
+2026-10-17,GCP,europe-west3,Cache,e2-medium,12,18.84,Scale Down
+2026-09-20,GCP,us-west-2,Compute,t3.micro,720,16.63,Right-size
+2026-10-16,Azure,us-west-2,Compute,c5.xlarge,24,0.58,Upgrade
+2026-10-11,GCP,us-east-1,Database,c5.xlarge,12,43.57,None
+2026-09-16,Azure,us-east-1,Storage,c5.xlarge,24,32.74,Right-size
+2026-10-03,GCP,us-east-1,Cache,e2-medium,720,20.5,Upgrade
+2026-09-10,Azure,us-west-2,Compute,t3.micro,24,6.42,Delete Unattached
+2026-10-09,Azure,us-west-2,Storage,e2-medium,720,34.9,None
+2026-10-01,AWS,us-west-2,Database,e2-medium,24,26.15,Upgrade
+2026-09-26,AWS,ap-south-1,Database,rds.m5.large,720,18.31,Upgrade
+2026-09-09,AWS,europe-west3,Cache,rds.m5.large,720,7.55,Upgrade
+2026-10-11,GCP,ap-south-1,Compute,rds.m5.large,12,27.4,Upgrade
+2026-09-04,GCP,us-west-2,Database,c5.xlarge,24,1.45,Scale Down
+2026-09-17,Azure,europe-west3,Storage,c5.xlarge,720,21.43,Scale Down
+2026-10-22,AWS,us-west-2,Cache,e2-medium,24,41.46,Delete Unattached
+2026-09-01,GCP,ap-south-1,Cache,rds.m5.large,720,2.57,Upgrade
+2026-10-24,AWS,ap-south-1,Cache,c5.xlarge,24,33.29,None
+2026-10-24,Azure,ap-south-1,Cache,c5.xlarge,12,44.8,Delete Unattached
+2026-09-26,AWS,us-east-1,Compute,t3.micro,12,44.51,Scale Down
+2026-09-25,GCP,ap-south-1,Cache,c5.xlarge,12,27.98,Delete Unattached
+2026-10-22,AWS,ap-south-1,Cache,Premium_LRS,24,26.34,Scale Down
+2026-09-15,GCP,us-west-2,Cache,Premium_LRS,24,14.89,None
+2026-09-17,AWS,us-east-1,Storage,rds.m5.large,720,45.5,Right-size
+2026-09-07,AWS,europe-west3,Compute,rds.m5.large,720,1.11,Right-size
+2026-10-03,GCP,us-west-2,Cache,e2-medium,720,9.26,Right-size
+2026-10-12,Azure,us-west-2,Database,e2-medium,24,29.12,Delete Unattached
+2026-10-19,GCP,europe-west3,Cache,rds.m5.large,24,35.32,Delete Unattached
+2026-10-11,GCP,europe-west3,Compute,c5.xlarge,12,25.62,Scale Down
+2026-09-26,GCP,us-west-2,Compute,c5.xlarge,12,22.92,Delete Unattached
+2026-10-25,Azure,us-west-2,Cache,rds.m5.large,24,42.33,Scale Down
+2026-10-09,Azure,ap-south-1,Compute,t3.micro,12,28.12,Scale Down
+2026-09-16,Azure,europe-west3,Storage,Premium_LRS,24,40.98,Upgrade
+2026-10-16,Azure,us-west-2,Storage,t3.micro,720,18.25,Right-size
+2026-09-22,GCP,us-west-2,Cache,rds.m5.large,24,45.26,Upgrade
+2026-09-24,Azure,us-west-2,Database,e2-medium,24,28.06,Upgrade
+2026-09-25,AWS,us-east-1,Database,Premium_LRS,24,12.01,Delete Unattached
+2026-10-09,GCP,europe-west3,Storage,e2-medium,720,33.3,Right-size
+2026-10-15,GCP,europe-west3,Storage,Premium_LRS,720,20.22,None
+2026-09-14,Azure,us-east-1,Storage,Premium_LRS,24,13.97,Scale Down
+2026-10-08,Azure,europe-west3,Cache,rds.m5.large,12,13.94,Right-size
+2026-10-20,GCP,us-west-2,Cache,Premium_LRS,24,49.64,Delete Unattached
+2026-09-30,GCP,us-east-1,Storage,c5.xlarge,24,17.0,Scale Down
+2026-09-20,Azure,us-west-2,Cache,e2-medium,24,13.98,Delete Unattached
+2026-09-03,GCP,ap-south-1,Cache,e2-medium,720,2.25,None
+2026-10-21,Azure,us-east-1,Storage,c5.xlarge,24,38.59,None
+2026-09-08,Azure,ap-south-1,Compute,Premium_LRS,12,5.57,Scale Down
+2026-09-14,Azure,europe-west3,Storage,e2-medium,720,33.56,Scale Down
+2026-10-16,Azure,ap-south-1,Storage,Premium_LRS,24,24.78,Scale Down
+2026-10-06,Azure,us-east-1,Cache,c5.xlarge,24,49.64,Upgrade
+2026-10-03,AWS,europe-west3,Storage,t3.micro,12,34.02,Scale Down
+2026-10-12,Azure,ap-south-1,Cache,t3.micro,720,14.72,Upgrade
+2026-10-29,GCP,us-east-1,Compute,t3.micro,720,20.05,Upgrade
+2026-10-06,GCP,us-east-1,Compute,Premium_LRS,720,28.06,Scale Down
+2026-09-11,GCP,us-east-1,Cache,e2-medium,12,27.09,None
+2026-10-20,Azure,us-east-1,Storage,rds.m5.large,720,36.46,Upgrade
+2026-09-26,AWS,ap-south-1,Compute,Premium_LRS,720,29.34,Delete Unattached
+2026-09-01,Azure,ap-south-1,Cache,t3.micro,12,5.32,Delete Unattached
+2026-09-24,GCP,europe-west3,Database,t3.micro,720,11.62,Right-size
+2026-09-13,AWS,us-west-2,Database,t3.micro,24,24.82,Right-size
+2026-10-08,GCP,ap-south-1,Compute,c5.xlarge,12,27.46,Scale Down
+2026-09-20,Azure,us-east-1,Cache,Premium_LRS,720,38.95,None
+2026-10-12,Azure,us-east-1,Database,Premium_LRS,24,45.52,Upgrade
+2026-09-16,GCP,ap-south-1,Database,c5.xlarge,12,34.4,None
+2026-09-04,Azure,ap-south-1,Storage,t3.micro,24,40.31,Right-size
+2026-09-22,Azure,europe-west3,Compute,Premium_LRS,720,2.96,Right-size
+2026-10-27,GCP,ap-south-1,Compute,Premium_LRS,12,45.17,Delete Unattached
+2026-09-23,Azure,ap-south-1,Compute,t3.micro,12,26.06,Upgrade
+2026-09-20,GCP,europe-west3,Storage,Premium_LRS,24,38.62,None
+2026-10-05,AWS,us-east-1,Database,Premium_LRS,12,14.66,None
+2026-09-20,GCP,europe-west3,Cache,e2-medium,24,30.77,Scale Down
+2026-10-03,GCP,ap-south-1,Storage,Premium_LRS,12,45.85,Right-size
+2026-09-23,AWS,us-east-1,Cache,Premium_LRS,24,2.55,Right-size
+2026-09-06,Azure,ap-south-1,Compute,t3.micro,24,21.45,Right-size
+2026-10-28,AWS,us-east-1,Storage,rds.m5.large,24,41.23,Delete Unattached
+2026-10-17,Azure,us-west-2,Compute,t3.micro,720,1.29,Delete Unattached
+2026-09-01,AWS,us-east-1,Cache,Premium_LRS,12,35.51,Upgrade
+2026-09-10,GCP,us-east-1,Cache,e2-medium,720,23.7,Scale Down
+2026-10-15,GCP,ap-south-1,Compute,c5.xlarge,12,20.33,None
+2026-09-30,Azure,us-west-2,Compute,e2-medium,12,10.27,Right-size
+2026-09-02,AWS,europe-west3,Storage,c5.xlarge,24,35.15,Scale Down
+2026-09-20,GCP,ap-south-1,Database,rds.m5.large,720,34.66,Upgrade
+2026-09-17,Azure,europe-west3,Cache,Premium_LRS,12,15.69,Scale Down
+2026-10-24,AWS,europe-west3,Storage,c5.xlarge,720,20.68,Upgrade
+2026-10-13,GCP,us-west-2,Cache,c5.xlarge,24,16.91,None
+2026-09-18,Azure,us-west-2,Storage,Premium_LRS,720,36.09,Scale Down
+2026-10-18,AWS,us-west-2,Database,e2-medium,12,35.43,Scale Down
+2026-09-21,AWS,ap-south-1,Compute,e2-medium,720,18.31,Scale Down
+2026-09-23,Azure,us-west-2,Database,t3.micro,24,3.96,Scale Down
+2026-09-16,Azure,europe-west3,Storage,Premium_LRS,24,19.3,None
+2026-10-04,Azure,us-west-2,Compute,t3.micro,12,36.66,Right-size
+2026-09-21,AWS,europe-west3,Cache,e2-medium,12,28.07,None
+2026-10-26,AWS,us-east-1,Compute,Premium_LRS,720,21.01,None
+2026-10-31,GCP,us-east-1,Cache,e2-medium,12,12.4,None
+2026-09-10,Azure,ap-south-1,Cache,Premium_LRS,720,26.7,Upgrade
+2026-10-24,Azure,us-west-2,Storage,c5.xlarge,24,34.82,None
+2026-10-06,AWS,ap-south-1,Cache,Premium_LRS,24,30.67,None
+2026-10-17,AWS,us-east-1,Compute,e2-medium,12,4.81,None
+2026-09-10,Azure,europe-west3,Compute,Premium_LRS,24,6.09,Delete Unattached
+2026-10-23,Azure,us-east-1,Storage,e2-medium,720,32.29,Upgrade
+2026-09-10,Azure,ap-south-1,Database,t3.micro,24,32.92,Delete Unattached
+2026-09-05,GCP,ap-south-1,Storage,rds.m5.large,12,28.48,Delete Unattached
+2026-10-29,AWS,europe-west3,Storage,rds.m5.large,720,5.11,None
+2026-10-25,GCP,europe-west3,Database,rds.m5.large,24,14.35,Scale Down
+2026-10-07,Azure,us-east-1,Storage,Premium_LRS,24,43.88,Right-size
+2026-09-22,GCP,ap-south-1,Database,rds.m5.large,24,39.07,Upgrade
+2026-10-31,GCP,us-east-1,Database,t3.micro,720,45.78,Upgrade
+2026-09-09,Azure,ap-south-1,Cache,Premium_LRS,24,47.56,Scale Down
+2026-09-07,GCP,ap-south-1,Storage,Premium_LRS,24,33.53,Right-size
+2026-09-04,GCP,us-east-1,Database,e2-medium,24,33.82,Scale Down
+2026-09-04,AWS,us-east-1,Cache,rds.m5.large,24,11.11,Scale Down
+2026-09-21,GCP,europe-west3,Storage,Premium_LRS,720,6.13,Upgrade
+2026-09-14,Azure,ap-south-1,Storage,e2-medium,12,48.53,Right-size
+2026-10-09,GCP,ap-south-1,Database,e2-medium,24,47.49,Right-size
+2026-10-17,AWS,europe-west3,Database,c5.xlarge,12,29.36,Upgrade
+2026-09-20,AWS,europe-west3,Cache,c5.xlarge,720,8.02,Delete Unattached
+2026-09-16,AWS,us-west-2,Database,Premium_LRS,12,40.01,Upgrade
+2026-10-19,AWS,us-west-2,Cache,rds.m5.large,24,7.44,Upgrade
+2026-09-28,GCP,ap-south-1,Cache,Premium_LRS,12,46.33,Delete Unattached
+2026-10-19,AWS,ap-south-1,Compute,t3.micro,24,41.69,Right-size
+2026-10-26,GCP,us-east-1,Database,rds.m5.large,12,21.16,Upgrade
+2026-09-04,AWS,ap-south-1,Database,c5.xlarge,24,38.89,None
+2026-10-17,Azure,us-east-1,Compute,e2-medium,12,44.77,None
+2026-09-18,GCP,ap-south-1,Cache,rds.m5.large,24,25.69,Right-size
+2026-09-18,Azure,europe-west3,Compute,t3.micro,12,36.64,Right-size
+2026-10-21,AWS,ap-south-1,Compute,c5.xlarge,720,28.21,Upgrade
+2026-10-03,GCP,us-east-1,Cache,e2-medium,24,42.29,Upgrade
+2026-09-08,Azure,us-west-2,Cache,c5.xlarge,720,43.79,Right-size
+2026-10-04,AWS,us-west-2,Compute,e2-medium,12,18.82,Scale Down
+2026-09-15,GCP,europe-west3,Storage,rds.m5.large,24,38.25,Upgrade
+2026-09-11,Azure,us-east-1,Storage,Premium_LRS,12,28.1,Upgrade
+2026-09-09,AWS,us-west-2,Compute,c5.xlarge,12,47.98,Right-size
+2026-09-20,Azure,us-east-1,Compute,Premium_LRS,12,5.09,Upgrade
+2026-10-02,GCP,ap-south-1,Cache,Premium_LRS,24,20.86,Scale Down
+2026-10-20,GCP,ap-south-1,Cache,rds.m5.large,720,30.55,Scale Down
+2026-10-01,GCP,ap-south-1,Database,e2-medium,720,11.02,Upgrade
+2026-10-27,Azure,ap-south-1,Compute,c5.xlarge,720,19.5,Right-size
+2026-09-20,GCP,us-east-1,Storage,e2-medium,24,30.75,Right-size
+2026-10-09,Azure,us-west-2,Storage,e2-medium,24,41.48,Right-size
+2026-10-17,AWS,europe-west3,Database,t3.micro,24,29.68,Upgrade
+2026-09-23,GCP,ap-south-1,Compute,c5.xlarge,720,18.04,Right-size
+2026-10-08,GCP,us-east-1,Storage,rds.m5.large,24,17.99,Upgrade
+2026-10-19,GCP,ap-south-1,Compute,Premium_LRS,24,1.92,Delete Unattached
+2026-09-18,AWS,ap-south-1,Database,Premium_LRS,720,10.0,Scale Down
+2026-10-08,Azure,europe-west3,Cache,c5.xlarge,24,9.48,None
+2026-10-25,AWS,us-east-1,Database,t3.micro,720,29.19,Delete Unattached
+2026-10-14,AWS,europe-west3,Cache,Premium_LRS,720,13.57,Right-size
+2026-09-21,GCP,us-west-2,Storage,rds.m5.large,720,23.92,Upgrade
+2026-09-16,AWS,us-east-1,Cache,rds.m5.large,12,21.39,Right-size
+2026-09-23,Azure,europe-west3,Cache,c5.xlarge,720,28.48,Upgrade
+2026-09-29,Azure,us-west-2,Compute,e2-medium,24,47.76,None
+2026-09-22,Azure,us-west-2,Storage,t3.micro,24,13.59,Scale Down
+2026-10-14,AWS,europe-west3,Storage,t3.micro,720,4.78,Delete Unattached
+2026-09-21,Azure,ap-south-1,Compute,e2-medium,720,46.32,Delete Unattached
+2026-10-13,AWS,ap-south-1,Storage,c5.xlarge,24,40.41,Upgrade
+2026-10-07,AWS,us-east-1,Cache,rds.m5.large,12,33.55,Upgrade
+2026-09-26,Azure,ap-south-1,Database,rds.m5.large,24,33.34,Scale Down
+2026-09-18,GCP,us-west-2,Cache,Premium_LRS,720,33.85,Scale Down
+2026-09-04,Azure,us-east-1,Cache,rds.m5.large,24,21.42,Right-size
+2026-09-01,GCP,ap-south-1,Cache,t3.micro,720,47.92,Delete Unattached
+2026-09-17,GCP,europe-west3,Cache,c5.xlarge,12,32.21,Delete Unattached
+2026-10-03,Azure,us-east-1,Compute,c5.xlarge,12,30.73,Upgrade
+2026-09-29,AWS,ap-south-1,Database,e2-medium,12,48.93,Delete Unattached
+2026-09-19,GCP,ap-south-1,Cache,c5.xlarge,24,24.4,Upgrade
+2026-09-30,Azure,us-west-2,Storage,c5.xlarge,12,43.07,Scale Down
+2026-10-08,GCP,us-east-1,Database,e2-medium,24,48.26,None
+2026-10-22,AWS,ap-south-1,Compute,Premium_LRS,720,49.79,Right-size
+2026-10-02,AWS,ap-south-1,Compute,Premium_LRS,24,49.08,Upgrade
+2026-09-02,Azure,ap-south-1,Storage,c5.xlarge,720,16.6,Scale Down
+2026-10-26,Azure,us-west-2,Cache,Premium_LRS,720,47.13,Delete Unattached
+2026-10-31,AWS,europe-west3,Compute,c5.xlarge,12,27.77,None
+2026-10-17,GCP,europe-west3,Storage,c5.xlarge,720,2.92,Delete Unattached
+2026-10-20,GCP,ap-south-1,Cache,Premium_LRS,24,29.11,Right-size
+2026-10-05,Azure,ap-south-1,Database,c5.xlarge,720,16.79,None
+2026-10-01,Azure,europe-west3,Database,e2-medium,12,33.87,None
+2026-10-18,AWS,us-east-1,Cache,c5.xlarge,24,49.46,Right-size
+2026-10-12,GCP,europe-west3,Database,c5.xlarge,12,16.96,Upgrade
+2026-10-26,AWS,europe-west3,Compute,e2-medium,720,34.62,None
+2026-09-12,GCP,europe-west3,Cache,rds.m5.large,720,46.45,Scale Down
+2026-09-22,AWS,us-west-2,Cache,e2-medium,24,42.17,Upgrade
+2026-09-11,AWS,us-east-1,Compute,t3.micro,720,18.18,None
+2026-10-11,Azure,ap-south-1,Database,Premium_LRS,24,17.03,Right-size
+2026-09-13,AWS,us-east-1,Cache,e2-medium,24,22.33,Right-size
+2026-09-11,GCP,us-east-1,Database,c5.xlarge,720,10.79,None
+2026-09-28,AWS,us-east-1,Cache,c5.xlarge,720,37.98,Upgrade
+2026-10-19,GCP,us-west-2,Cache,e2-medium,12,25.6,None
+2026-10-21,Azure,ap-south-1,Compute,c5.xlarge,12,28.61,Scale Down
+2026-10-29,GCP,us-east-1,Storage,Premium_LRS,12,26.84,None
+2026-09-03,GCP,europe-west3,Database,Premium_LRS,24,19.86,None
+2026-09-10,GCP,europe-west3,Database,e2-medium,720,33.66,None
+2026-10-30,Azure,europe-west3,Cache,c5.xlarge,24,42.27,Upgrade
+2026-10-04,GCP,us-east-1,Storage,c5.xlarge,24,6.73,Scale Down
+2026-09-08,GCP,us-east-1,Storage,Premium_LRS,12,35.36,Right-size
+2026-09-09,Azure,us-east-1,Compute,c5.xlarge,720,10.97,Delete Unattached
+2026-09-12,Azure,us-west-2,Database,Premium_LRS,12,24.18,Delete Unattached
+2026-10-25,GCP,ap-south-1,Cache,rds.m5.large,12,19.29,Scale Down
+2026-10-30,Azure,europe-west3,Compute,t3.micro,24,4.9,Delete Unattached
+2026-10-14,GCP,us-east-1,Compute,t3.micro,24,12.81,Right-size
+2026-10-09,Azure,ap-south-1,Database,e2-medium,24,4.11,Right-size
+2026-09-08,Azure,us-east-1,Compute,e2-medium,24,22.83,Right-size
+2026-09-02,AWS,ap-south-1,Storage,t3.micro,720,2.42,Delete Unattached
+2026-10-22,Azure,europe-west3,Cache,t3.micro,12,10.31,Right-size
+2026-09-04,Azure,ap-south-1,Database,rds.m5.large,12,33.82,None
+2026-10-06,GCP,us-east-1,Storage,t3.micro,24,46.7,Right-size
+2026-09-28,GCP,us-west-2,Database,e2-medium,12,13.22,Right-size
+2026-10-11,Azure,us-east-1,Database,e2-medium,720,18.86,Right-size
+2026-10-16,Azure,us-west-2,Cache,c5.xlarge,720,33.3,Scale Down
+2026-09-06,AWS,us-west-2,Storage,t3.micro,12,2.98,Scale Down
+2026-09-11,AWS,us-east-1,Storage,Premium_LRS,720,24.87,Right-size
+2026-09-27,Azure,ap-south-1,Database,t3.micro,12,45.47,Scale Down
+2026-10-18,AWS,us-west-2,Storage,e2-medium,720,5.15,None
+2026-10-24,AWS,europe-west3,Compute,e2-medium,720,46.55,Scale Down
+2026-09-05,AWS,us-east-1,Storage,t3.micro,24,21.74,Right-size
+2026-10-23,Azure,us-east-1,Storage,c5.xlarge,720,18.27,Upgrade
+2026-09-18,AWS,us-east-1,Database,c5.xlarge,24,21.48,Right-size
+2026-10-11,AWS,us-east-1,Cache,c5.xlarge,12,22.73,None
+2026-10-03,GCP,us-east-1,Database,rds.m5.large,12,30.12,None
+2026-10-31,Azure,europe-west3,Compute,c5.xlarge,12,1.64,Delete Unattached
+2026-10-15,AWS,us-east-1,Cache,Premium_LRS,12,30.24,Upgrade
+2026-10-28,Azure,europe-west3,Database,Premium_LRS,24,47.06,Scale Down
+2026-10-05,Azure,ap-south-1,Compute,t3.micro,12,12.06,Delete Unattached
+2026-10-19,Azure,ap-south-1,Storage,c5.xlarge,720,6.99,Right-size
+2026-10-20,AWS,us-east-1,Compute,rds.m5.large,24,44.14,Scale Down
+2026-09-13,Azure,ap-south-1,Compute,rds.m5.large,720,25.4,Right-size
+2026-09-26,GCP,us-west-2,Cache,t3.micro,12,19.36,Right-size
+2026-10-30,GCP,europe-west3,Storage,c5.xlarge,24,2.51,Scale Down
+2026-10-25,Azure,ap-south-1,Database,rds.m5.large,24,29.95,Scale Down
+2026-10-26,AWS,us-west-2,Storage,Premium_LRS,24,21.37,None
+2026-10-20,GCP,us-west-2,Storage,e2-medium,12,31.47,Delete Unattached
+2026-10-27,GCP,europe-west3,Storage,e2-medium,12,14.17,Scale Down
+2026-09-07,AWS,ap-south-1,Storage,e2-medium,24,21.37,Scale Down
+2026-10-02,AWS,us-west-2,Database,t3.micro,720,30.2,Upgrade
+2026-10-20,Azure,europe-west3,Storage,Premium_LRS,12,36.29,Delete Unattached
+2026-09-08,Azure,ap-south-1,Storage,e2-medium,24,7.1,None
+2026-10-14,AWS,europe-west3,Database,Premium_LRS,12,37.97,None
+2026-09-21,Azure,us-west-2,Database,rds.m5.large,24,6.29,Right-size
+2026-09-10,AWS,europe-west3,Cache,rds.m5.large,12,9.6,Delete Unattached
+2026-09-20,AWS,ap-south-1,Cache,Premium_LRS,12,12.57,Right-size
+2026-09-09,Azure,ap-south-1,Database,e2-medium,12,32.64,Delete Unattached
+2026-10-17,GCP,ap-south-1,Database,e2-medium,24,37.69,None
+2026-09-26,Azure,us-east-1,Cache,t3.micro,720,3.98,Delete Unattached
+2026-09-07,GCP,ap-south-1,Database,c5.xlarge,24,33.22,Upgrade
+2026-10-04,GCP,us-east-1,Storage,c5.xlarge,720,43.4,None
+2026-09-01,GCP,us-east-1,Database,e2-medium,720,34.36,Upgrade
+2026-09-21,GCP,europe-west3,Storage,c5.xlarge,12,9.74,Scale Down
+2026-10-10,AWS,us-east-1,Storage,c5.xlarge,720,0.54,Delete Unattached
+2026-10-05,GCP,europe-west3,Storage,Premium_LRS,720,11.52,Delete Unattached
+2026-10-02,Azure,ap-south-1,Database,c5.xlarge,720,36.86,Scale Down
+2026-10-03,AWS,europe-west3,Database,rds.m5.large,24,43.84,Right-size
+2026-10-27,GCP,ap-south-1,Cache,e2-medium,24,49.75,Scale Down
+2026-09-21,GCP,europe-west3,Cache,Premium_LRS,12,24.2,Right-size
+2026-09-19,Azure,europe-west3,Cache,rds.m5.large,24,29.48,None
+2026-09-25,Azure,europe-west3,Database,Premium_LRS,720,45.29,Right-size
+2026-09-23,GCP,ap-south-1,Compute,t3.micro,24,40.37,Upgrade
+2026-10-08,AWS,ap-south-1,Database,Premium_LRS,12,26.06,Right-size
+2026-09-01,GCP,us-west-2,Cache,rds.m5.large,24,43.11,Delete Unattached
+2026-10-10,GCP,ap-south-1,Database,c5.xlarge,720,13.62,None
+2026-10-12,AWS,us-east-1,Compute,t3.micro,720,38.08,Scale Down
+2026-09-20,AWS,europe-west3,Database,e2-medium,720,8.96,Upgrade
+2026-10-22,AWS,europe-west3,Database,Premium_LRS,12,42.12,None
+2026-09-08,GCP,us-west-2,Compute,t3.micro,24,32.57,Delete Unattached
+2026-10-07,GCP,ap-south-1,Database,c5.xlarge,720,2.08,Scale Down
+2026-10-19,AWS,europe-west3,Cache,t3.micro,12,38.52,Upgrade
+2026-09-07,AWS,us-east-1,Compute,c5.xlarge,720,13.59,Right-size
+2026-09-20,AWS,us-west-2,Storage,rds.m5.large,720,26.19,Right-size
+2026-09-05,AWS,us-west-2,Database,Premium_LRS,24,14.73,Right-size
+2026-10-26,Azure,europe-west3,Storage,e2-medium,720,22.14,None
+2026-09-15,Azure,ap-south-1,Cache,e2-medium,12,25.96,None
+2026-09-08,AWS,europe-west3,Cache,rds.m5.large,12,37.29,None
+2026-09-06,GCP,ap-south-1,Database,c5.xlarge,24,1.54,Upgrade
+2026-09-12,GCP,us-west-2,Compute,t3.micro,720,13.87,None
+2026-09-11,GCP,europe-west3,Compute,c5.xlarge,24,35.68,Delete Unattached
+2026-09-06,Azure,us-west-2,Database,c5.xlarge,720,48.02,Delete Unattached
+2026-09-28,AWS,ap-south-1,Compute,rds.m5.large,12,35.85,Scale Down
+2026-09-20,Azure,ap-south-1,Database,c5.xlarge,12,25.63,Delete Unattached
+2026-09-07,Azure,us-west-2,Compute,Premium_LRS,12,32.15,Scale Down
+2026-09-26,GCP,us-east-1,Compute,c5.xlarge,12,34.56,Right-size
+2026-10-31,AWS,us-east-1,Database,rds.m5.large,720,44.19,Right-size
+2026-10-20,AWS,ap-south-1,Database,Premium_LRS,720,10.91,Upgrade
+2026-09-13,AWS,ap-south-1,Storage,c5.xlarge,12,45.0,Right-size
+2026-10-29,Azure,ap-south-1,Cache,Premium_LRS,720,2.06,Delete Unattached
+2026-09-02,Azure,europe-west3,Database,e2-medium,24,40.54,None
+2026-10-24,AWS,us-east-1,Cache,e2-medium,24,34.2,Upgrade
+2026-10-01,GCP,us-east-1,Database,t3.micro,12,33.89,Scale Down
+2026-09-01,Azure,ap-south-1,Storage,Premium_LRS,12,7.37,Delete Unattached
+2026-09-11,Azure,europe-west3,Database,c5.xlarge,720,12.02,None
+2026-10-26,Azure,us-east-1,Cache,e2-medium,24,49.31,None
+2026-10-30,AWS,ap-south-1,Cache,e2-medium,12,2.04,None
+2026-09-17,AWS,us-west-2,Compute,c5.xlarge,12,5.12,Scale Down
+2026-10-19,Azure,ap-south-1,Compute,Premium_LRS,12,10.21,Scale Down
+2026-10-29,AWS,us-west-2,Cache,e2-medium,24,25.54,Delete Unattached
+2026-10-28,Azure,ap-south-1,Cache,t3.micro,24,48.77,Scale Down
+2026-09-29,GCP,europe-west3,Database,t3.micro,24,44.64,Upgrade
+2026-09-19,GCP,ap-south-1,Compute,Premium_LRS,12,41.6,None
+2026-10-14,AWS,ap-south-1,Storage,c5.xlarge,12,10.84,Right-size
+2026-09-28,Azure,europe-west3,Compute,Premium_LRS,720,49.74,Right-size
+2026-10-14,AWS,us-west-2,Database,rds.m5.large,12,42.27,Right-size
+2026-10-11,AWS,ap-south-1,Compute,t3.micro,12,48.86,None
+2026-09-02,GCP,us-east-1,Cache,t3.micro,24,10.31,None
+2026-09-22,AWS,us-east-1,Cache,e2-medium,720,42.04,Upgrade
+2026-10-06,GCP,europe-west3,Compute,t3.micro,12,12.91,None
+2026-09-20,Azure,us-west-2,Cache,rds.m5.large,720,9.44,None
+2026-09-25,AWS,ap-south-1,Cache,rds.m5.large,24,23.69,Right-size
+2026-09-21,GCP,us-east-1,Cache,e2-medium,12,47.79,Delete Unattached
+2026-09-25,AWS,ap-south-1,Storage,rds.m5.large,720,40.75,Scale Down
+2026-10-06,Azure,us-east-1,Storage,c5.xlarge,24,17.55,Scale Down
+2026-10-31,GCP,us-west-2,Database,Premium_LRS,24,25.11,Right-size
+2026-09-01,GCP,europe-west3,Database,rds.m5.large,720,7.58,Upgrade
+2026-10-01,AWS,ap-south-1,Cache,c5.xlarge,720,46.51,Upgrade
+2026-09-07,Azure,us-west-2,Storage,Premium_LRS,24,22.11,Scale Down
+2026-09-16,Azure,us-east-1,Cache,c5.xlarge,12,48.66,Delete Unattached
+2026-10-11,GCP,us-west-2,Cache,e2-medium,12,24.87,Right-size
+2026-10-22,AWS,europe-west3,Storage,t3.micro,720,28.08,Right-size
+2026-09-18,GCP,us-west-2,Storage,c5.xlarge,12,8.69,Scale Down
+2026-10-04,Azure,ap-south-1,Database,rds.m5.large,720,39.7,None
+2026-10-25,GCP,us-east-1,Compute,c5.xlarge,24,7.58,Delete Unattached
+2026-09-11,Azure,us-east-1,Storage,c5.xlarge,12,23.81,Scale Down
+2026-09-05,AWS,europe-west3,Storage,t3.micro,12,16.6,Scale Down
+2026-09-05,Azure,ap-south-1,Compute,c5.xlarge,12,24.37,Right-size
+2026-10-02,GCP,europe-west3,Compute,Premium_LRS,12,42.16,Right-size
+2026-09-30,Azure,us-west-2,Cache,c5.xlarge,720,17.31,None
+2026-09-26,GCP,us-east-1,Database,Premium_LRS,24,45.42,Right-size
+2026-10-22,AWS,europe-west3,Cache,Premium_LRS,720,34.24,Delete Unattached
+2026-09-25,AWS,europe-west3,Compute,c5.xlarge,720,30.8,Delete Unattached
+2026-09-18,GCP,europe-west3,Storage,rds.m5.large,24,27.91,Upgrade
+2026-09-09,GCP,europe-west3,Compute,e2-medium,24,33.86,Right-size
+2026-09-27,GCP,us-west-2,Database,e2-medium,720,41.19,Delete Unattached
+2026-10-20,GCP,europe-west3,Cache,c5.xlarge,12,31.81,None
+2026-10-29,Azure,europe-west3,Database,t3.micro,720,4.11,None
+2026-09-30,GCP,europe-west3,Cache,e2-medium,12,33.81,Scale Down
+2026-09-02,Azure,europe-west3,Storage,c5.xlarge,12,8.26,Scale Down
+2026-09-29,AWS,us-east-1,Compute,c5.xlarge,720,4.24,Right-size
+2026-09-15,GCP,us-east-1,Cache,rds.m5.large,720,1.14,Scale Down
+2026-09-07,GCP,us-east-1,Database,e2-medium,720,36.95,Right-size
+2026-10-05,Azure,ap-south-1,Compute,rds.m5.large,12,27.9,Delete Unattached
+2026-09-04,AWS,us-west-2,Database,Premium_LRS,24,38.41,Upgrade
+2026-10-16,GCP,ap-south-1,Database,Premium_LRS,12,20.6,Upgrade
+2026-09-24,AWS,ap-south-1,Compute,Premium_LRS,24,16.73,Right-size
+2026-10-31,Azure,europe-west3,Database,Premium_LRS,12,33.6,Scale Down
+2026-10-02,AWS,us-west-2,Storage,c5.xlarge,24,43.24,Delete Unattached
+2026-09-08,Azure,us-west-2,Database,rds.m5.large,720,3.5,Scale Down
+2026-10-15,Azure,us-west-2,Compute,t3.micro,12,3.81,Scale Down
+2026-10-30,GCP,europe-west3,Cache,rds.m5.large,12,15.41,Delete Unattached
+2026-09-19,Azure,us-west-2,Compute,e2-medium,24,30.31,Delete Unattached
+2026-10-28,AWS,us-west-2,Cache,c5.xlarge,24,29.82,Right-size
+2026-09-03,AWS,us-west-2,Compute,t3.micro,720,39.78,Delete Unattached
+2026-10-23,AWS,us-east-1,Storage,e2-medium,24,47.39,Scale Down
+2026-09-18,Azure,us-east-1,Storage,Premium_LRS,12,39.7,Scale Down
+2026-10-17,AWS,us-east-1,Database,c5.xlarge,720,48.88,None
+2026-09-20,Azure,europe-west3,Storage,rds.m5.large,12,46.18,Upgrade
+2026-10-30,GCP,ap-south-1,Storage,c5.xlarge,12,16.98,Right-size
+2026-09-18,AWS,europe-west3,Storage,t3.micro,24,7.19,Scale Down
+2026-09-21,AWS,us-west-2,Compute,t3.micro,720,37.46,Delete Unattached
+2026-10-07,GCP,us-east-1,Storage,rds.m5.large,24,21.45,Delete Unattached
+2026-10-13,AWS,us-east-1,Cache,c5.xlarge,12,32.73,Delete Unattached
+2026-09-06,AWS,us-west-2,Compute,rds.m5.large,24,26.24,Upgrade
+2026-10-06,GCP,europe-west3,Compute,e2-medium,720,32.3,None
+2026-10-09,GCP,us-east-1,Compute,c5.xlarge,24,49.21,Upgrade
+2026-10-28,Azure,ap-south-1,Database,t3.micro,12,16.44,None
+2026-10-30,Azure,us-west-2,Storage,rds.m5.large,24,49.13,None
+2026-10-18,Azure,europe-west3,Compute,c5.xlarge,720,18.78,None
+2026-10-12,GCP,us-west-2,Cache,Premium_LRS,720,1.05,Scale Down
+2026-10-01,Azure,us-west-2,Database,c5.xlarge,12,16.74,Scale Down
+2026-10-30,Azure,us-east-1,Cache,c5.xlarge,720,1.5,Scale Down
+2026-09-20,AWS,europe-west3,Compute,e2-medium,24,49.95,Delete Unattached
+2026-10-13,AWS,us-west-2,Compute,Premium_LRS,12,7.17,Upgrade
+2026-09-29,GCP,us-west-2,Storage,c5.xlarge,24,27.28,None
+2026-10-12,AWS,europe-west3,Storage,e2-medium,24,23.17,Upgrade
+2026-09-24,GCP,us-east-1,Compute,t3.micro,24,22.39,Upgrade
+2026-10-24,AWS,europe-west3,Cache,rds.m5.large,24,6.42,Delete Unattached
+2026-10-10,Azure,us-east-1,Compute,c5.xlarge,12,44.29,Scale Down
+2026-10-23,AWS,ap-south-1,Storage,t3.micro,720,45.65,Upgrade
+2026-10-05,GCP,ap-south-1,Database,rds.m5.large,24,39.32,Upgrade
+2026-09-15,Azure,us-east-1,Compute,Premium_LRS,12,45.65,Scale Down
+2026-10-09,AWS,us-west-2,Cache,rds.m5.large,720,6.47,Scale Down
+2026-10-30,GCP,ap-south-1,Storage,c5.xlarge,24,33.11,None
+2026-09-15,GCP,us-west-2,Storage,rds.m5.large,12,1.28,Upgrade
+2026-10-10,AWS,europe-west3,Database,Premium_LRS,720,3.76,None
+2026-09-04,Azure,us-west-2,Compute,Premium_LRS,24,1.59,Scale Down
+2026-10-23,GCP,europe-west3,Database,c5.xlarge,24,6.65,Delete Unattached
+2026-10-04,AWS,us-east-1,Compute,e2-medium,24,48.45,None
+2026-09-02,AWS,ap-south-1,Compute,Premium_LRS,24,17.33,Delete Unattached
+2026-10-19,GCP,us-west-2,Storage,e2-medium,24,19.54,Right-size
+2026-10-15,AWS,ap-south-1,Database,e2-medium,24,15.79,Delete Unattached
+2026-10-31,GCP,europe-west3,Storage,Premium_LRS,720,9.32,None
+2026-10-08,AWS,us-west-2,Storage,t3.micro,24,32.52,Upgrade
+2026-10-31,GCP,us-west-2,Cache,t3.micro,12,28.81,Upgrade
+2026-09-02,AWS,europe-west3,Cache,rds.m5.large,24,9.22,Delete Unattached
+2026-09-04,AWS,us-east-1,Compute,t3.micro,720,13.23,Right-size
+2026-09-01,AWS,us-west-2,Storage,e2-medium,12,12.52,Delete Unattached
+2026-09-27,AWS,us-west-2,Database,Premium_LRS,720,5.38,Upgrade
+2026-09-13,AWS,us-west-2,Cache,e2-medium,24,16.7,Right-size
+2026-09-06,AWS,us-west-2,Cache,c5.xlarge,720,3.36,Right-size
+2026-10-23,GCP,europe-west3,Database,e2-medium,24,22.09,Upgrade
+2026-09-16,GCP,us-west-2,Compute,rds.m5.large,12,2.62,None
+2026-09-16,AWS,europe-west3,Cache,Premium_LRS,12,25.73,Right-size
+2026-09-13,GCP,europe-west3,Database,c5.xlarge,12,23.93,Scale Down
+2026-10-25,AWS,europe-west3,Database,t3.micro,720,37.17,Right-size
+2026-10-13,GCP,europe-west3,Database,t3.micro,12,18.12,None
+2026-10-20,Azure,us-east-1,Cache,t3.micro,12,10.86,Delete Unattached
+2026-10-23,AWS,us-west-2,Storage,rds.m5.large,12,29.99,None
+2026-10-10,AWS,ap-south-1,Compute,c5.xlarge,24,5.82,None
+2026-09-15,AWS,ap-south-1,Cache,e2-medium,24,35.14,Right-size
+2026-10-09,Azure,us-east-1,Storage,t3.micro,720,42.95,Upgrade
+2026-09-25,GCP,ap-south-1,Cache,c5.xlarge,720,34.38,Right-size
+2026-09-03,AWS,ap-south-1,Compute,rds.m5.large,720,42.26,Scale Down
+2026-10-29,AWS,europe-west3,Storage,t3.micro,24,1.15,None
+2026-09-03,Azure,ap-south-1,Database,t3.micro,720,21.54,Delete Unattached
+2026-10-19,Azure,us-east-1,Cache,Premium_LRS,12,28.88,None
+2026-09-25,Azure,us-west-2,Database,c5.xlarge,720,48.07,None
+2026-10-29,AWS,ap-south-1,Cache,t3.micro,12,12.81,Upgrade
+2026-10-09,Azure,ap-south-1,Database,rds.m5.large,24,10.16,Delete Unattached
+2026-09-29,GCP,europe-west3,Storage,c5.xlarge,24,40.77,Right-size
+2026-09-09,AWS,europe-west3,Compute,t3.micro,720,40.29,None
+2026-10-18,AWS,us-west-2,Cache,Premium_LRS,24,40.88,Right-size
+2026-09-10,GCP,ap-south-1,Storage,c5.xlarge,12,30.57,Upgrade
+2026-10-25,AWS,us-east-1,Compute,t3.micro,24,25.4,None
+2026-09-30,AWS,europe-west3,Cache,t3.micro,24,24.58,None
+2026-09-17,Azure,us-east-1,Database,e2-medium,24,48.79,Upgrade
+2026-10-09,GCP,us-east-1,Compute,rds.m5.large,720,19.9,Scale Down
+2026-10-17,GCP,europe-west3,Storage,Premium_LRS,24,49.81,None
+2026-10-23,GCP,europe-west3,Storage,rds.m5.large,720,32.64,None
+2026-10-13,Azure,europe-west3,Compute,e2-medium,24,1.93,None
+2026-09-02,Azure,us-west-2,Database,t3.micro,12,37.51,Right-size
+2026-09-14,AWS,ap-south-1,Compute,c5.xlarge,12,1.11,Upgrade
+2026-09-19,Azure,europe-west3,Database,t3.micro,12,3.37,Scale Down
+2026-09-04,Azure,europe-west3,Compute,e2-medium,24,6.57,Right-size
+2026-09-14,AWS,us-east-1,Storage,rds.m5.large,720,27.83,Upgrade
+2026-09-26,Azure,us-west-2,Cache,rds.m5.large,720,35.95,None
+2026-10-28,AWS,europe-west3,Cache,e2-medium,24,0.84,Scale Down
+2026-09-29,GCP,ap-south-1,Database,e2-medium,24,33.13,Upgrade
+2026-10-08,Azure,us-west-2,Cache,rds.m5.large,12,12.71,Right-size
+2026-09-19,Azure,ap-south-1,Compute,e2-medium,12,39.34,Upgrade
+2026-09-29,Azure,europe-west3,Compute,Premium_LRS,720,47.86,Right-size
+2026-09-16,AWS,us-west-2,Compute,rds.m5.large,12,43.08,None
+2026-09-17,Azure,us-east-1,Cache,Premium_LRS,720,13.95,Delete Unattached
+2026-09-09,Azure,europe-west3,Cache,rds.m5.large,24,27.28,Scale Down
+2026-09-17,GCP,ap-south-1,Storage,c5.xlarge,720,10.89,Right-size
+2026-09-29,Azure,us-west-2,Compute,Premium_LRS,720,24.79,Delete Unattached
+2026-09-27,AWS,europe-west3,Database,rds.m5.large,24,17.14,Scale Down
+2026-09-11,GCP,europe-west3,Database,t3.micro,720,8.97,Scale Down
+2026-09-08,Azure,us-east-1,Cache,Premium_LRS,12,7.02,Scale Down
+2026-10-28,Azure,us-west-2,Cache,c5.xlarge,12,43.13,Scale Down
+2026-10-31,Azure,us-west-2,Cache,rds.m5.large,12,25.7,Right-size
+2026-09-07,GCP,us-west-2,Database,c5.xlarge,720,18.0,Scale Down
+2026-09-19,Azure,ap-south-1,Cache,Premium_LRS,720,1.54,None
+2026-10-18,Azure,europe-west3,Compute,Premium_LRS,12,17.5,Upgrade
+2026-10-10,Azure,ap-south-1,Compute,rds.m5.large,12,16.72,Upgrade
+2026-09-29,AWS,us-east-1,Database,c5.xlarge,720,34.85,Scale Down
+2026-09-22,GCP,us-west-2,Compute,t3.micro,24,19.75,Scale Down
+2026-10-22,Azure,us-east-1,Compute,t3.micro,720,33.92,None
+2026-10-26,Azure,europe-west3,Compute,c5.xlarge,12,19.38,Delete Unattached
+2026-10-17,GCP,us-east-1,Compute,rds.m5.large,24,46.97,Scale Down
+2026-09-23,Azure,us-east-1,Compute,Premium_LRS,12,31.87,Delete Unattached
+2026-10-12,AWS,us-east-1,Cache,Premium_LRS,24,29.9,Upgrade
+2026-10-16,Azure,us-east-1,Database,e2-medium,24,48.47,Scale Down
+2026-10-11,Azure,us-east-1,Cache,Premium_LRS,720,21.78,Delete Unattached
+2026-09-30,Azure,us-west-2,Compute,t3.micro,720,14.37,Right-size
+2026-10-31,Azure,europe-west3,Database,e2-medium,24,38.22,Upgrade
+2026-10-01,AWS,europe-west3,Storage,t3.micro,24,48.93,None
+2026-10-11,AWS,ap-south-1,Cache,Premium_LRS,12,43.39,Upgrade
+2026-09-15,Azure,europe-west3,Cache,Premium_LRS,12,12.81,Scale Down
+2026-10-12,Azure,us-east-1,Database,e2-medium,12,8.16,Upgrade
+2026-09-04,AWS,ap-south-1,Database,Premium_LRS,12,27.13,Right-size
+2026-10-06,GCP,ap-south-1,Storage,e2-medium,720,21.85,Right-size
+2026-09-16,GCP,us-west-2,Compute,c5.xlarge,12,25.48,Right-size
+2026-09-12,AWS,ap-south-1,Compute,e2-medium,12,27.43,Scale Down
+2026-10-05,GCP,ap-south-1,Database,rds.m5.large,24,33.85,Upgrade
+2026-09-27,GCP,us-east-1,Storage,rds.m5.large,24,36.77,Right-size
+2026-10-09,Azure,europe-west3,Compute,Premium_LRS,24,19.69,None
+2026-09-05,AWS,europe-west3,Compute,rds.m5.large,12,4.46,Right-size
+2026-10-25,AWS,us-east-1,Compute,t3.micro,12,38.28,Right-size
+2026-09-27,AWS,us-west-2,Storage,e2-medium,720,11.92,Upgrade
+2026-10-22,GCP,europe-west3,Cache,e2-medium,24,30.5,None
+2026-09-24,Azure,ap-south-1,Compute,c5.xlarge,720,30.94,Delete Unattached
+2026-09-13,AWS,europe-west3,Database,c5.xlarge,12,38.83,Scale Down
+2026-09-26,GCP,us-east-1,Storage,e2-medium,24,11.68,Right-size
+2026-09-25,Azure,ap-south-1,Database,t3.micro,24,7.99,Right-size
+2026-10-17,GCP,us-east-1,Compute,e2-medium,24,33.58,Upgrade
+2026-09-23,Azure,europe-west3,Storage,Premium_LRS,24,8.27,None
+2026-09-10,Azure,us-west-2,Storage,e2-medium,12,17.75,Upgrade
+2026-10-28,Azure,ap-south-1,Compute,e2-medium,24,37.77,Scale Down
+2026-09-13,AWS,europe-west3,Storage,t3.micro,12,44.26,None
+2026-09-23,AWS,us-east-1,Cache,e2-medium,720,19.1,Delete Unattached
+2026-09-04,AWS,ap-south-1,Compute,rds.m5.large,720,14.68,Upgrade
+2026-09-08,Azure,ap-south-1,Compute,Premium_LRS,720,36.95,Scale Down
+2026-10-17,Azure,us-west-2,Cache,Premium_LRS,720,43.71,Upgrade
+2026-10-11,Azure,us-east-1,Compute,rds.m5.large,24,27.4,None
+2026-10-23,AWS,us-east-1,Cache,Premium_LRS,720,6.49,Right-size
+2026-10-18,GCP,us-west-2,Compute,c5.xlarge,24,9.75,Upgrade
+2026-10-06,GCP,us-west-2,Storage,c5.xlarge,12,33.61,Upgrade
+2026-10-05,GCP,us-west-2,Cache,rds.m5.large,720,40.92,Right-size
+2026-10-27,AWS,europe-west3,Compute,rds.m5.large,12,46.51,Right-size
+2026-10-05,AWS,us-west-2,Compute,e2-medium,24,32.69,Right-size
+2026-09-27,GCP,ap-south-1,Cache,rds.m5.large,12,21.96,Scale Down
+2026-10-10,Azure,us-east-1,Database,rds.m5.large,12,20.46,Right-size
+2026-09-20,GCP,ap-south-1,Compute,t3.micro,720,11.07,Upgrade
+2026-10-08,AWS,ap-south-1,Compute,rds.m5.large,24,46.14,Right-size
+2026-10-14,GCP,europe-west3,Storage,t3.micro,24,13.81,Upgrade
+2026-09-02,GCP,us-west-2,Compute,rds.m5.large,12,30.25,Delete Unattached
+2026-09-20,Azure,us-west-2,Cache,t3.micro,24,28.84,Right-size
+2026-09-12,Azure,us-east-1,Database,e2-medium,12,4.62,Scale Down
+2026-10-18,GCP,ap-south-1,Cache,rds.m5.large,24,35.08,None
+2026-09-24,Azure,ap-south-1,Database,t3.micro,24,15.48,Right-size
+2026-09-08,GCP,us-east-1,Storage,t3.micro,12,22.48,Scale Down
+2026-10-10,AWS,us-west-2,Cache,e2-medium,12,13.21,Right-size
+2026-09-09,AWS,us-east-1,Compute,t3.micro,12,27.44,Right-size
+2026-09-24,AWS,us-west-2,Cache,t3.micro,24,1.65,Delete Unattached
+2026-09-02,Azure,us-east-1,Database,Premium_LRS,720,19.77,None
+2026-10-04,AWS,europe-west3,Cache,c5.xlarge,720,10.03,Delete Unattached
+2026-10-22,GCP,ap-south-1,Database,Premium_LRS,24,35.86,None
+2026-10-21,GCP,us-west-2,Storage,e2-medium,24,25.51,Scale Down
+2026-09-29,GCP,us-east-1,Storage,rds.m5.large,12,38.87,Scale Down
+2026-09-09,AWS,us-west-2,Database,Premium_LRS,720,44.02,Delete Unattached
+2026-10-12,AWS,us-west-2,Compute,t3.micro,12,38.56,Upgrade
+2026-10-16,Azure,us-west-2,Database,t3.micro,24,8.27,None
+2026-09-29,AWS,us-east-1,Cache,rds.m5.large,12,44.32,Upgrade
+2026-09-17,Azure,europe-west3,Storage,Premium_LRS,12,42.24,Upgrade
+2026-09-23,AWS,ap-south-1,Database,rds.m5.large,12,2.24,Delete Unattached
+2026-09-25,AWS,europe-west3,Database,rds.m5.large,12,21.38,Upgrade
+2026-09-08,GCP,europe-west3,Storage,rds.m5.large,24,18.36,Upgrade
+2026-09-20,GCP,us-east-1,Storage,Premium_LRS,720,32.63,Upgrade
+2026-10-30,GCP,us-west-2,Database,e2-medium,720,7.67,Right-size
+2026-10-19,Azure,us-east-1,Storage,Premium_LRS,24,35.93,Upgrade
+2026-09-02,AWS,ap-south-1,Storage,c5.xlarge,24,48.11,Upgrade
+2026-10-30,GCP,ap-south-1,Database,t3.micro,12,0.93,Scale Down
+2026-10-08,Azure,ap-south-1,Cache,e2-medium,12,24.38,None
+2026-10-30,Azure,us-east-1,Cache,rds.m5.large,12,29.04,Delete Unattached
+2026-10-30,Azure,ap-south-1,Compute,e2-medium,24,1.49,Upgrade
+2026-10-13,AWS,ap-south-1,Database,t3.micro,12,10.04,Right-size
+2026-10-05,AWS,europe-west3,Cache,rds.m5.large,720,24.17,Upgrade
+2026-09-25,GCP,ap-south-1,Cache,e2-medium,24,27.09,Upgrade
+2026-09-22,GCP,us-east-1,Cache,Premium_LRS,12,18.08,Right-size
+2026-10-03,Azure,europe-west3,Compute,c5.xlarge,24,8.05,None
+2026-09-13,AWS,us-east-1,Database,rds.m5.large,24,1.62,None
+2026-10-11,AWS,ap-south-1,Cache,Premium_LRS,12,5.83,None
+2026-09-24,AWS,us-west-2,Database,rds.m5.large,720,40.61,None
+2026-10-13,AWS,us-west-2,Storage,Premium_LRS,12,32.98,Right-size
+2026-09-27,GCP,us-west-2,Database,c5.xlarge,24,40.19,Upgrade
+2026-10-18,GCP,ap-south-1,Compute,c5.xlarge,12,21.58,Scale Down
+2026-09-22,GCP,us-west-2,Compute,Premium_LRS,24,23.88,Scale Down
+2026-09-17,Azure,us-east-1,Storage,c5.xlarge,720,5.74,Scale Down
+2026-09-27,AWS,ap-south-1,Storage,t3.micro,720,9.64,Right-size
+2026-10-14,AWS,us-east-1,Storage,t3.micro,12,44.23,Right-size
+2026-10-09,AWS,us-west-2,Database,rds.m5.large,24,47.92,Delete Unattached
+2026-09-12,AWS,us-east-1,Storage,e2-medium,24,27.52,Scale Down
+2026-09-04,AWS,ap-south-1,Cache,t3.micro,12,7.53,Scale Down
+2026-10-14,GCP,europe-west3,Cache,Premium_LRS,24,46.8,Scale Down
+2026-10-03,GCP,europe-west3,Storage,c5.xlarge,12,0.81,Right-size
+2026-09-07,GCP,ap-south-1,Cache,t3.micro,24,46.83,Upgrade
+2026-09-25,Azure,us-west-2,Storage,c5.xlarge,12,17.14,None
+2026-10-11,AWS,ap-south-1,Compute,c5.xlarge,12,45.37,Scale Down
+2026-10-04,GCP,europe-west3,Compute,t3.micro,24,23.69,Delete Unattached
+2026-09-01,GCP,ap-south-1,Database,e2-medium,12,32.1,Delete Unattached
+2026-10-06,Azure,ap-south-1,Storage,rds.m5.large,24,6.03,Upgrade
+2026-10-05,AWS,europe-west3,Storage,c5.xlarge,12,42.47,Scale Down
+2026-10-25,GCP,us-west-2,Database,e2-medium,24,6.01,Right-size
+2026-09-20,AWS,ap-south-1,Compute,Premium_LRS,720,49.11,Delete Unattached
+2026-09-05,AWS,ap-south-1,Compute,rds.m5.large,12,31.23,Delete Unattached
+2026-09-15,Azure,europe-west3,Storage,e2-medium,24,29.53,None
+2026-09-05,AWS,us-east-1,Storage,t3.micro,24,33.78,Scale Down
+2026-09-12,AWS,europe-west3,Storage,rds.m5.large,720,17.1,Upgrade
+2026-10-01,GCP,europe-west3,Compute,e2-medium,24,19.24,Right-size
+2026-09-20,AWS,ap-south-1,Storage,e2-medium,24,21.58,Upgrade
+2026-10-18,Azure,europe-west3,Cache,Premium_LRS,720,20.84,Delete Unattached
+2026-09-14,AWS,us-west-2,Database,c5.xlarge,720,21.88,Delete Unattached
+2026-09-02,AWS,us-west-2,Compute,rds.m5.large,24,10.58,Delete Unattached
+2026-10-10,GCP,us-east-1,Compute,t3.micro,12,46.87,Upgrade
+2026-10-04,GCP,ap-south-1,Storage,rds.m5.large,720,15.25,Delete Unattached
+2026-10-19,GCP,us-west-2,Compute,Premium_LRS,24,16.45,Delete Unattached
+2026-09-13,AWS,us-east-1,Storage,Premium_LRS,720,17.63,None
+2026-10-09,Azure,us-west-2,Storage,c5.xlarge,720,21.46,Delete Unattached
+2026-09-15,Azure,europe-west3,Database,e2-medium,12,16.5,Upgrade
+2026-09-25,AWS,ap-south-1,Storage,t3.micro,24,42.81,Upgrade
+2026-10-09,GCP,ap-south-1,Database,Premium_LRS,12,21.52,Scale Down
+2026-09-19,Azure,us-west-2,Storage,Premium_LRS,720,22.77,Upgrade
+2026-10-13,GCP,us-west-2,Compute,Premium_LRS,24,10.27,Upgrade
+2026-10-31,AWS,us-west-2,Database,rds.m5.large,24,48.63,None
+2026-10-04,AWS,ap-south-1,Cache,c5.xlarge,12,35.85,Delete Unattached
+2026-09-08,AWS,us-west-2,Storage,e2-medium,720,40.07,None
+2026-10-20,GCP,us-west-2,Compute,e2-medium,720,22.83,Scale Down
+2026-09-01,GCP,us-east-1,Storage,rds.m5.large,12,1.59,None
+2026-10-16,Azure,europe-west3,Storage,c5.xlarge,12,28.22,Scale Down
+2026-10-17,Azure,europe-west3,Cache,c5.xlarge,720,32.85,None
+2026-10-19,Azure,ap-south-1,Database,e2-medium,24,1.65,Delete Unattached
+2026-10-15,GCP,us-east-1,Database,e2-medium,720,18.27,Right-size
+2026-09-21,AWS,ap-south-1,Compute,c5.xlarge,12,23.4,Scale Down
+2026-10-28,Azure,ap-south-1,Compute,rds.m5.large,720,11.92,Scale Down
+2026-09-21,Azure,us-east-1,Compute,c5.xlarge,720,49.74,Scale Down
+2026-10-06,AWS,ap-south-1,Database,c5.xlarge,720,34.09,None
+2026-10-28,GCP,us-west-2,Cache,rds.m5.large,720,25.82,Scale Down
+2026-10-06,Azure,us-east-1,Storage,e2-medium,12,39.25,Delete Unattached
+2026-09-21,AWS,ap-south-1,Cache,c5.xlarge,720,31.03,None
+2026-10-18,AWS,us-east-1,Database,e2-medium,720,10.22,Scale Down
+2026-10-06,AWS,ap-south-1,Compute,t3.micro,24,36.76,None
+2026-10-23,Azure,us-east-1,Storage,c5.xlarge,12,42.93,Upgrade
+2026-10-29,Azure,europe-west3,Storage,Premium_LRS,720,31.16,Upgrade
+2026-09-14,GCP,us-west-2,Storage,t3.micro,720,39.07,Delete Unattached
+2026-09-18,GCP,us-west-2,Database,t3.micro,12,11.1,Scale Down
+2026-09-17,GCP,us-east-1,Cache,rds.m5.large,12,36.72,Scale Down
+2026-09-17,Azure,us-west-2,Cache,e2-medium,12,28.99,Upgrade
+2026-09-20,GCP,us-east-1,Cache,e2-medium,12,12.74,Delete Unattached
+2026-10-11,GCP,us-west-2,Storage,c5.xlarge,12,27.93,Right-size
+2026-10-17,Azure,us-east-1,Compute,t3.micro,12,47.59,Delete Unattached
+2026-09-25,GCP,us-west-2,Cache,rds.m5.large,24,13.97,Right-size
+2026-09-29,AWS,ap-south-1,Cache,c5.xlarge,24,20.85,None
+2026-09-20,AWS,ap-south-1,Storage,Premium_LRS,720,5.97,Upgrade
+2026-10-02,GCP,us-east-1,Cache,c5.xlarge,12,7.31,Scale Down
+2026-09-03,Azure,europe-west3,Storage,e2-medium,720,20.25,Delete Unattached
+2026-10-26,GCP,us-east-1,Storage,rds.m5.large,24,30.27,None
+2026-09-11,AWS,ap-south-1,Cache,rds.m5.large,24,23.27,Scale Down
+2026-10-15,AWS,us-west-2,Compute,Premium_LRS,12,48.08,Delete Unattached
+2026-09-06,GCP,us-west-2,Storage,c5.xlarge,720,9.13,Delete Unattached
+2026-09-30,Azure,ap-south-1,Storage,c5.xlarge,720,47.96,None
+2026-10-04,Azure,us-east-1,Database,Premium_LRS,24,18.02,None
+2026-10-31,AWS,us-east-1,Compute,t3.micro,24,39.34,Delete Unattached
+2026-10-28,AWS,us-east-1,Cache,t3.micro,24,10.06,Upgrade
+2026-09-04,AWS,us-west-2,Storage,e2-medium,12,24.77,Delete Unattached
+2026-10-21,AWS,us-west-2,Database,Premium_LRS,24,20.34,Scale Down
+2026-09-30,GCP,us-east-1,Compute,e2-medium,24,44.13,Right-size
+2026-09-30,Azure,us-east-1,Compute,rds.m5.large,12,38.59,Upgrade
+2026-09-10,Azure,ap-south-1,Storage,c5.xlarge,720,20.11,Right-size
+2026-10-05,AWS,us-west-2,Storage,c5.xlarge,720,11.26,Right-size
+2026-09-05,Azure,europe-west3,Cache,rds.m5.large,12,14.71,Right-size
+2026-10-26,AWS,europe-west3,Storage,rds.m5.large,720,20.0,Upgrade
+2026-10-17,GCP,us-west-2,Database,c5.xlarge,720,17.49,Delete Unattached
+2026-10-18,AWS,us-east-1,Cache,c5.xlarge,12,6.02,Scale Down
+2026-10-25,AWS,us-west-2,Cache,rds.m5.large,12,36.06,Right-size
+2026-09-07,AWS,ap-south-1,Cache,Premium_LRS,12,13.9,Delete Unattached
+2026-10-19,GCP,us-west-2,Storage,Premium_LRS,12,12.57,Delete Unattached
+2026-09-28,AWS,ap-south-1,Database,Premium_LRS,24,26.02,Delete Unattached
+2026-09-17,AWS,us-west-2,Cache,e2-medium,720,25.56,Right-size
+2026-10-04,Azure,us-west-2,Storage,e2-medium,12,47.75,Scale Down
+2026-10-18,GCP,ap-south-1,Database,c5.xlarge,720,23.02,Delete Unattached
+2026-09-14,AWS,us-west-2,Compute,t3.micro,720,44.27,Scale Down
+2026-09-14,Azure,europe-west3,Database,rds.m5.large,24,42.91,Scale Down
+2026-09-10,GCP,europe-west3,Database,t3.micro,12,30.54,Scale Down
+2026-09-09,GCP,europe-west3,Database,t3.micro,720,5.59,Upgrade
+2026-10-14,Azure,europe-west3,Compute,t3.micro,24,1.95,Scale Down
+2026-09-21,GCP,us-east-1,Database,Premium_LRS,24,22.77,Upgrade
+2026-10-21,GCP,us-west-2,Cache,c5.xlarge,12,22.38,None
+2026-10-06,GCP,europe-west3,Cache,rds.m5.large,12,25.15,Delete Unattached
+2026-10-05,Azure,ap-south-1,Cache,c5.xlarge,12,19.08,Scale Down
+2026-10-06,GCP,us-east-1,Database,t3.micro,12,24.4,Right-size
+2026-10-01,GCP,us-west-2,Cache,e2-medium,12,38.58,Scale Down
+2026-10-09,Azure,us-west-2,Storage,Premium_LRS,720,8.68,Scale Down
+2026-09-17,Azure,us-west-2,Database,t3.micro,24,20.65,Delete Unattached
+2026-09-23,Azure,us-east-1,Cache,Premium_LRS,24,25.66,Scale Down
+2026-09-13,AWS,us-west-2,Cache,rds.m5.large,12,4.57,Delete Unattached
+2026-10-21,GCP,us-east-1,Cache,rds.m5.large,720,41.94,None
+2026-09-06,Azure,us-east-1,Database,c5.xlarge,24,47.13,Scale Down
+2026-10-07,Azure,europe-west3,Compute,e2-medium,12,18.47,Scale Down
+2026-09-30,GCP,ap-south-1,Cache,e2-medium,720,25.63,None
+2026-09-27,GCP,us-east-1,Database,Premium_LRS,24,29.01,Delete Unattached
+2026-10-03,AWS,europe-west3,Compute,t3.micro,720,21.52,Delete Unattached
+2026-09-18,AWS,ap-south-1,Database,Premium_LRS,24,16.52,Right-size
+2026-09-15,AWS,europe-west3,Cache,Premium_LRS,720,24.69,Right-size
+2026-10-13,GCP,us-east-1,Database,e2-medium,12,19.8,Upgrade
+2026-10-24,Azure,ap-south-1,Database,t3.micro,720,27.79,Scale Down
+2026-09-06,AWS,us-west-2,Compute,rds.m5.large,24,32.93,Upgrade
+2026-10-07,GCP,us-east-1,Database,rds.m5.large,24,17.64,Scale Down
+2026-10-02,AWS,ap-south-1,Compute,rds.m5.large,720,49.23,Scale Down
+2026-10-27,GCP,ap-south-1,Cache,c5.xlarge,12,22.6,Delete Unattached
+2026-10-26,AWS,us-east-1,Database,rds.m5.large,720,19.44,Delete Unattached
+2026-10-21,GCP,ap-south-1,Compute,t3.micro,12,28.73,Right-size
+2026-10-14,GCP,ap-south-1,Compute,rds.m5.large,24,1.99,None
+2026-09-19,AWS,us-west-2,Compute,t3.micro,12,38.06,Delete Unattached
+2026-10-28,GCP,us-east-1,Compute,e2-medium,720,36.05,None
+2026-09-28,GCP,europe-west3,Storage,e2-medium,720,41.59,Delete Unattached
+2026-10-03,Azure,us-east-1,Cache,Premium_LRS,720,49.25,Upgrade
+2026-09-25,GCP,ap-south-1,Storage,e2-medium,720,5.85,Scale Down
+2026-10-04,Azure,us-west-2,Cache,e2-medium,12,21.5,Delete Unattached
+2026-10-18,AWS,us-west-2,Cache,c5.xlarge,24,18.11,Scale Down
+2026-09-17,Azure,us-west-2,Database,t3.micro,12,18.58,Delete Unattached
+2026-10-05,GCP,us-west-2,Compute,e2-medium,24,49.1,Scale Down
+2026-10-19,GCP,ap-south-1,Compute,e2-medium,12,23.36,Right-size
+2026-10-31,GCP,us-east-1,Storage,e2-medium,12,23.56,Scale Down
+2026-09-29,GCP,us-west-2,Database,c5.xlarge,24,27.71,Delete Unattached
+2026-09-06,GCP,europe-west3,Compute,e2-medium,12,8.32,Scale Down
+2026-09-28,Azure,us-east-1,Compute,rds.m5.large,720,20.95,Delete Unattached
+2026-10-25,AWS,europe-west3,Cache,t3.micro,24,39.17,Scale Down
+2026-10-09,AWS,us-west-2,Database,t3.micro,12,17.72,Right-size
+2026-09-17,Azure,us-east-1,Database,Premium_LRS,24,40.38,None
+2026-09-04,Azure,ap-south-1,Cache,Premium_LRS,24,29.78,None
+2026-09-01,GCP,ap-south-1,Storage,c5.xlarge,720,39.77,Right-size
+2026-09-22,AWS,us-east-1,Compute,e2-medium,12,13.04,Delete Unattached
+2026-10-13,Azure,us-west-2,Compute,c5.xlarge,24,40.17,Delete Unattached
+2026-09-04,Azure,us-east-1,Compute,rds.m5.large,12,18.08,Upgrade
+2026-10-05,AWS,ap-south-1,Cache,Premium_LRS,12,33.74,Delete Unattached
+2026-10-05,AWS,ap-south-1,Compute,c5.xlarge,24,13.34,Delete Unattached
+2026-10-24,AWS,us-east-1,Storage,Premium_LRS,720,13.75,Scale Down
+2026-10-09,GCP,ap-south-1,Database,c5.xlarge,720,13.45,None
+2026-10-08,Azure,europe-west3,Database,Premium_LRS,720,10.17,Upgrade
+2026-10-16,AWS,europe-west3,Cache,t3.micro,24,9.74,None
+2026-10-16,Azure,us-east-1,Compute,c5.xlarge,12,1.42,Scale Down
+2026-09-10,AWS,us-east-1,Cache,rds.m5.large,720,3.72,Upgrade
+2026-09-01,Azure,ap-south-1,Storage,t3.micro,720,1.53,None
+2026-09-26,GCP,us-east-1,Storage,c5.xlarge,12,41.27,Right-size
+2026-09-07,Azure,europe-west3,Storage,Premium_LRS,24,10.78,Scale Down
+2026-09-02,AWS,ap-south-1,Storage,t3.micro,720,14.56,Scale Down
+2026-10-07,Azure,us-east-1,Database,Premium_LRS,12,4.73,Scale Down
+2026-10-09,GCP,europe-west3,Database,rds.m5.large,24,39.24,Delete Unattached
+2026-09-03,AWS,us-west-2,Cache,e2-medium,12,11.02,Right-size
+2026-10-07,AWS,us-east-1,Cache,rds.m5.large,24,39.87,Upgrade
+2026-10-05,GCP,us-west-2,Compute,rds.m5.large,24,12.87,Upgrade
+2026-09-21,Azure,europe-west3,Storage,Premium_LRS,24,8.28,Right-size
+2026-09-22,Azure,ap-south-1,Storage,c5.xlarge,720,37.71,Scale Down
+2026-09-29,AWS,us-east-1,Compute,t3.micro,12,23.37,None
+2026-09-05,GCP,europe-west3,Compute,t3.micro,12,48.83,None
+2026-09-12,AWS,europe-west3,Storage,c5.xlarge,24,38.21,Scale Down
+2026-10-21,GCP,us-east-1,Cache,Premium_LRS,24,46.45,Right-size
+2026-09-17,Azure,us-east-1,Compute,e2-medium,720,13.63,Upgrade
+2026-09-21,GCP,ap-south-1,Cache,t3.micro,720,35.56,Scale Down
+2026-10-16,AWS,europe-west3,Cache,t3.micro,12,18.49,Scale Down
+2026-10-04,GCP,europe-west3,Compute,t3.micro,720,9.71,Upgrade
+2026-09-16,GCP,us-east-1,Storage,e2-medium,24,21.75,None
+2026-09-19,GCP,ap-south-1,Compute,c5.xlarge,12,49.66,None
+2026-09-24,Azure,europe-west3,Cache,t3.micro,720,33.02,Scale Down
+2026-09-09,GCP,ap-south-1,Compute,Premium_LRS,12,19.33,Right-size
+2026-10-25,GCP,europe-west3,Database,e2-medium,12,26.53,Upgrade
+2026-10-21,GCP,us-east-1,Compute,Premium_LRS,12,32.21,None
+2026-09-14,GCP,ap-south-1,Cache,rds.m5.large,24,34.02,Right-size
+2026-10-11,AWS,ap-south-1,Storage,rds.m5.large,24,28.31,Upgrade
+2026-10-16,Azure,europe-west3,Storage,e2-medium,24,26.4,Delete Unattached
+2026-09-19,AWS,europe-west3,Cache,e2-medium,720,26.26,Right-size
+2026-09-17,Azure,us-west-2,Compute,c5.xlarge,720,4.73,Scale Down
+2026-09-28,GCP,us-west-2,Compute,t3.micro,720,0.72,Delete Unattached
+2026-10-16,Azure,ap-south-1,Storage,c5.xlarge,720,15.04,Scale Down
+2026-10-18,Azure,europe-west3,Storage,t3.micro,720,28.93,Upgrade
+2026-09-24,GCP,ap-south-1,Compute,rds.m5.large,24,42.62,None
+2026-10-12,GCP,us-east-1,Compute,t3.micro,24,32.93,None
+2026-09-22,GCP,ap-south-1,Storage,t3.micro,24,41.49,None
+2026-09-09,AWS,europe-west3,Compute,e2-medium,24,8.27,None
+2026-10-13,AWS,us-east-1,Database,Premium_LRS,720,18.09,Scale Down
+2026-09-14,GCP,ap-south-1,Cache,e2-medium,24,6.43,Right-size
+2026-09-25,GCP,ap-south-1,Storage,e2-medium,24,17.32,Scale Down
+2026-09-23,AWS,us-east-1,Storage,t3.micro,12,16.23,Right-size
+2026-10-13,GCP,ap-south-1,Compute,e2-medium,720,11.73,Scale Down
+2026-10-04,AWS,ap-south-1,Storage,e2-medium,24,32.25,Upgrade
+2026-09-28,AWS,us-west-2,Database,t3.micro,24,23.96,Right-size
+2026-10-15,GCP,ap-south-1,Compute,t3.micro,12,5.83,Delete Unattached
+2026-10-01,AWS,us-west-2,Compute,e2-medium,720,8.47,Right-size
+2026-10-25,AWS,europe-west3,Compute,e2-medium,24,41.18,None
+2026-09-20,GCP,europe-west3,Database,rds.m5.large,12,15.95,Right-size
+2026-09-07,AWS,us-east-1,Compute,c5.xlarge,12,28.53,None
+2026-09-29,AWS,europe-west3,Compute,t3.micro,24,30.43,Delete Unattached
+2026-09-17,AWS,europe-west3,Compute,rds.m5.large,24,2.18,Upgrade
+2026-10-15,AWS,us-east-1,Cache,t3.micro,24,21.58,Scale Down
+2026-09-05,GCP,europe-west3,Cache,e2-medium,720,29.23,Scale Down
+2026-10-03,GCP,us-east-1,Compute,Premium_LRS,720,32.13,Right-size
+2026-09-14,AWS,europe-west3,Storage,c5.xlarge,24,20.12,Scale Down
+2026-09-25,AWS,europe-west3,Storage,e2-medium,720,10.54,Delete Unattached
+2026-10-27,AWS,europe-west3,Cache,t3.micro,24,42.17,Right-size
+2026-09-05,AWS,us-east-1,Cache,rds.m5.large,24,2.74,None
+2026-09-09,GCP,us-west-2,Cache,c5.xlarge,720,4.56,None
+2026-09-09,Azure,ap-south-1,Storage,e2-medium,720,18.12,Right-size
+2026-10-30,Azure,ap-south-1,Cache,t3.micro,720,23.94,None
+2026-10-12,Azure,europe-west3,Compute,rds.m5.large,720,43.23,None
+2026-09-26,Azure,ap-south-1,Storage,Premium_LRS,12,11.05,Scale Down
+2026-10-24,Azure,us-west-2,Compute,c5.xlarge,720,3.44,Delete Unattached
+2026-09-13,GCP,us-west-2,Database,c5.xlarge,720,6.89,None
+2026-09-25,GCP,ap-south-1,Database,rds.m5.large,720,43.25,None
+2026-10-07,GCP,us-west-2,Database,c5.xlarge,24,25.9,Delete Unattached
+2026-10-01,AWS,us-east-1,Cache,e2-medium,12,12.67,None
+2026-09-28,AWS,us-west-2,Compute,e2-medium,24,14.32,None
+2026-10-18,GCP,europe-west3,Storage,Premium_LRS,12,13.33,Upgrade
+2026-10-31,AWS,us-west-2,Storage,t3.micro,12,1.04,None
+2026-09-19,GCP,us-west-2,Database,e2-medium,24,27.3,Delete Unattached
+2026-09-16,Azure,ap-south-1,Storage,e2-medium,720,21.31,None
+2026-09-30,Azure,ap-south-1,Database,e2-medium,12,9.69,Right-size
+2026-10-21,Azure,us-east-1,Database,t3.micro,24,44.96,Right-size
+2026-10-25,GCP,europe-west3,Compute,Premium_LRS,720,30.81,Right-size
+2026-10-08,Azure,us-east-1,Storage,Premium_LRS,12,13.78,Scale Down
+2026-09-20,Azure,ap-south-1,Compute,e2-medium,12,7.4,Delete Unattached
+2026-10-12,AWS,europe-west3,Database,c5.xlarge,24,31.75,Right-size
+2026-09-19,GCP,europe-west3,Storage,Premium_LRS,24,3.22,None
+2026-09-16,GCP,us-east-1,Cache,rds.m5.large,720,46.41,Delete Unattached
+2026-09-12,Azure,us-west-2,Cache,Premium_LRS,24,35.99,Scale Down
+2026-09-26,AWS,europe-west3,Cache,e2-medium,24,37.08,Upgrade
+2026-09-22,AWS,ap-south-1,Compute,rds.m5.large,720,19.95,None
+2026-09-26,AWS,europe-west3,Cache,Premium_LRS,12,5.41,Right-size
+2026-10-30,GCP,europe-west3,Compute,Premium_LRS,12,9.11,Upgrade
+2026-09-22,Azure,europe-west3,Compute,c5.xlarge,720,35.93,Delete Unattached
+2026-10-22,Azure,us-east-1,Compute,rds.m5.large,720,48.29,Delete Unattached
+2026-10-17,GCP,europe-west3,Compute,e2-medium,12,10.62,Scale Down
+2026-10-02,GCP,us-west-2,Storage,rds.m5.large,720,43.54,Upgrade
+2026-09-17,GCP,us-west-2,Database,rds.m5.large,12,27.65,Delete Unattached
+2026-10-26,Azure,europe-west3,Compute,rds.m5.large,720,18.82,Upgrade
+2026-09-18,Azure,europe-west3,Cache,t3.micro,24,41.57,Right-size
+2026-09-16,GCP,us-east-1,Cache,Premium_LRS,12,14.54,Upgrade
+2026-10-27,Azure,ap-south-1,Storage,t3.micro,24,3.29,Scale Down
+2026-10-05,GCP,us-west-2,Database,c5.xlarge,720,25.74,None
+2026-10-18,Azure,us-west-2,Storage,rds.m5.large,12,37.28,Scale Down
+2026-09-20,Azure,europe-west3,Database,Premium_LRS,720,27.96,Upgrade
+2026-09-29,Azure,europe-west3,Cache,e2-medium,24,43.01,Right-size
+2026-09-23,AWS,ap-south-1,Compute,Premium_LRS,12,24.07,Upgrade
+2026-10-09,AWS,us-east-1,Cache,rds.m5.large,12,5.46,Delete Unattached
+2026-10-05,Azure,us-east-1,Compute,c5.xlarge,12,49.44,Upgrade
+2026-10-15,GCP,europe-west3,Database,Premium_LRS,720,45.84,Right-size
+2026-09-07,Azure,europe-west3,Cache,c5.xlarge,720,43.19,Upgrade
+2026-09-05,AWS,ap-south-1,Database,Premium_LRS,12,13.14,None
+2026-09-24,Azure,us-east-1,Cache,t3.micro,720,3.07,None
+2026-09-08,AWS,us-east-1,Database,t3.micro,24,11.19,Upgrade
+2026-10-17,GCP,us-west-2,Cache,rds.m5.large,12,4.61,Scale Down
+2026-10-29,GCP,us-east-1,Database,t3.micro,24,21.77,None
+2026-09-19,AWS,us-east-1,Database,e2-medium,720,25.17,None
+2026-09-01,AWS,us-west-2,Cache,Premium_LRS,12,35.6,Scale Down
+2026-09-14,AWS,us-east-1,Cache,Premium_LRS,12,9.28,Delete Unattached
+2026-10-24,GCP,us-west-2,Storage,t3.micro,720,39.24,Right-size
+2026-10-03,AWS,ap-south-1,Storage,e2-medium,12,2.36,None
+2026-09-22,GCP,us-east-1,Cache,t3.micro,12,9.48,None
+2026-10-04,Azure,ap-south-1,Cache,c5.xlarge,720,26.95,Scale Down
+2026-09-28,Azure,us-west-2,Storage,rds.m5.large,720,9.37,Right-size
+2026-10-30,GCP,europe-west3,Storage,t3.micro,24,27.35,Scale Down
+2026-09-02,GCP,us-east-1,Storage,c5.xlarge,720,27.8,Scale Down
+2026-10-20,Azure,us-west-2,Storage,e2-medium,12,41.31,Delete Unattached
+2026-09-21,Azure,us-east-1,Compute,Premium_LRS,12,20.49,None
+2026-09-22,AWS,us-east-1,Storage,e2-medium,24,29.5,Scale Down
+2026-09-06,AWS,europe-west3,Cache,t3.micro,720,3.89,Scale Down
+2026-09-03,GCP,us-east-1,Compute,t3.micro,12,9.42,Right-size
+2026-10-22,AWS,europe-west3,Database,rds.m5.large,24,20.79,Scale Down
+2026-10-23,Azure,europe-west3,Database,c5.xlarge,24,21.05,Right-size
+2026-09-30,Azure,us-east-1,Database,c5.xlarge,720,4.16,None
+2026-10-12,GCP,us-east-1,Database,rds.m5.large,12,26.25,Right-size
+2026-09-18,Azure,us-east-1,Storage,e2-medium,24,20.23,Right-size
+2026-09-02,GCP,us-east-1,Storage,Premium_LRS,720,42.6,None
+2026-10-10,AWS,ap-south-1,Cache,e2-medium,720,31.27,Delete Unattached
+2026-09-27,Azure,us-east-1,Database,c5.xlarge,24,1.44,Upgrade
+2026-10-29,AWS,ap-south-1,Compute,e2-medium,12,13.52,Upgrade
+2026-10-10,AWS,us-west-2,Cache,e2-medium,720,15.19,Right-size
+2026-09-26,Azure,us-west-2,Storage,e2-medium,24,29.29,Upgrade
+2026-10-16,Azure,ap-south-1,Compute,c5.xlarge,12,47.65,Scale Down
+2026-09-20,AWS,ap-south-1,Cache,rds.m5.large,24,25.31,Upgrade
+2026-10-20,Azure,us-west-2,Database,t3.micro,24,2.12,None
+2026-10-04,AWS,us-east-1,Compute,Premium_LRS,24,17.44,None
+2026-10-28,GCP,us-west-2,Storage,rds.m5.large,720,28.8,Scale Down
+2026-09-11,Azure,europe-west3,Compute,e2-medium,720,32.72,Scale Down
+2026-09-05,GCP,ap-south-1,Storage,Premium_LRS,720,22.09,Scale Down
+2026-09-21,Azure,us-west-2,Storage,t3.micro,720,16.79,Scale Down
+2026-10-24,AWS,europe-west3,Database,rds.m5.large,12,47.31,None
+2026-09-05,Azure,ap-south-1,Cache,t3.micro,12,7.67,Right-size
+2026-09-23,GCP,us-west-2,Compute,e2-medium,12,12.73,Upgrade
+2026-09-09,Azure,us-east-1,Compute,Premium_LRS,12,3.39,Delete Unattached
+2026-09-25,GCP,us-west-2,Compute,c5.xlarge,24,10.7,Scale Down
+2026-10-05,GCP,europe-west3,Cache,rds.m5.large,24,11.35,Delete Unattached
+2026-09-08,GCP,us-west-2,Database,c5.xlarge,12,2.81,Delete Unattached
+2026-09-03,GCP,europe-west3,Compute,e2-medium,24,1.69,None
+2026-10-01,AWS,ap-south-1,Storage,c5.xlarge,12,12.57,Right-size
+2026-10-16,Azure,ap-south-1,Storage,e2-medium,720,11.35,Upgrade
+2026-09-23,GCP,us-east-1,Database,e2-medium,24,11.55,Upgrade
+2026-10-02,AWS,europe-west3,Compute,t3.micro,720,28.68,Scale Down
+2026-10-06,GCP,us-east-1,Database,Premium_LRS,720,28.0,Delete Unattached
+2026-10-14,GCP,us-east-1,Database,c5.xlarge,12,31.08,Scale Down
+2026-09-03,Azure,europe-west3,Compute,t3.micro,720,43.0,Right-size
+2026-09-29,GCP,us-west-2,Storage,e2-medium,720,46.41,Upgrade
+2026-10-24,GCP,ap-south-1,Compute,c5.xlarge,720,47.0,Upgrade
+2026-10-04,AWS,us-east-1,Compute,t3.micro,24,3.65,Delete Unattached
+2026-10-22,GCP,europe-west3,Compute,c5.xlarge,24,29.04,None
+2026-10-03,Azure,ap-south-1,Database,Premium_LRS,720,14.1,Upgrade
+2026-10-08,AWS,us-west-2,Cache,Premium_LRS,12,20.04,Upgrade
+2026-10-05,AWS,us-west-2,Compute,c5.xlarge,720,32.36,Scale Down
+2026-10-19,Azure,us-east-1,Compute,Premium_LRS,12,13.88,Upgrade
+2026-10-16,GCP,ap-south-1,Database,t3.micro,24,12.17,Upgrade
+2026-09-29,AWS,us-east-1,Storage,rds.m5.large,720,9.37,Right-size
+2026-10-31,GCP,ap-south-1,Database,Premium_LRS,720,44.12,None
+2026-10-13,Azure,ap-south-1,Compute,e2-medium,24,30.91,Upgrade
+2026-10-08,Azure,europe-west3,Cache,c5.xlarge,24,27.39,Scale Down
+2026-09-16,AWS,us-west-2,Cache,Premium_LRS,24,45.56,Delete Unattached
+2026-09-12,AWS,us-east-1,Storage,Premium_LRS,24,2.42,None
+2026-09-19,GCP,europe-west3,Compute,rds.m5.large,12,14.54,Right-size
+2026-09-10,GCP,europe-west3,Storage,t3.micro,720,44.5,Delete Unattached
+2026-09-07,GCP,europe-west3,Database,t3.micro,24,10.11,Delete Unattached
+2026-10-01,GCP,ap-south-1,Compute,e2-medium,24,30.14,None
+2026-10-20,Azure,us-east-1,Storage,rds.m5.large,720,15.98,None
+2026-09-05,Azure,ap-south-1,Database,Premium_LRS,720,31.64,Scale Down
+2026-10-23,AWS,us-west-2,Database,rds.m5.large,12,11.5,Upgrade
+2026-09-22,Azure,ap-south-1,Database,e2-medium,24,5.08,Delete Unattached
+2026-10-09,AWS,europe-west3,Database,c5.xlarge,12,2.84,Scale Down
+2026-09-02,GCP,europe-west3,Cache,Premium_LRS,12,26.98,Upgrade
+2026-09-06,Azure,us-east-1,Compute,rds.m5.large,720,21.34,Delete Unattached
+2026-09-09,Azure,us-east-1,Database,Premium_LRS,720,47.82,None
+2026-09-01,AWS,ap-south-1,Compute,t3.micro,12,29.65,Upgrade
+2026-10-30,Azure,ap-south-1,Database,c5.xlarge,24,1.94,Right-size
+2026-10-11,Azure,ap-south-1,Storage,c5.xlarge,720,33.58,Right-size
+2026-09-04,Azure,us-west-2,Database,rds.m5.large,24,7.3,Delete Unattached
+2026-10-23,Azure,us-west-2,Cache,e2-medium,12,43.62,Delete Unattached
+2026-10-22,GCP,us-west-2,Database,t3.micro,12,47.67,Upgrade
+2026-10-06,GCP,ap-south-1,Storage,t3.micro,720,44.95,Upgrade
+2026-10-13,GCP,us-west-2,Database,c5.xlarge,720,2.64,Delete Unattached
+2026-09-16,AWS,us-west-2,Storage,t3.micro,12,5.92,Right-size
+2026-09-29,AWS,ap-south-1,Storage,t3.micro,720,40.9,Upgrade
+2026-10-22,GCP,us-west-2,Storage,e2-medium,24,38.59,None
+2026-10-05,AWS,us-east-1,Database,e2-medium,24,27.55,None
+2026-10-03,Azure,us-west-2,Compute,rds.m5.large,12,35.39,Right-size
+2026-09-25,AWS,us-east-1,Compute,c5.xlarge,720,35.26,Delete Unattached
+2026-10-19,AWS,ap-south-1,Cache,Premium_LRS,12,41.36,Right-size
+2026-10-12,Azure,ap-south-1,Database,rds.m5.large,24,42.01,Delete Unattached
+2026-10-15,GCP,ap-south-1,Compute,rds.m5.large,12,48.96,Scale Down
+2026-10-13,GCP,ap-south-1,Storage,t3.micro,12,26.04,Right-size
+2026-10-12,Azure,us-east-1,Cache,rds.m5.large,24,29.39,Right-size
+2026-10-06,Azure,ap-south-1,Database,Premium_LRS,720,10.71,Delete Unattached
+2026-10-25,GCP,ap-south-1,Compute,e2-medium,720,44.7,Upgrade
+2026-10-07,AWS,us-west-2,Database,t3.micro,12,36.48,Scale Down
+2026-09-17,GCP,us-east-1,Database,e2-medium,24,27.99,Right-size
+2026-10-10,GCP,us-east-1,Database,Premium_LRS,720,27.42,Right-size
+2026-09-19,AWS,us-east-1,Storage,Premium_LRS,720,2.31,Right-size
+2026-10-12,Azure,us-west-2,Compute,c5.xlarge,12,19.11,Upgrade
+2026-10-26,GCP,us-west-2,Database,Premium_LRS,720,33.3,Right-size
+2026-10-02,GCP,us-west-2,Database,Premium_LRS,24,27.69,None
+2026-09-04,Azure,ap-south-1,Storage,t3.micro,720,39.24,None
+2026-09-24,AWS,ap-south-1,Storage,Premium_LRS,24,11.37,None
+2026-10-14,GCP,us-west-2,Cache,rds.m5.large,720,37.24,Scale Down
+2026-09-26,GCP,ap-south-1,Storage,rds.m5.large,12,18.71,None
+2026-09-01,GCP,europe-west3,Cache,c5.xlarge,24,15.51,Scale Down
+2026-09-09,AWS,us-east-1,Database,Premium_LRS,12,43.38,Upgrade
+2026-10-19,Azure,europe-west3,Database,t3.micro,12,21.91,Right-size
+2026-10-07,Azure,us-west-2,Storage,e2-medium,720,34.56,Delete Unattached
+2026-10-24,AWS,europe-west3,Storage,c5.xlarge,12,22.98,Delete Unattached
+2026-09-07,GCP,ap-south-1,Storage,t3.micro,24,26.75,Scale Down
+2026-09-21,GCP,us-east-1,Storage,rds.m5.large,12,47.73,Scale Down
+2026-09-28,AWS,us-west-2,Storage,c5.xlarge,720,44.69,Right-size
+2026-09-02,AWS,us-east-1,Database,Premium_LRS,24,46.66,Right-size
+2026-10-19,AWS,us-west-2,Compute,e2-medium,12,13.82,Right-size
+2026-09-25,GCP,europe-west3,Cache,e2-medium,12,48.3,Upgrade
+2026-10-16,Azure,europe-west3,Database,rds.m5.large,12,13.85,Delete Unattached
+2026-10-04,Azure,us-west-2,Cache,Premium_LRS,12,29.69,Delete Unattached
+2026-09-04,GCP,ap-south-1,Cache,Premium_LRS,12,8.57,Scale Down
+2026-10-30,Azure,europe-west3,Storage,Premium_LRS,12,25.65,Delete Unattached
+2026-10-08,GCP,us-west-2,Storage,Premium_LRS,12,33.82,Delete Unattached
+2026-10-13,AWS,us-east-1,Cache,rds.m5.large,12,2.49,Right-size
+2026-09-07,AWS,ap-south-1,Cache,t3.micro,24,15.03,Scale Down
+2026-09-05,AWS,ap-south-1,Compute,rds.m5.large,720,48.49,None
+2026-10-01,GCP,europe-west3,Compute,Premium_LRS,24,23.78,Scale Down
+2026-10-11,Azure,us-east-1,Cache,e2-medium,24,31.73,None
+2026-09-23,GCP,us-east-1,Cache,t3.micro,24,43.86,Scale Down
+2026-10-11,GCP,europe-west3,Storage,rds.m5.large,12,34.81,None
+2026-09-22,AWS,us-west-2,Compute,c5.xlarge,12,38.08,None
+2026-09-29,Azure,europe-west3,Compute,Premium_LRS,12,21.34,Right-size
+2026-10-28,GCP,ap-south-1,Cache,Premium_LRS,720,29.18,None
+2026-10-21,GCP,us-west-2,Storage,c5.xlarge,720,21.57,Scale Down
+2026-09-15,AWS,us-east-1,Cache,e2-medium,24,24.19,Delete Unattached
+2026-10-21,Azure,us-east-1,Cache,rds.m5.large,720,5.21,None
+2026-10-22,Azure,europe-west3,Storage,c5.xlarge,12,24.27,Scale Down
+2026-09-28,AWS,us-west-2,Storage,c5.xlarge,720,17.69,Upgrade
+2026-09-10,Azure,europe-west3,Compute,rds.m5.large,720,12.09,Delete Unattached
+2026-09-08,Azure,us-west-2,Database,c5.xlarge,720,8.47,Right-size
+2026-09-05,GCP,us-east-1,Cache,e2-medium,12,36.02,None
+2026-09-20,AWS,us-east-1,Database,rds.m5.large,12,37.74,None
+2026-09-01,GCP,us-west-2,Compute,t3.micro,24,23.36,None
+2026-10-20,AWS,us-west-2,Database,rds.m5.large,24,31.8,Right-size
+2026-09-04,Azure,europe-west3,Compute,c5.xlarge,12,31.75,Right-size
+2026-10-08,Azure,us-west-2,Storage,Premium_LRS,720,27.29,None
+2026-09-29,GCP,us-east-1,Database,Premium_LRS,720,9.19,Upgrade
+2026-09-16,AWS,us-west-2,Database,c5.xlarge,720,10.77,None
+2026-09-09,Azure,ap-south-1,Storage,rds.m5.large,12,28.66,Upgrade
+2026-10-03,AWS,us-east-1,Compute,e2-medium,12,1.08,None
+2026-09-10,GCP,us-west-2,Cache,e2-medium,720,7.09,Upgrade
+2026-09-23,AWS,europe-west3,Compute,t3.micro,24,40.21,Upgrade
+2026-10-01,Azure,europe-west3,Storage,c5.xlarge,12,19.59,Delete Unattached
+2026-10-21,Azure,ap-south-1,Cache,t3.micro,12,35.06,None
+2026-10-30,AWS,us-east-1,Cache,rds.m5.large,24,1.4,None
+2026-09-14,Azure,ap-south-1,Database,Premium_LRS,12,11.9,Scale Down
+2026-10-05,Azure,ap-south-1,Cache,rds.m5.large,24,14.67,Right-size
+2026-10-26,AWS,us-east-1,Compute,e2-medium,12,3.23,Scale Down
+2026-09-17,AWS,us-east-1,Storage,c5.xlarge,720,47.95,Delete Unattached
+2026-10-04,GCP,us-east-1,Database,c5.xlarge,24,41.48,Upgrade
+2026-09-21,Azure,us-west-2,Cache,t3.micro,12,10.24,Upgrade
+2026-10-27,Azure,us-west-2,Cache,rds.m5.large,720,11.39,Scale Down
+2026-09-12,AWS,ap-south-1,Storage,t3.micro,12,13.37,Scale Down
+2026-10-18,GCP,europe-west3,Database,c5.xlarge,24,6.91,Right-size
+2026-10-07,AWS,ap-south-1,Cache,rds.m5.large,12,34.34,Upgrade
+2026-10-08,AWS,us-east-1,Compute,Premium_LRS,12,19.65,None
+2026-10-15,Azure,us-east-1,Storage,rds.m5.large,12,44.13,Upgrade
+2026-10-30,Azure,ap-south-1,Storage,c5.xlarge,12,42.28,Delete Unattached
+2026-09-19,AWS,us-east-1,Compute,t3.micro,24,11.21,Upgrade
+2026-10-12,Azure,us-east-1,Cache,t3.micro,12,2.54,Upgrade
+2026-09-02,Azure,europe-west3,Cache,Premium_LRS,12,28.71,None
+2026-10-18,AWS,europe-west3,Cache,c5.xlarge,720,2.6,None
+2026-10-29,GCP,us-west-2,Compute,c5.xlarge,12,31.39,None
+2026-09-28,GCP,europe-west3,Cache,rds.m5.large,720,23.44,None
+2026-10-25,GCP,us-east-1,Compute,t3.micro,24,42.51,Scale Down
+2026-09-08,Azure,us-west-2,Storage,e2-medium,12,39.38,Right-size
+2026-09-08,AWS,us-west-2,Storage,c5.xlarge,720,10.06,Right-size
+2026-10-03,Azure,us-west-2,Compute,t3.micro,24,30.71,Delete Unattached
+2026-10-13,AWS,us-west-2,Compute,c5.xlarge,720,39.42,Scale Down
+2026-10-08,GCP,ap-south-1,Compute,rds.m5.large,720,26.99,None
+2026-10-19,Azure,ap-south-1,Storage,rds.m5.large,24,30.88,None
+2026-09-18,AWS,europe-west3,Database,c5.xlarge,24,14.84,Scale Down
+2026-10-20,AWS,us-east-1,Database,e2-medium,24,43.72,None
+2026-10-09,GCP,us-east-1,Storage,c5.xlarge,720,6.2,Scale Down
+2026-10-31,GCP,europe-west3,Database,c5.xlarge,12,46.82,Scale Down
+2026-09-02,Azure,ap-south-1,Compute,rds.m5.large,720,8.4,None
+2026-10-15,AWS,ap-south-1,Database,Premium_LRS,24,5.97,Scale Down
+2026-10-28,AWS,europe-west3,Cache,t3.micro,24,43.43,Scale Down
+2026-10-07,Azure,us-east-1,Storage,rds.m5.large,12,1.31,Scale Down
+2026-09-02,GCP,us-west-2,Database,t3.micro,12,41.06,Upgrade
+2026-10-18,AWS,us-west-2,Compute,Premium_LRS,12,46.9,Scale Down
+2026-09-12,GCP,ap-south-1,Cache,e2-medium,24,16.4,Right-size
+2026-10-16,GCP,us-east-1,Cache,Premium_LRS,720,25.24,Delete Unattached
+2026-09-08,GCP,europe-west3,Compute,Premium_LRS,720,38.41,Delete Unattached
+2026-09-03,GCP,europe-west3,Storage,t3.micro,720,22.81,Scale Down
+2026-09-16,GCP,europe-west3,Storage,Premium_LRS,12,29.9,Scale Down
+2026-09-07,GCP,europe-west3,Compute,c5.xlarge,24,44.31,Upgrade
+2026-10-04,Azure,europe-west3,Storage,e2-medium,720,44.79,Right-size
+2026-09-15,Azure,ap-south-1,Cache,Premium_LRS,12,16.36,Delete Unattached
+2026-09-07,GCP,us-east-1,Compute,Premium_LRS,12,19.99,Upgrade
+2026-10-17,GCP,us-east-1,Compute,Premium_LRS,24,37.05,Right-size
+2026-10-19,AWS,europe-west3,Database,e2-medium,720,18.36,Scale Down
+2026-10-29,GCP,europe-west3,Compute,rds.m5.large,720,34.02,None
+2026-09-03,AWS,us-east-1,Compute,Premium_LRS,24,38.29,None
+2026-10-09,GCP,ap-south-1,Compute,Premium_LRS,720,46.87,Right-size
+2026-10-15,Azure,ap-south-1,Cache,rds.m5.large,24,19.41,Scale Down
+2026-09-10,AWS,us-east-1,Storage,Premium_LRS,24,26.16,Upgrade
+2026-10-09,AWS,europe-west3,Database,c5.xlarge,720,27.92,Delete Unattached
+2026-09-22,Azure,us-west-2,Database,rds.m5.large,12,12.14,None
+2026-10-04,Azure,ap-south-1,Database,c5.xlarge,720,46.24,Right-size
+2026-10-29,Azure,europe-west3,Cache,Premium_LRS,720,6.52,None
+2026-10-16,AWS,us-east-1,Storage,rds.m5.large,720,41.24,Delete Unattached
+2026-10-03,AWS,us-east-1,Compute,rds.m5.large,12,40.03,Scale Down
+2026-10-27,Azure,ap-south-1,Database,t3.micro,24,32.69,Upgrade
+2026-10-05,Azure,europe-west3,Cache,rds.m5.large,24,37.05,Upgrade
+2026-09-11,Azure,us-west-2,Cache,t3.micro,24,25.74,Scale Down
+2026-09-05,AWS,us-east-1,Cache,rds.m5.large,12,18.77,Delete Unattached
+2026-09-21,AWS,europe-west3,Storage,c5.xlarge,720,45.61,Upgrade
+2026-10-23,Azure,europe-west3,Cache,t3.micro,12,37.53,Upgrade
+2026-10-24,Azure,europe-west3,Storage,rds.m5.large,12,10.74,Delete Unattached
+2026-09-03,GCP,ap-south-1,Compute,e2-medium,24,13.28,Scale Down
+2026-09-11,Azure,ap-south-1,Storage,e2-medium,12,10.69,None
+2026-09-27,AWS,us-east-1,Compute,t3.micro,24,31.23,None
+2026-09-24,GCP,us-west-2,Cache,e2-medium,720,39.63,Scale Down
+2026-10-12,Azure,ap-south-1,Compute,rds.m5.large,720,31.67,Delete Unattached
+2026-09-30,GCP,ap-south-1,Compute,e2-medium,12,16.79,None
+2026-09-26,Azure,europe-west3,Storage,e2-medium,720,27.43,Delete Unattached
+2026-10-30,GCP,ap-south-1,Cache,t3.micro,720,28.78,Scale Down
+2026-09-01,Azure,us-east-1,Database,e2-medium,24,16.63,Upgrade
+2026-09-30,AWS,us-west-2,Storage,rds.m5.large,12,35.0,None
+2026-10-18,Azure,us-west-2,Cache,Premium_LRS,24,37.6,Scale Down
+2026-09-07,AWS,ap-south-1,Storage,rds.m5.large,720,36.73,Upgrade
+2026-09-05,Azure,us-east-1,Database,rds.m5.large,12,7.68,Scale Down
+2026-10-20,AWS,ap-south-1,Database,c5.xlarge,720,33.46,Upgrade
+2026-09-08,Azure,us-east-1,Storage,rds.m5.large,12,5.03,Scale Down
+2026-10-08,Azure,ap-south-1,Compute,e2-medium,24,28.41,Upgrade
+2026-09-25,Azure,europe-west3,Database,t3.micro,12,30.94,Upgrade
+2026-10-06,Azure,ap-south-1,Cache,t3.micro,720,18.89,Delete Unattached
+2026-09-27,GCP,ap-south-1,Database,Premium_LRS,720,5.71,Upgrade
+2026-09-17,Azure,us-east-1,Cache,Premium_LRS,24,33.88,Delete Unattached
+2026-09-24,AWS,europe-west3,Database,Premium_LRS,720,30.7,None
+2026-10-22,Azure,ap-south-1,Cache,e2-medium,12,46.29,Delete Unattached
+2026-10-16,GCP,us-east-1,Cache,e2-medium,12,35.69,Upgrade
+2026-10-22,Azure,ap-south-1,Compute,Premium_LRS,12,26.77,Right-size
+2026-09-17,Azure,us-west-2,Storage,t3.micro,24,41.9,Upgrade
+2026-09-24,GCP,ap-south-1,Compute,rds.m5.large,12,1.44,Scale Down
+2026-09-29,Azure,us-east-1,Cache,c5.xlarge,12,0.85,None
+2026-09-23,GCP,us-west-2,Database,c5.xlarge,12,36.1,Upgrade
+2026-10-10,Azure,us-east-1,Compute,t3.micro,12,12.1,Scale Down
+2026-10-13,Azure,ap-south-1,Database,rds.m5.large,24,32.99,Scale Down
+2026-10-09,Azure,us-west-2,Database,e2-medium,720,36.32,Right-size
+2026-10-19,AWS,us-west-2,Cache,e2-medium,12,46.41,None
+2026-09-27,GCP,us-east-1,Compute,e2-medium,12,10.69,None
+2026-09-28,GCP,us-west-2,Compute,e2-medium,24,32.55,Right-size
+2026-10-10,GCP,europe-west3,Database,t3.micro,12,22.33,Upgrade
+2026-10-17,AWS,ap-south-1,Compute,rds.m5.large,720,6.83,Delete Unattached
+2026-10-16,Azure,ap-south-1,Storage,t3.micro,720,5.11,Upgrade
+2026-09-13,GCP,ap-south-1,Compute,t3.micro,24,14.34,Scale Down
+2026-10-16,GCP,europe-west3,Cache,t3.micro,12,43.62,Right-size
+2026-09-05,Azure,ap-south-1,Storage,c5.xlarge,24,49.15,Upgrade
+2026-09-11,AWS,europe-west3,Compute,t3.micro,720,33.15,None
+2026-09-25,AWS,us-west-2,Cache,c5.xlarge,12,29.94,Right-size
+2026-09-08,GCP,ap-south-1,Cache,Premium_LRS,24,47.58,None
+2026-10-20,Azure,us-west-2,Database,t3.micro,12,15.43,Scale Down
+2026-10-18,GCP,ap-south-1,Compute,Premium_LRS,12,21.65,None
+2026-10-21,AWS,europe-west3,Compute,e2-medium,24,17.44,Delete Unattached
+2026-10-29,GCP,europe-west3,Compute,c5.xlarge,720,36.2,Upgrade
+2026-09-25,Azure,us-west-2,Compute,c5.xlarge,12,1.63,Right-size
+2026-09-22,AWS,europe-west3,Storage,c5.xlarge,24,1.41,None
+2026-10-10,GCP,us-west-2,Cache,Premium_LRS,24,16.83,Delete Unattached
+2026-09-20,Azure,us-east-1,Database,c5.xlarge,12,49.65,Right-size
+2026-10-26,GCP,us-east-1,Compute,Premium_LRS,720,13.08,None
+2026-10-25,GCP,europe-west3,Cache,c5.xlarge,720,48.92,Right-size
+2026-09-05,GCP,ap-south-1,Database,t3.micro,720,33.03,Scale Down
+2026-09-28,AWS,europe-west3,Database,rds.m5.large,12,5.22,Upgrade
+2026-10-02,AWS,us-west-2,Cache,e2-medium,720,30.2,None
+2026-09-27,AWS,ap-south-1,Database,c5.xlarge,720,41.91,None
+2026-10-25,AWS,us-west-2,Cache,rds.m5.large,720,3.5,Right-size
+2026-10-08,Azure,ap-south-1,Storage,t3.micro,720,37.7,Upgrade
+2026-09-21,Azure,ap-south-1,Compute,Premium_LRS,720,43.54,Right-size
+2026-10-27,Azure,ap-south-1,Storage,c5.xlarge,720,47.42,Upgrade
+2026-09-11,AWS,us-east-1,Cache,t3.micro,720,33.96,Right-size
+2026-09-03,GCP,us-west-2,Database,rds.m5.large,720,2.12,Right-size
+2026-09-14,Azure,us-east-1,Cache,Premium_LRS,720,47.14,Upgrade
+2026-10-31,AWS,us-west-2,Cache,Premium_LRS,24,27.98,None
+2026-09-19,AWS,europe-west3,Cache,e2-medium,720,46.61,Right-size
+2026-10-18,Azure,us-east-1,Compute,Premium_LRS,12,48.98,Upgrade
+2026-09-15,AWS,europe-west3,Storage,e2-medium,12,49.89,Upgrade
+2026-09-01,AWS,ap-south-1,Storage,c5.xlarge,24,12.92,Delete Unattached
+2026-09-28,Azure,ap-south-1,Cache,Premium_LRS,24,38.44,Delete Unattached
+2026-10-14,Azure,europe-west3,Database,c5.xlarge,720,38.42,Upgrade
+2026-09-24,Azure,europe-west3,Database,c5.xlarge,720,49.5,Scale Down
+2026-10-02,Azure,us-west-2,Storage,c5.xlarge,720,35.38,None
+2026-10-23,GCP,us-east-1,Cache,Premium_LRS,12,3.08,Delete Unattached
+2026-10-19,AWS,europe-west3,Storage,Premium_LRS,12,1.76,Scale Down
+2026-09-21,AWS,europe-west3,Database,t3.micro,720,21.37,Delete Unattached
+2026-10-21,AWS,us-east-1,Database,c5.xlarge,720,15.02,Right-size
+2026-10-13,GCP,ap-south-1,Cache,Premium_LRS,12,9.04,Scale Down
+2026-09-12,Azure,europe-west3,Cache,e2-medium,12,16.1,Delete Unattached
+2026-09-26,Azure,us-east-1,Database,t3.micro,720,20.83,Right-size
+2026-10-16,Azure,us-east-1,Cache,rds.m5.large,12,43.03,Upgrade
+2026-10-21,Azure,us-west-2,Compute,t3.micro,24,44.09,Scale Down
+2026-10-05,Azure,ap-south-1,Cache,rds.m5.large,12,17.72,Delete Unattached
+2026-09-15,Azure,us-west-2,Cache,c5.xlarge,24,11.53,Scale Down
+2026-10-03,GCP,us-east-1,Storage,rds.m5.large,12,30.65,Scale Down
+2026-09-12,GCP,us-east-1,Cache,t3.micro,720,46.1,Right-size
+2026-10-01,AWS,ap-south-1,Cache,Premium_LRS,720,15.4,Scale Down
+2026-10-28,AWS,ap-south-1,Cache,t3.micro,12,21.96,Right-size
+2026-09-11,AWS,europe-west3,Compute,c5.xlarge,720,33.5,Right-size
+2026-09-04,AWS,ap-south-1,Storage,e2-medium,720,44.62,Scale Down
+2026-10-20,Azure,europe-west3,Compute,rds.m5.large,12,47.37,None
+2026-10-16,AWS,us-west-2,Storage,c5.xlarge,720,40.74,None
+2026-09-27,Azure,europe-west3,Cache,t3.micro,24,14.71,None
+2026-10-21,Azure,us-west-2,Cache,e2-medium,720,18.07,Scale Down
+2026-09-13,GCP,ap-south-1,Cache,Premium_LRS,24,41.72,Delete Unattached
+2026-09-10,GCP,europe-west3,Cache,e2-medium,24,7.56,Scale Down
+2026-09-12,Azure,us-west-2,Compute,c5.xlarge,24,34.01,None
+2026-09-11,GCP,us-east-1,Compute,e2-medium,24,36.69,Upgrade
+2026-09-16,Azure,us-west-2,Storage,rds.m5.large,24,37.15,Scale Down
+2026-09-22,GCP,europe-west3,Cache,rds.m5.large,720,24.3,Upgrade
+2026-09-10,GCP,europe-west3,Database,e2-medium,12,32.46,Delete Unattached
+2026-09-03,GCP,ap-south-1,Database,t3.micro,720,29.38,Right-size
+2026-10-27,GCP,ap-south-1,Cache,Premium_LRS,720,34.1,None
+2026-10-26,Azure,ap-south-1,Storage,c5.xlarge,12,25.24,None
+2026-09-14,Azure,ap-south-1,Storage,Premium_LRS,24,28.28,None
+2026-10-26,AWS,ap-south-1,Cache,t3.micro,24,30.74,Upgrade
+2026-10-22,AWS,us-east-1,Database,rds.m5.large,720,40.07,Upgrade
+2026-10-11,GCP,ap-south-1,Compute,t3.micro,720,49.79,Scale Down
+2026-09-02,Azure,europe-west3,Compute,t3.micro,12,45.45,None
+2026-10-20,AWS,europe-west3,Database,t3.micro,24,35.99,Delete Unattached
+2026-10-03,AWS,ap-south-1,Compute,t3.micro,720,2.9,None
+2026-09-04,GCP,us-west-2,Database,t3.micro,720,10.92,Delete Unattached
+2026-09-01,Azure,us-west-2,Cache,c5.xlarge,720,49.67,Scale Down
+2026-09-27,Azure,europe-west3,Compute,t3.micro,24,2.75,Scale Down
+2026-09-24,AWS,ap-south-1,Storage,Premium_LRS,12,15.01,Upgrade
+2026-09-02,Azure,us-west-2,Cache,c5.xlarge,24,16.38,Delete Unattached
+2026-10-29,GCP,us-west-2,Compute,e2-medium,720,37.56,Scale Down
+2026-10-05,GCP,ap-south-1,Storage,e2-medium,12,49.65,Delete Unattached
+2026-10-07,AWS,us-west-2,Compute,Premium_LRS,24,14.68,Upgrade
+2026-09-13,GCP,us-west-2,Cache,t3.micro,720,40.53,Delete Unattached
+2026-09-12,AWS,ap-south-1,Storage,t3.micro,24,17.91,Scale Down
+2026-09-02,AWS,europe-west3,Database,c5.xlarge,720,15.01,Scale Down
+2026-09-18,Azure,us-west-2,Database,Premium_LRS,720,17.45,None
+2026-09-01,AWS,europe-west3,Database,t3.micro,12,26.13,Upgrade
+2026-10-12,AWS,europe-west3,Storage,Premium_LRS,720,27.87,Delete Unattached
+2026-10-10,AWS,us-east-1,Cache,c5.xlarge,12,42.76,None
+2026-10-22,Azure,ap-south-1,Database,rds.m5.large,720,43.44,Right-size
+2026-09-01,Azure,us-east-1,Cache,rds.m5.large,720,43.33,Delete Unattached
+2026-09-15,GCP,us-west-2,Cache,e2-medium,12,13.39,Delete Unattached
+2026-10-17,Azure,ap-south-1,Database,c5.xlarge,24,40.18,Scale Down
+2026-09-03,Azure,us-west-2,Storage,e2-medium,24,4.5,Scale Down
+2026-10-14,AWS,ap-south-1,Cache,c5.xlarge,24,23.46,Upgrade
+2026-09-15,Azure,europe-west3,Database,c5.xlarge,12,15.79,Right-size
+2026-09-15,GCP,europe-west3,Storage,t3.micro,12,47.72,Delete Unattached
+2026-10-07,Azure,europe-west3,Database,t3.micro,720,23.9,Right-size
+2026-09-18,GCP,us-east-1,Cache,c5.xlarge,720,13.28,Scale Down
+2026-09-16,GCP,us-west-2,Database,e2-medium,12,4.67,Right-size
+2026-09-24,AWS,ap-south-1,Compute,t3.micro,12,24.54,Upgrade
+2026-10-13,Azure,us-west-2,Database,Premium_LRS,12,3.27,Upgrade
+2026-10-11,AWS,us-east-1,Storage,rds.m5.large,24,18.5,None
+2026-09-05,GCP,us-west-2,Database,Premium_LRS,720,24.82,Upgrade
+2026-09-22,Azure,us-west-2,Cache,Premium_LRS,24,42.62,Upgrade
+2026-09-16,GCP,us-east-1,Database,e2-medium,720,15.74,Right-size
+2026-10-19,GCP,europe-west3,Database,c5.xlarge,720,49.1,Upgrade
+2026-10-15,Azure,ap-south-1,Cache,Premium_LRS,24,27.56,Scale Down
+2026-10-21,GCP,europe-west3,Cache,rds.m5.large,24,49.78,Delete Unattached
+2026-09-19,AWS,europe-west3,Database,t3.micro,24,43.77,Right-size
+2026-10-30,AWS,ap-south-1,Compute,e2-medium,720,18.23,None
+2026-09-18,AWS,europe-west3,Storage,t3.micro,24,22.08,Delete Unattached
+2026-09-12,Azure,ap-south-1,Database,c5.xlarge,720,10.92,Delete Unattached
+2026-09-01,AWS,us-west-2,Compute,c5.xlarge,24,22.61,Upgrade
+2026-10-15,AWS,ap-south-1,Database,c5.xlarge,720,32.96,Right-size
+2026-09-21,AWS,us-west-2,Cache,e2-medium,12,31.72,Delete Unattached
+2026-09-25,Azure,europe-west3,Compute,t3.micro,24,48.19,None
+2026-10-06,AWS,ap-south-1,Compute,Premium_LRS,12,3.97,Upgrade
+2026-09-17,AWS,us-east-1,Database,t3.micro,12,24.07,Upgrade
+2026-09-20,Azure,us-east-1,Database,c5.xlarge,12,11.56,Right-size
+2026-09-02,Azure,us-west-2,Compute,t3.micro,720,37.38,Upgrade
+2026-10-16,Azure,us-east-1,Cache,rds.m5.large,720,20.26,Upgrade
+2026-10-22,AWS,us-west-2,Database,Premium_LRS,720,31.14,Upgrade
+2026-09-02,GCP,us-east-1,Storage,e2-medium,12,45.93,Upgrade
+2026-10-18,GCP,ap-south-1,Cache,Premium_LRS,12,28.7,Scale Down
+2026-10-06,Azure,us-east-1,Database,rds.m5.large,12,45.81,None
+2026-09-12,AWS,europe-west3,Storage,t3.micro,24,30.35,Right-size
+2026-09-12,AWS,us-east-1,Cache,rds.m5.large,12,44.36,None
+2026-09-30,GCP,ap-south-1,Storage,c5.xlarge,24,17.56,Scale Down
+2026-09-30,GCP,ap-south-1,Storage,Premium_LRS,24,40.92,Delete Unattached
+2026-09-25,AWS,us-west-2,Storage,Premium_LRS,720,4.01,Upgrade
+2026-09-20,AWS,ap-south-1,Database,rds.m5.large,24,21.84,Scale Down
+2026-10-29,AWS,europe-west3,Cache,rds.m5.large,720,20.03,None
+2026-10-24,GCP,ap-south-1,Compute,t3.micro,12,37.4,Right-size
+2026-09-09,AWS,europe-west3,Cache,Premium_LRS,720,42.45,None
+2026-09-17,GCP,us-east-1,Database,t3.micro,720,33.86,None
+2026-10-02,GCP,us-east-1,Storage,rds.m5.large,720,32.92,Scale Down
+2026-10-18,AWS,ap-south-1,Cache,c5.xlarge,720,25.01,None
+2026-09-18,GCP,us-east-1,Compute,c5.xlarge,12,1.62,Upgrade
+2026-10-31,AWS,ap-south-1,Cache,c5.xlarge,12,36.83,Right-size
+2026-09-06,AWS,us-west-2,Storage,Premium_LRS,12,36.81,None
+2026-09-27,GCP,us-west-2,Compute,c5.xlarge,24,22.75,None
+2026-10-02,AWS,europe-west3,Database,Premium_LRS,12,7.98,Delete Unattached
+2026-10-18,Azure,europe-west3,Storage,c5.xlarge,24,17.98,Delete Unattached
+2026-10-17,Azure,us-west-2,Storage,rds.m5.large,12,41.22,Delete Unattached
+2026-10-02,GCP,europe-west3,Compute,c5.xlarge,24,25.17,Scale Down
+2026-10-18,Azure,ap-south-1,Cache,e2-medium,24,19.38,Delete Unattached
+2026-09-10,GCP,europe-west3,Storage,e2-medium,12,3.5,Upgrade
+2026-09-26,AWS,ap-south-1,Database,t3.micro,12,41.54,Right-size
+2026-09-04,Azure,ap-south-1,Compute,e2-medium,12,41.38,Delete Unattached
+2026-10-02,AWS,europe-west3,Database,e2-medium,24,3.18,Upgrade
+2026-10-26,GCP,us-east-1,Database,e2-medium,12,18.78,Delete Unattached
+2026-10-06,GCP,us-east-1,Database,t3.micro,720,1.63,Right-size
+2026-10-04,Azure,ap-south-1,Compute,c5.xlarge,12,29.92,Scale Down
+2026-10-16,GCP,us-west-2,Storage,rds.m5.large,12,17.26,None
+2026-10-13,Azure,us-east-1,Database,Premium_LRS,720,49.9,Right-size
+2026-10-07,GCP,us-west-2,Compute,t3.micro,24,39.66,Right-size
+2026-10-15,Azure,us-east-1,Cache,Premium_LRS,24,9.64,None
+2026-09-25,AWS,us-west-2,Compute,rds.m5.large,24,15.46,Delete Unattached
+2026-09-28,Azure,us-west-2,Database,e2-medium,720,31.62,Scale Down
+2026-10-16,AWS,us-east-1,Storage,c5.xlarge,720,21.38,Upgrade
+2026-09-05,AWS,us-east-1,Storage,c5.xlarge,720,30.46,Delete Unattached
+2026-10-16,AWS,us-west-2,Cache,t3.micro,720,27.23,Delete Unattached
+2026-09-18,AWS,europe-west3,Cache,Premium_LRS,720,21.39,Scale Down
+2026-10-24,AWS,us-west-2,Compute,e2-medium,12,26.06,Delete Unattached
+2026-09-12,AWS,us-west-2,Compute,Premium_LRS,24,23.35,Scale Down
+2026-10-22,Azure,us-east-1,Storage,c5.xlarge,720,40.13,None
+2026-10-01,AWS,us-east-1,Compute,Premium_LRS,720,11.89,Right-size
+2026-10-11,AWS,ap-south-1,Cache,Premium_LRS,12,7.28,Right-size
+2026-09-08,Azure,us-west-2,Database,rds.m5.large,24,45.93,Scale Down
+2026-09-11,AWS,us-west-2,Compute,Premium_LRS,24,22.41,Scale Down
+2026-10-06,AWS,europe-west3,Cache,rds.m5.large,24,1.24,Delete Unattached
+2026-09-05,GCP,europe-west3,Database,c5.xlarge,24,27.02,Scale Down
+2026-10-16,AWS,us-east-1,Storage,c5.xlarge,24,13.78,Upgrade
+2026-09-29,GCP,us-west-2,Database,e2-medium,720,23.17,Delete Unattached
+2026-10-26,Azure,us-east-1,Compute,e2-medium,720,34.51,Right-size
+2026-10-24,AWS,europe-west3,Compute,e2-medium,24,9.19,Delete Unattached
+2026-10-14,Azure,ap-south-1,Compute,e2-medium,720,8.54,Upgrade
+2026-10-01,GCP,ap-south-1,Storage,e2-medium,12,25.65,Scale Down
+2026-10-09,AWS,us-east-1,Database,Premium_LRS,720,27.31,None
+2026-09-30,GCP,ap-south-1,Storage,c5.xlarge,720,5.9,Right-size
+2026-10-16,AWS,us-west-2,Compute,t3.micro,720,49.45,Upgrade
+2026-10-11,Azure,ap-south-1,Storage,c5.xlarge,12,35.1,None
+2026-09-10,GCP,us-east-1,Database,e2-medium,720,33.16,None
+2026-09-07,AWS,europe-west3,Compute,rds.m5.large,24,21.7,None
+2026-09-27,AWS,us-east-1,Storage,Premium_LRS,12,45.03,Delete Unattached
+2026-09-14,GCP,europe-west3,Compute,e2-medium,720,12.51,Upgrade
+2026-10-30,GCP,us-east-1,Cache,e2-medium,24,7.27,Scale Down
+2026-10-08,Azure,ap-south-1,Cache,t3.micro,12,48.66,Scale Down
+2026-09-23,Azure,us-east-1,Storage,c5.xlarge,24,23.0,None
+2026-10-01,GCP,us-east-1,Database,rds.m5.large,24,0.97,Right-size
+2026-09-17,AWS,us-east-1,Cache,e2-medium,24,48.24,Scale Down
+2026-10-11,GCP,europe-west3,Storage,c5.xlarge,24,30.42,Upgrade
+2026-10-24,Azure,us-east-1,Compute,Premium_LRS,12,33.91,Right-size
+2026-09-01,GCP,europe-west3,Compute,Premium_LRS,24,10.63,None
+2026-09-16,GCP,europe-west3,Database,e2-medium,24,24.48,Delete Unattached
+2026-09-23,AWS,ap-south-1,Storage,Premium_LRS,12,46.69,Delete Unattached
+2026-10-13,AWS,ap-south-1,Database,t3.micro,24,42.83,Delete Unattached
+2026-09-26,AWS,europe-west3,Storage,rds.m5.large,24,40.82,None
+2026-10-26,Azure,europe-west3,Storage,rds.m5.large,12,18.72,Upgrade
+2026-10-27,AWS,ap-south-1,Compute,c5.xlarge,720,14.19,None
+2026-10-26,GCP,us-east-1,Cache,rds.m5.large,12,34.99,Scale Down
+2026-09-25,Azure,europe-west3,Cache,e2-medium,720,7.44,Scale Down
+2026-10-18,Azure,ap-south-1,Compute,e2-medium,24,36.15,Scale Down
+2026-10-20,AWS,europe-west3,Storage,e2-medium,720,13.71,Right-size
+2026-10-26,GCP,us-east-1,Storage,e2-medium,24,44.69,None
+2026-09-10,AWS,us-west-2,Database,t3.micro,24,29.98,None
+2026-09-08,GCP,us-east-1,Storage,c5.xlarge,24,36.83,Scale Down
+2026-10-14,GCP,us-west-2,Compute,rds.m5.large,720,42.89,None
+2026-10-26,Azure,us-east-1,Cache,c5.xlarge,12,40.9,Right-size
+2026-09-02,GCP,us-west-2,Compute,t3.micro,720,38.58,None
+2026-10-31,GCP,ap-south-1,Cache,e2-medium,24,48.06,Delete Unattached
+2026-10-07,AWS,us-west-2,Storage,Premium_LRS,720,47.94,Scale Down
+2026-10-22,AWS,europe-west3,Compute,t3.micro,24,3.93,Delete Unattached
+2026-10-16,Azure,ap-south-1,Cache,t3.micro,24,7.46,Right-size
+2026-09-02,GCP,us-west-2,Compute,t3.micro,720,19.08,None
+2026-09-12,AWS,us-west-2,Cache,Premium_LRS,12,4.21,Delete Unattached
+2026-09-26,Azure,ap-south-1,Compute,Premium_LRS,720,18.34,Delete Unattached
+2026-09-27,GCP,us-west-2,Compute,rds.m5.large,720,45.78,None
+2026-10-28,Azure,us-east-1,Cache,e2-medium,24,6.56,Right-size
+2026-10-24,Azure,europe-west3,Database,t3.micro,720,17.48,None
+2026-09-17,Azure,us-west-2,Database,c5.xlarge,720,26.45,Delete Unattached
+2026-09-02,AWS,europe-west3,Storage,t3.micro,720,17.23,None
+2026-10-27,Azure,ap-south-1,Compute,c5.xlarge,720,21.37,Upgrade
+2026-10-07,Azure,us-east-1,Database,e2-medium,24,23.92,Delete Unattached
+2026-10-06,Azure,europe-west3,Database,rds.m5.large,24,4.84,Upgrade
+2026-09-12,Azure,europe-west3,Storage,c5.xlarge,12,13.02,Right-size
+2026-09-20,Azure,europe-west3,Database,rds.m5.large,24,15.86,Upgrade
+2026-10-15,AWS,us-east-1,Database,Premium_LRS,12,33.29,Upgrade
+2026-10-17,Azure,us-west-2,Cache,rds.m5.large,24,40.73,None
+2026-10-05,Azure,ap-south-1,Database,t3.micro,12,32.22,Scale Down
+2026-09-02,GCP,europe-west3,Cache,e2-medium,720,29.68,Upgrade
+2026-09-02,AWS,us-west-2,Cache,e2-medium,720,23.01,Right-size
+2026-10-11,Azure,us-east-1,Cache,Premium_LRS,720,17.35,Delete Unattached
+2026-10-08,Azure,us-east-1,Storage,c5.xlarge,24,4.91,Right-size
+2026-10-27,GCP,europe-west3,Compute,e2-medium,720,34.68,Right-size
+2026-10-25,Azure,us-east-1,Cache,e2-medium,720,4.23,Right-size
+2026-10-05,GCP,us-west-2,Database,Premium_LRS,720,48.4,None
+2026-10-07,GCP,us-east-1,Cache,c5.xlarge,12,22.96,Delete Unattached
+2026-10-27,AWS,ap-south-1,Storage,rds.m5.large,24,41.45,Scale Down
+2026-10-26,GCP,europe-west3,Storage,rds.m5.large,720,14.13,None
+2026-10-12,GCP,us-east-1,Database,c5.xlarge,24,18.31,Scale Down
+2026-09-29,Azure,ap-south-1,Storage,t3.micro,12,40.29,Delete Unattached
+2026-10-27,GCP,us-east-1,Compute,Premium_LRS,12,17.63,Upgrade
+2026-10-27,Azure,us-east-1,Database,rds.m5.large,12,45.78,Upgrade
+2026-10-24,GCP,ap-south-1,Database,c5.xlarge,24,6.3,Right-size
+2026-09-19,GCP,europe-west3,Cache,Premium_LRS,720,42.6,Right-size
+2026-09-21,GCP,us-east-1,Storage,Premium_LRS,720,16.97,Right-size
+2026-09-02,GCP,europe-west3,Compute,rds.m5.large,720,9.42,None
+2026-09-29,GCP,us-east-1,Database,t3.micro,12,34.83,None
+2026-10-14,Azure,us-west-2,Cache,t3.micro,12,35.19,Delete Unattached
+2026-10-10,Azure,us-west-2,Cache,e2-medium,24,48.6,Upgrade
+2026-09-07,AWS,ap-south-1,Database,rds.m5.large,12,20.12,Scale Down
+2026-10-01,GCP,ap-south-1,Cache,Premium_LRS,24,12.3,Delete Unattached
+2026-09-08,AWS,europe-west3,Compute,t3.micro,720,23.67,Delete Unattached
+2026-10-27,Azure,europe-west3,Storage,rds.m5.large,12,31.81,Right-size
+2026-10-03,GCP,europe-west3,Storage,t3.micro,720,13.63,Scale Down
+2026-10-21,Azure,us-east-1,Cache,rds.m5.large,720,28.99,None
+2026-10-28,GCP,us-east-1,Compute,e2-medium,24,30.82,Delete Unattached
+2026-09-23,GCP,us-east-1,Cache,e2-medium,24,14.0,Upgrade
+2026-10-19,GCP,ap-south-1,Storage,e2-medium,720,42.7,Scale Down
+2026-09-26,AWS,europe-west3,Compute,rds.m5.large,720,33.69,Scale Down
+2026-10-28,Azure,europe-west3,Storage,c5.xlarge,720,16.21,Scale Down
+2026-10-09,GCP,us-east-1,Storage,c5.xlarge,720,3.6,Upgrade
+2026-10-01,Azure,europe-west3,Database,e2-medium,24,16.54,Delete Unattached
+2026-10-30,GCP,ap-south-1,Cache,e2-medium,720,33.28,Right-size
+2026-09-04,AWS,us-west-2,Compute,t3.micro,720,30.47,None
+2026-09-02,Azure,us-east-1,Cache,rds.m5.large,24,43.36,Scale Down
+2026-10-23,Azure,us-west-2,Storage,rds.m5.large,12,42.17,None
+2026-09-20,AWS,us-west-2,Cache,t3.micro,12,14.65,Right-size
+2026-10-24,GCP,us-east-1,Storage,c5.xlarge,720,47.44,Scale Down
+2026-10-17,Azure,europe-west3,Compute,t3.micro,12,16.11,Delete Unattached
+2026-09-27,GCP,europe-west3,Cache,e2-medium,720,16.4,None
+2026-09-28,AWS,us-east-1,Storage,Premium_LRS,720,48.13,None
+2026-09-15,AWS,us-east-1,Cache,e2-medium,720,31.43,Right-size
+2026-10-21,Azure,europe-west3,Cache,c5.xlarge,720,3.0,None
+2026-10-01,AWS,us-west-2,Database,c5.xlarge,24,20.88,Scale Down
+2026-10-17,AWS,ap-south-1,Cache,c5.xlarge,720,5.63,Scale Down
+2026-09-02,GCP,us-east-1,Cache,Premium_LRS,720,2.12,None
+2026-09-20,AWS,us-west-2,Database,rds.m5.large,24,24.45,Delete Unattached
+2026-09-14,GCP,ap-south-1,Cache,t3.micro,12,30.33,Delete Unattached
+2026-10-19,Azure,ap-south-1,Database,e2-medium,720,26.13,Scale Down
+2026-09-06,GCP,ap-south-1,Cache,rds.m5.large,12,27.08,Delete Unattached
+2026-09-21,AWS,us-west-2,Database,t3.micro,720,20.21,None
+2026-09-05,GCP,us-west-2,Compute,t3.micro,12,24.69,Scale Down
+2026-10-11,Azure,us-west-2,Storage,e2-medium,24,12.78,Scale Down
+2026-10-27,GCP,us-west-2,Cache,rds.m5.large,12,28.98,Right-size
+2026-10-20,AWS,us-east-1,Database,c5.xlarge,720,15.08,Right-size
+2026-09-14,GCP,europe-west3,Cache,Premium_LRS,720,20.12,Scale Down
+2026-09-09,Azure,europe-west3,Cache,Premium_LRS,12,24.27,Scale Down
+2026-10-26,AWS,us-east-1,Storage,Premium_LRS,720,49.45,Right-size
+2026-09-13,AWS,europe-west3,Cache,Premium_LRS,24,2.51,Delete Unattached
+2026-10-15,Azure,ap-south-1,Database,c5.xlarge,720,42.2,Upgrade
+2026-09-04,Azure,ap-south-1,Storage,t3.micro,720,13.97,Upgrade
+2026-09-12,Azure,europe-west3,Storage,c5.xlarge,12,19.28,Scale Down
+2026-10-14,Azure,us-east-1,Storage,e2-medium,12,18.39,Right-size
+2026-10-22,Azure,ap-south-1,Storage,Premium_LRS,12,18.86,Scale Down
+2026-09-21,GCP,europe-west3,Compute,Premium_LRS,12,39.56,Right-size
+2026-10-02,GCP,us-east-1,Cache,c5.xlarge,720,17.0,Upgrade
+2026-10-19,GCP,europe-west3,Compute,c5.xlarge,720,24.82,Upgrade
+2026-10-20,GCP,us-east-1,Compute,t3.micro,720,7.62,Upgrade
+2026-09-14,Azure,us-west-2,Database,e2-medium,720,2.27,Upgrade
+2026-09-04,GCP,us-west-2,Storage,c5.xlarge,24,49.72,None
+2026-10-11,AWS,europe-west3,Compute,c5.xlarge,12,47.06,None
+2026-10-03,Azure,us-east-1,Database,Premium_LRS,12,12.27,Delete Unattached
+2026-10-01,Azure,us-west-2,Database,t3.micro,24,40.58,Upgrade
+2026-10-11,Azure,us-east-1,Storage,e2-medium,720,20.05,Delete Unattached
+2026-09-11,GCP,us-west-2,Cache,Premium_LRS,720,36.47,Upgrade
+2026-09-28,AWS,us-west-2,Cache,rds.m5.large,720,34.92,None
+2026-09-29,AWS,europe-west3,Database,rds.m5.large,12,2.21,Upgrade
+2026-10-01,Azure,us-west-2,Database,t3.micro,24,46.59,Upgrade
+2026-10-08,GCP,us-west-2,Cache,e2-medium,24,39.58,Scale Down
+2026-09-15,AWS,ap-south-1,Storage,c5.xlarge,12,32.63,None
+2026-10-06,GCP,europe-west3,Compute,Premium_LRS,12,31.68,Delete Unattached
+2026-09-12,Azure,ap-south-1,Database,c5.xlarge,720,10.4,Scale Down
+2026-09-14,GCP,europe-west3,Storage,e2-medium,12,46.37,None
+2026-09-17,AWS,us-east-1,Storage,t3.micro,720,45.96,None
+2026-10-31,AWS,europe-west3,Compute,Premium_LRS,720,12.85,Upgrade
