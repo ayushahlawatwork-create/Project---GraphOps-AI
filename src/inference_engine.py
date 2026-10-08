@@ -13,6 +13,8 @@ import pandas as pd
 from src.sequence_builder import SequenceSet
 
 HORIZON_MINUTES = (30, 60, 90, 120)
+TRAFFIC_STATUS_PRIORITY = {"normal": 0, "elevated": 1, "burst": 2}
+RESOURCE_STATUS_PRIORITY = {"normal": 0, "high": 1}
 HISTORICAL_COLUMNS = (
     "timestamp",
     "forecast_timestamp",
@@ -76,6 +78,13 @@ def fit_traffic_thresholds(
 
 
 def classify_traffic(value: float, thresholds: TrafficThresholds) -> str:
+    """Classify network demand using training-only traffic thresholds.
+
+    The burst threshold is stricter than the elevated threshold, so a value above the
+    burst cutoff is always reported as a burst, while values between the two cutoffs
+    are kept as elevated rather than silently collapsed into normal.
+    """
+    value = float(value)
     if value >= thresholds.burst_traffic:
         return "burst"
     if value >= thresholds.elevated_traffic:
@@ -86,7 +95,9 @@ def classify_traffic(value: float, thresholds: TrafficThresholds) -> str:
 def classify_resource_pressure(
     cpu_percent: float, memory_percent: float, thresholds: TrafficThresholds
 ) -> str:
-    """Flag pressure when either forecast utilization crosses its train cutoff."""
+    """Flag future resource pressure using the training-derived CPU/memory cutoffs."""
+    cpu_percent = float(cpu_percent)
+    memory_percent = float(memory_percent)
     if cpu_percent >= thresholds.cpu_pressure or memory_percent >= thresholds.memory_pressure:
         return "high"
     return "normal"
@@ -206,14 +217,14 @@ def latest_prediction_payload(records: pd.DataFrame) -> list[dict[str, Any]]:
                 "predictions": predictions,
                 "burst_status": max(
                     statuses,
-                    key=lambda status: {"normal": 0, "elevated": 1, "burst": 2}[status],
+                    key=lambda status: TRAFFIC_STATUS_PRIORITY[status],
                 ),
                 "resource_predictions": resource_predictions,
                 "current_resource_pressure": str(
                     latest["current_resource_pressure"].iloc[0]
                 ),
                 "predicted_future_resource_pressure": max(
-                    future_pressure, key=lambda status: {"normal": 0, "high": 1}[status]
+                    future_pressure, key=lambda status: RESOURCE_STATUS_PRIORITY[status]
                 ),
             }
         )
@@ -235,5 +246,8 @@ def save_prediction_payload(
 def save_thresholds(thresholds: TrafficThresholds, path: str | Path) -> Path:
     output_path = Path(path)
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(json.dumps(asdict(thresholds), indent=2), encoding="utf-8")
+    output_path.write_text(
+        json.dumps(asdict(thresholds), indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
     return output_path

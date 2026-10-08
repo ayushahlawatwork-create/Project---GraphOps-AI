@@ -189,6 +189,50 @@ def _per_machine_metrics(
     return rows
 
 
+def _horizon_summary(
+    metric_rows: list[dict[str, float | int | str | None]],
+    classification_rows: list[dict[str, float | int | str]],
+) -> dict[str, dict[str, Any]]:
+    """Summarize the 30/60/90/120-minute forecast windows in a machine-readable way."""
+    summary: dict[str, dict[str, Any]] = {}
+    for minutes in HORIZON_MINUTES:
+        minute_key = f"{minutes}_minutes"
+        summary[minute_key] = {
+            "traffic_regression": {
+                row["model"]: row
+                for row in metric_rows
+                if row.get("target") == TARGET_COLUMN and row.get("horizon_minutes") == minutes
+            },
+            "classification": {
+                row["target"] + "_" + str(row["model"]): row
+                for row in classification_rows
+                if row.get("horizon_minutes") == minutes
+            },
+        }
+    return summary
+
+
+def _quality_notes(
+    classification_rows: list[dict[str, float | int | str]],
+) -> list[str]:
+    """Keep poor burst recall visible without masking the underlying metric values."""
+    notes: list[str] = []
+    burst_rows = [
+        row
+        for row in classification_rows
+        if row.get("target") == "traffic_burst" and row.get("model") == "lstm"
+    ]
+    if burst_rows:
+        weakest = min(burst_rows, key=lambda row: float(row["recall"]))
+        if float(weakest["recall"]) < 0.15:
+            notes.append(
+                "LSTM traffic burst recall remains low at "
+                f"{weakest['horizon_minutes']} minutes ({weakest['recall']:.4f}); "
+                "this poor performance is reported as-is and not hidden."
+            )
+    return notes
+
+
 def _save_plots(
     test: SequenceSet,
     lstm_predictions: np.ndarray,
@@ -498,6 +542,7 @@ def run_pipeline(
         output_path,
     )
 
+    quality_notes = _quality_notes(classification_rows)
     results = {
         "data_path": str(Path(data_path)),
         "rows": len(telemetry),
@@ -570,6 +615,8 @@ def run_pipeline(
                 "confusion counts",
             ],
         },
+        "horizon_summary": _horizon_summary(metric_rows, classification_rows),
+        "quality_notes": quality_notes,
         "traffic_regression_metrics": [
             row for row in metric_rows if row["target"] == TARGET_COLUMN
         ],

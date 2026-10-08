@@ -14,10 +14,12 @@ from src.generate_synthetic import generate_telemetry
 from src.inference_engine import (
     HISTORICAL_COLUMNS,
     build_historical_inference_dataset,
+    classify_resource_pressure,
+    classify_traffic,
     fit_traffic_thresholds,
     latest_prediction_payload,
 )
-from src.evaluate import _classification_metrics
+from src.evaluate import _classification_metrics, _horizon_summary, _quality_notes
 from src.preprocessing import (
     FEATURE_COLUMNS,
     TelemetryPreprocessor,
@@ -437,6 +439,132 @@ class PipelineTests(unittest.TestCase):
         self.assertTrue(
             (result["forecast_timestamp"] > result["timestamp"]).all()
         )
+
+    def test_burst_classification_semantics_are_threshold_ordered(self) -> None:
+        boundaries = chronological_boundaries(self.featured)
+        training = self.featured.loc[
+            utc_nanoseconds(self.featured["timestamp"]) <= boundaries.train_end_ns
+        ].copy()
+        thresholds = fit_traffic_thresholds(training)
+        self.assertEqual(
+            classify_traffic(thresholds.burst_traffic * 1.1, thresholds),
+            "burst",
+        )
+        self.assertEqual(
+            classify_traffic(thresholds.elevated_traffic, thresholds),
+            "elevated",
+        )
+        self.assertEqual(
+            classify_traffic(thresholds.elevated_traffic * 0.5, thresholds),
+            "normal",
+        )
+
+    def test_resource_pressure_classification_semantics_are_threshold_based(self) -> None:
+        boundaries = chronological_boundaries(self.featured)
+        training = self.featured.loc[
+            utc_nanoseconds(self.featured["timestamp"]) <= boundaries.train_end_ns
+        ].copy()
+        thresholds = fit_traffic_thresholds(training)
+        self.assertEqual(
+            classify_resource_pressure(
+                thresholds.cpu_pressure + 1.0,
+                thresholds.memory_pressure - 1.0,
+                thresholds,
+            ),
+            "high",
+        )
+        self.assertEqual(
+            classify_resource_pressure(
+                thresholds.cpu_pressure * 0.5,
+                thresholds.memory_pressure * 0.5,
+                thresholds,
+            ),
+            "normal",
+        )
+
+    def test_horizon_specific_output_is_explicit_and_consistent(self) -> None:
+        actual = np.array([[True, True], [False, False]], dtype=bool)
+        predicted = np.array([[False, False], [True, False]], dtype=bool)
+        rows = _classification_metrics(
+            model_name="lstm",
+            target_name="traffic_burst",
+            horizon_steps=(6, 12),
+            actual_positive=actual,
+            predicted_positive=predicted,
+        )
+        summary = _horizon_summary([], rows)
+        self.assertEqual(set(summary), {"30_minutes", "60_minutes", "90_minutes", "120_minutes"})
+        self.assertEqual(
+            summary["30_minutes"]["classification"]["traffic_burst_lstm"]["horizon_minutes"],
+            30,
+        )
+        self.assertEqual(
+            summary["60_minutes"]["classification"]["traffic_burst_lstm"]["horizon_minutes"],
+            60,
+        )
+        self.assertTrue(any("low" in note.lower() for note in _quality_notes(rows)))
+
+    def test_threshold_usage_is_training_only_and_persisted(self) -> None:
+        boundaries = chronological_boundaries(self.featured)
+        training = self.featured.loc[
+            utc_nanoseconds(self.featured["timestamp"]) <= boundaries.train_end_ns
+        ].copy()
+        thresholds = fit_traffic_thresholds(training)
+        original = self.featured.copy()
+        original.loc[:, "total_network_traffic"] = 1_000_000_000
+        original.loc[:, "cpu_usage_percent"] = 100.0
+        original.loc[:, "memory_usage_percent"] = 100.0
+        self.assertEqual(
+            classify_traffic(float(original["total_network_traffic"].iloc[0]), thresholds),
+            "burst",
+        )
+        self.assertEqual(
+            classify_resource_pressure(100.0, 100.0, thresholds),
+            "high",
+        )
+        self.assertNotEqual(
+            thresholds,
+            fit_traffic_thresholds(pd.concat([training, original], ignore_index=True)),
+        )
+
+    def test_latest_forecast_payload_has_expected_structure(self) -> None:
+        boundaries = chronological_boundaries(self.featured)
+        training = self.featured.loc[
+            utc_nanoseconds(self.featured["timestamp"]) <= boundaries.train_end_ns
+        ].copy()
+        preprocessor = TelemetryPreprocessor().fit(training)
+        features, target = preprocessor.transform(self.featured)
+        sequences = build_sequences(
+            self.featured,
+            features,
+            target,
+            lookback=24,
+            scaled_resource_targets=preprocessor.transform_resource_targets(
+                self.featured
+            ),
+        )
+        test = chronological_partitions(sequences, boundaries)["test"]
+        thresholds = fit_traffic_thresholds(training)
+        predictions = np.ones((len(test), 4, 3), dtype=np.float64)
+        records = build_historical_inference_dataset(
+            test, predictions, thresholds, self.featured
+        )
+        payload = latest_prediction_payload(records)
+        self.assertEqual(len(payload), 2)
+        for item in payload:
+            self.assertEqual(
+                set(item["predictions"].keys()),
+                {"30", "60", "90", "120"},
+            )
+            self.assertEqual(
+                set(item["resource_predictions"].keys()),
+                {"30", "60", "90", "120"},
+            )
+            self.assertIn(item["burst_status"], {"normal", "elevated", "burst"})
+            self.assertIn(
+                item["predicted_future_resource_pressure"],
+                {"normal", "high"},
+            )
 
 
 if __name__ == "__main__":

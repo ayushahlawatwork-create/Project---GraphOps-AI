@@ -1,5 +1,5 @@
 {
-  "data_path": "data/synthetic/telemetry_forecasting.csv",
+  "data_path": "/Users/akshatverma01/Documents/GraphOps-AI-team/data/synthetic/telemetry_forecasting.csv",
   "rows": 432000,
   "machines": 50,
   "timestamps": 8640,
@@ -124,6 +124,363 @@
       "confusion counts"
     ]
   },
+  "horizon_summary": {
+    "30_minutes": {
+      "traffic_regression": {
+        "persistence": {
+          "model": "persistence",
+          "target": "total_network_traffic",
+          "horizon_minutes": 30,
+          "samples": 63600,
+          "mae": 431479.76647936326,
+          "rmse": 697042.2060499134,
+          "r2": 0.05265439897474056
+        },
+        "lstm": {
+          "model": "lstm",
+          "target": "total_network_traffic",
+          "horizon_minutes": 30,
+          "samples": 63600,
+          "mae": 339683.7470422956,
+          "rmse": 559462.7289689624,
+          "r2": 0.3897151195381674
+        }
+      },
+      "classification": {
+        "traffic_burst_persistence": {
+          "metric_type": "classification",
+          "model": "persistence",
+          "target": "traffic_burst",
+          "horizon_minutes": 30,
+          "precision": 0.28493543758967,
+          "recall": 0.2830672748004561,
+          "f1": 0.28399828399828403,
+          "support": 3508,
+          "predicted_positive_count": 3485,
+          "true_positive": 993,
+          "false_positive": 2492,
+          "false_negative": 2515,
+          "true_negative": 57600,
+          "samples": 63600
+        },
+        "traffic_burst_lstm": {
+          "metric_type": "classification",
+          "model": "lstm",
+          "target": "traffic_burst",
+          "horizon_minutes": 30,
+          "precision": 0.6060991105463787,
+          "recall": 0.13597491448118587,
+          "f1": 0.2221187427240978,
+          "support": 3508,
+          "predicted_positive_count": 787,
+          "true_positive": 477,
+          "false_positive": 310,
+          "false_negative": 3031,
+          "true_negative": 59782,
+          "samples": 63600
+        },
+        "future_resource_pressure_persistence": {
+          "metric_type": "classification",
+          "model": "persistence",
+          "target": "future_resource_pressure",
+          "horizon_minutes": 30,
+          "precision": 0.7632538104705102,
+          "recall": 0.7561135729525685,
+          "f1": 0.75966691400775,
+          "support": 6093,
+          "predicted_positive_count": 6036,
+          "true_positive": 4607,
+          "false_positive": 1429,
+          "false_negative": 1486,
+          "true_negative": 56078,
+          "samples": 63600
+        },
+        "future_resource_pressure_lstm": {
+          "metric_type": "classification",
+          "model": "lstm",
+          "target": "future_resource_pressure",
+          "horizon_minutes": 30,
+          "precision": 0.8610478359908884,
+          "recall": 0.5583456425406204,
+          "f1": 0.6774193548387096,
+          "support": 6093,
+          "predicted_positive_count": 3951,
+          "true_positive": 3402,
+          "false_positive": 549,
+          "false_negative": 2691,
+          "true_negative": 56958,
+          "samples": 63600
+        }
+      }
+    },
+    "60_minutes": {
+      "traffic_regression": {
+        "persistence": {
+          "model": "persistence",
+          "target": "total_network_traffic",
+          "horizon_minutes": 60,
+          "samples": 63600,
+          "mae": 484640.98094351415,
+          "rmse": 827492.9903207985,
+          "r2": -0.3342288673699343
+        },
+        "lstm": {
+          "model": "lstm",
+          "target": "total_network_traffic",
+          "horizon_minutes": 60,
+          "samples": 63600,
+          "mae": 362923.6688448114,
+          "rmse": 618976.3602957465,
+          "r2": 0.2534656224921761
+        }
+      },
+      "classification": {
+        "traffic_burst_persistence": {
+          "metric_type": "classification",
+          "model": "persistence",
+          "target": "traffic_burst",
+          "horizon_minutes": 60,
+          "precision": 0.16872309899569585,
+          "recall": 0.16680851063829788,
+          "f1": 0.16776034236804566,
+          "support": 3525,
+          "predicted_positive_count": 3485,
+          "true_positive": 588,
+          "false_positive": 2897,
+          "false_negative": 2937,
+          "true_negative": 57178,
+          "samples": 63600
+        },
+        "traffic_burst_lstm": {
+          "metric_type": "classification",
+          "model": "lstm",
+          "target": "traffic_burst",
+          "horizon_minutes": 60,
+          "precision": 0.373134328358209,
+          "recall": 0.02127659574468085,
+          "f1": 0.040257648953301126,
+          "support": 3525,
+          "predicted_positive_count": 201,
+          "true_positive": 75,
+          "false_positive": 126,
+          "false_negative": 3450,
+          "true_negative": 59949,
+          "samples": 63600
+        },
+        "future_resource_pressure_persistence": {
+          "metric_type": "classification",
+          "model": "persistence",
+          "target": "future_resource_pressure",
+          "horizon_minutes": 60,
+          "precision": 0.6931742876076872,
+          "recall": 0.6801040312093628,
+          "f1": 0.6865769609451919,
+          "support": 6152,
+          "predicted_positive_count": 6036,
+          "true_positive": 4184,
+          "false_positive": 1852,
+          "false_negative": 1968,
+          "true_negative": 55596,
+          "samples": 63600
+        },
+        "future_resource_pressure_lstm": {
+          "metric_type": "classification",
+          "model": "lstm",
+          "target": "future_resource_pressure",
+          "horizon_minutes": 60,
+          "precision": 0.8092439219877104,
+          "recall": 0.4923602080624187,
+          "f1": 0.6122283981808995,
+          "support": 6152,
+          "predicted_positive_count": 3743,
+          "true_positive": 3029,
+          "false_positive": 714,
+          "false_negative": 3123,
+          "true_negative": 56734,
+          "samples": 63600
+        }
+      }
+    },
+    "90_minutes": {
+      "traffic_regression": {
+        "persistence": {
+          "model": "persistence",
+          "target": "total_network_traffic",
+          "horizon_minutes": 90,
+          "samples": 63600,
+          "mae": 505670.1986777909,
+          "rmse": 867014.9970908765,
+          "r2": -0.46432482564891764
+        },
+        "lstm": {
+          "model": "lstm",
+          "target": "total_network_traffic",
+          "horizon_minutes": 90,
+          "samples": 63600,
+          "mae": 370843.2205678459,
+          "rmse": 631714.9868282919,
+          "r2": 0.2226321660086199
+        }
+      },
+      "classification": {
+        "traffic_burst_persistence": {
+          "metric_type": "classification",
+          "model": "persistence",
+          "target": "traffic_burst",
+          "horizon_minutes": 90,
+          "precision": 0.11678622668579627,
+          "recall": 0.11497175141242938,
+          "f1": 0.11587188612099644,
+          "support": 3540,
+          "predicted_positive_count": 3485,
+          "true_positive": 407,
+          "false_positive": 3078,
+          "false_negative": 3133,
+          "true_negative": 56982,
+          "samples": 63600
+        },
+        "traffic_burst_lstm": {
+          "metric_type": "classification",
+          "model": "lstm",
+          "target": "traffic_burst",
+          "horizon_minutes": 90,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3540,
+          "predicted_positive_count": 0,
+          "true_positive": 0,
+          "false_positive": 0,
+          "false_negative": 3540,
+          "true_negative": 60060,
+          "samples": 63600
+        },
+        "future_resource_pressure_persistence": {
+          "metric_type": "classification",
+          "model": "persistence",
+          "target": "future_resource_pressure",
+          "horizon_minutes": 90,
+          "precision": 0.6424784625579855,
+          "recall": 0.6246778350515464,
+          "f1": 0.633453119895459,
+          "support": 6208,
+          "predicted_positive_count": 6036,
+          "true_positive": 3878,
+          "false_positive": 2158,
+          "false_negative": 2330,
+          "true_negative": 55234,
+          "samples": 63600
+        },
+        "future_resource_pressure_lstm": {
+          "metric_type": "classification",
+          "model": "lstm",
+          "target": "future_resource_pressure",
+          "horizon_minutes": 90,
+          "precision": 0.7691015952980689,
+          "recall": 0.4426546391752577,
+          "f1": 0.5619057356098558,
+          "support": 6208,
+          "predicted_positive_count": 3573,
+          "true_positive": 2748,
+          "false_positive": 825,
+          "false_negative": 3460,
+          "true_negative": 56567,
+          "samples": 63600
+        }
+      }
+    },
+    "120_minutes": {
+      "traffic_regression": {
+        "persistence": {
+          "model": "persistence",
+          "target": "total_network_traffic",
+          "horizon_minutes": 120,
+          "samples": 63600,
+          "mae": 513854.3937274764,
+          "rmse": 871287.9589719259,
+          "r2": -0.4771783402349079
+        },
+        "lstm": {
+          "model": "lstm",
+          "target": "total_network_traffic",
+          "horizon_minutes": 120,
+          "samples": 63600,
+          "mae": 379825.6425424528,
+          "rmse": 637859.9882161183,
+          "r2": 0.20830076080226456
+        }
+      },
+      "classification": {
+        "traffic_burst_persistence": {
+          "metric_type": "classification",
+          "model": "persistence",
+          "target": "traffic_burst",
+          "horizon_minutes": 120,
+          "precision": 0.12395982783357246,
+          "recall": 0.12138241078954763,
+          "f1": 0.12265758091993186,
+          "support": 3559,
+          "predicted_positive_count": 3485,
+          "true_positive": 432,
+          "false_positive": 3053,
+          "false_negative": 3127,
+          "true_negative": 56988,
+          "samples": 63600
+        },
+        "traffic_burst_lstm": {
+          "metric_type": "classification",
+          "model": "lstm",
+          "target": "traffic_burst",
+          "horizon_minutes": 120,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3559,
+          "predicted_positive_count": 0,
+          "true_positive": 0,
+          "false_positive": 0,
+          "false_negative": 3559,
+          "true_negative": 60041,
+          "samples": 63600
+        },
+        "future_resource_pressure_persistence": {
+          "metric_type": "classification",
+          "model": "persistence",
+          "target": "future_resource_pressure",
+          "horizon_minutes": 120,
+          "precision": 0.6000662690523525,
+          "recall": 0.577395185716563,
+          "f1": 0.588512470550004,
+          "support": 6273,
+          "predicted_positive_count": 6036,
+          "true_positive": 3622,
+          "false_positive": 2414,
+          "false_negative": 2651,
+          "true_negative": 54913,
+          "samples": 63600
+        },
+        "future_resource_pressure_lstm": {
+          "metric_type": "classification",
+          "model": "lstm",
+          "target": "future_resource_pressure",
+          "horizon_minutes": 120,
+          "precision": 0.731489484298473,
+          "recall": 0.4047505180934162,
+          "f1": 0.5211412151067324,
+          "support": 6273,
+          "predicted_positive_count": 3471,
+          "true_positive": 2539,
+          "false_positive": 932,
+          "false_negative": 3734,
+          "true_negative": 56395,
+          "samples": 63600
+        }
+      }
+    }
+  },
+  "quality_notes": [
+    "LSTM traffic burst recall remains low at 90 minutes (0.0000); this poor performance is reported as-is and not hidden."
+  ],
   "traffic_regression_metrics": [
     {
       "model": "persistence",
@@ -679,20 +1036,20 @@
     }
   ],
   "artifacts": [
-    "/Users/akshatverma01/Documents/GraphOps-AI/models/traffic_lstm.pt",
-    "/Users/akshatverma01/Documents/GraphOps-AI/models/preprocessing.joblib",
-    "/Users/akshatverma01/Documents/GraphOps-AI/models/traffic_thresholds.json",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/historical_inference.csv",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/latest_forecasts.json",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/evaluation_metrics.csv",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/classification_metrics.csv",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/resource_regression_metrics.csv",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/per_machine_metrics.csv",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/preprocessing_config.json",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/actual_vs_predicted.png",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/prediction_error.png",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/horizon_performance.png",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/burst_forecast_example.png",
-    "/Users/akshatverma01/Documents/GraphOps-AI/outputs/evaluation_results.json"
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/models/traffic_lstm.pt",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/models/preprocessing.joblib",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/models/traffic_thresholds.json",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/historical_inference.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/latest_forecasts.json",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/evaluation_metrics.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/classification_metrics.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/resource_regression_metrics.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/per_machine_metrics.csv",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/preprocessing_config.json",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/actual_vs_predicted.png",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/prediction_error.png",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/horizon_performance.png",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/burst_forecast_example.png",
+    "/Users/akshatverma01/Documents/GraphOps-AI-team/outputs/evaluation_results.json"
   ]
 }
