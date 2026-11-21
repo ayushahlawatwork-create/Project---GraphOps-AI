@@ -498,3 +498,28 @@ all_results.to_csv(
 
 print("Saved: gnn_all_predictions.csv")
 print("Total connections predicted:", len(all_results))
+# ==========================================
+# 16. EXPORT GRAPH NODE EMBEDDINGS
+# ==========================================
+
+model.eval()
+
+with torch.no_grad():
+    embeddings = model.conv1(x, edge_index)
+    embeddings = torch.relu(embeddings)
+
+    embeddings = model.conv2(embeddings, edge_index)
+    embeddings = torch.relu(embeddings)
+
+embedding_df = pd.DataFrame(
+    embeddings.cpu().numpy(),
+    index=nodes
+)
+
+embedding_df.index.name = "service_node"
+
+embedding_df.to_csv("gnn_node_embeddings.csv")
+
+print("Saved: gnn_node_embeddings.csv")
+print("Total node embeddings:", len(embedding_df))
+print("Embedding dimensions:", embedding_df.shape[1])
