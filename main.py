@@ -16,7 +16,7 @@ class RouteRequest(BaseModel):
 def read_root():
     return {"status": "GraphOps AI Backend is Live and Running!"}
 
-# Purana Routing Endpoint
+# Purana Routing Endpoint-Shortest path find karta hai
 @app.post("/api/v1/optimization/routes")
 def calculate_optimized_route(request: RouteRequest):
     path, latency = optimize_network_path(graph, request.source_node, request.target_node)
@@ -32,10 +32,10 @@ def calculate_optimized_route(request: RouteRequest):
         "total_estimated_latency_ms": latency
     }
 
-# NAYA: Clustering Endpoint
+# NAYA: Clustering Endpoint - network ko group main devide karne ka liye hai 
 @app.get("/api/v1/optimization/clusters")
 def get_network_clusters():
-    # Aapka Louvain clustering function call hoga
+    #  Louvain clustering function call hoga
     cluster_data = partition_network_clusters(graph)
     
     return {
