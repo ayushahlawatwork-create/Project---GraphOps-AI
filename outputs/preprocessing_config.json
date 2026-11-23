@@ -1,0 +1,37 @@
+{
+  "feature_columns": [
+    "cpu_usage_percent",
+    "memory_usage_percent",
+    "disk_io_rate",
+    "network_rx_bytes",
+    "network_tx_bytes",
+    "total_network_traffic",
+    "traffic_lag_1",
+    "traffic_lag_3",
+    "traffic_lag_6",
+    "traffic_mean_3",
+    "traffic_mean_12",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "target_column": "total_network_traffic",
+  "resource_target_columns": [
+    "cpu_usage_percent",
+    "memory_usage_percent"
+  ],
+  "scaler": "robust",
+  "scaler_fit_rows": 302400,
+  "scaler_training_end_utc": "2026-01-21T23:55:00+00:00",
+  "lookback_steps": 24,
+  "horizon_steps": [
+    6,
+    12,
+    18,
+    24
+  ],
+  "train_ratio": 0.7,
+  "validation_ratio": 0.15,
+  "test_ratio": 0.15
+}
