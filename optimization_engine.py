@@ -1,50 +1,82 @@
+import json
+import os
 import pandas as pd
 import networkx as nx
 from networkx.algorithms.community import louvain_communities
 
+def load_ml_predictions():
+    """Loads Yatharth's GNN edge predictions & Akshat's LSTM traffic forecasts."""
+    gnn_df = pd.read_csv("gnn_all_predictions.csv") if os.path.exists("gnn_all_predictions.csv") else None
+    
+    lstm_bursts = []
+    if os.path.exists("outputs/latest_forecasts.json"):
+        with open("outputs/latest_forecasts.json", "r") as f:
+            forecasts = json.load(f)
+            lstm_bursts = [
+                item for item in forecasts
+                if item.get("burst_status") not in (None, "normal", "LOW")
+            ]
+    return gnn_df, lstm_bursts
+
 def load_cloud_topology():
-    print("Loading network topology data...")
-    df = pd.read_csv("alibaba_microservices_large.csv")
+    print("Loading network topology + Late-Fusion ML predictions...")
+    gnn_df, lstm_bursts = load_ml_predictions()
     
-    # Graph create kar rahe hain (Undirected for clustering)
+    # Use Yatharth's GNN-enriched topology if present, else fallback to raw topology
+    df = gnn_df.copy() if gnn_df is not None else pd.read_csv("alibaba_microservices_large.csv")
+    if "predicted_bottleneck" not in df.columns:
+        df["predicted_bottleneck"] = df.get("bottleneck_flag", 0)
+    if "bottleneck_probability" not in df.columns:
+        df["bottleneck_probability"] = 0.0
+
+    # Late-Fusion Edge Weighting:
+    # Penalize edge latency when GNN predicts a bottleneck or LSTM detects active traffic bursts
+    burst_multiplier = 1.25 if len(lstm_bursts) > 0 else 1.0
+    df["effective_latency_ms"] = (
+        df["avg_latency_ms"]
+        * (1.0 + (df["predicted_bottleneck"] * 2.5) + (df["bottleneck_probability"] * 1.5))
+        * burst_multiplier
+    ).round(2)
+
     G = nx.from_pandas_edgelist(
-        df, 
-        source='source_node', 
-        target='target_node', 
-        edge_attr=['avg_latency_ms', 'error_rate_percent', 'bottleneck_flag'], 
-        create_using=nx.Graph()
+        df,
+        source="source_node",
+        target="target_node",
+        edge_attr=[
+            "avg_latency_ms",
+            "effective_latency_ms",
+            "error_rate_percent",
+            "bottleneck_flag",
+            "predicted_bottleneck",
+            "bottleneck_probability",
+        ],
+        create_using=nx.Graph(),
     )
-    
-    print("--- GraphOps Topology Loaded ---")
-    print(f"Total Microservices (Nodes): {G.number_of_nodes()}")
+    G.graph["lstm_active_bursts"] = len(lstm_bursts)
+    G.graph["gnn_flagged_edges"] = int(df["predicted_bottleneck"].sum())
+    print(f"--- Late-Fusion Topology Loaded: {G.number_of_nodes()} Nodes, {G.number_of_edges()} Edges ---")
+    print(f"--- GNN Bottlenecks Flagged: {G.graph['gnn_flagged_edges']} | LSTM Burst Alerts: {G.graph['lstm_active_bursts']} ---")
     return G
 
 def partition_network_clusters(G):
-    print("\n--- Running Graph Clustering (Louvain) ---")
-    # Louvain algorithm network ko optimized sub-networks mein tod dega
-    communities = louvain_communities(G, weight='avg_latency_ms')
-    
-    print(f"✅ Network partitioned into {len(communities)} optimized clusters.")
-    
-    # Har cluster mein kitne nodes hain wo nikalne ke liye
-    cluster_info = {}
-    for i, community in enumerate(communities):
-        cluster_info[f"Cluster_{i+1}"] = len(community)
-            
-    return cluster_info
+    communities = louvain_communities(G, weight="effective_latency_ms")
+    return {f"Cluster_{i+1}": len(c) for i, c in enumerate(communities)}
 
 def optimize_network_path(G, source_node, target_node):
-    print(f"\nFinding optimized path from {source_node} to {target_node}...")
     try:
-        best_path = nx.shortest_path(G, source=source_node, target=target_node, weight='avg_latency_ms')
-        total_latency = nx.shortest_path_length(G, source=source_node, target=target_node, weight='avg_latency_ms')
-        print(f"✅ Optimized Path Found: {' -> '.join(best_path)}")
-        return best_path, total_latency
-    except nx.NetworkXNoPath:
-        return None, None
+        # Baseline path (raw latency only, ignoring ML predictions)
+        raw_path = nx.shortest_path(G, source=source_node, target=target_node, weight="avg_latency_ms")
+        raw_latency = nx.shortest_path_length(G, source=source_node, target=target_node, weight="avg_latency_ms")
 
-# Run karne ka main block (Testing ke liye)
-if __name__ == "__main__":
-    graph = load_cloud_topology()
-    clusters = partition_network_clusters(graph)
-    optimize_network_path(graph, source_node="service_1", target_node="service_50")
+        # Late-Fusion AI path (avoids GNN bottlenecks & LSTM traffic bursts)
+        fused_path = nx.shortest_path(G, source=source_node, target=target_node, weight="effective_latency_ms")
+        fused_latency = nx.shortest_path_length(G, source=source_node, target=target_node, weight="effective_latency_ms")
+        return {
+            "optimized_path": fused_path,
+            "baseline_path": raw_path,
+            "total_estimated_latency_ms": round(fused_latency, 2),
+            "baseline_latency_ms": round(raw_latency, 2),
+            "rerouted_around_anomaly": fused_path != raw_path,
+        }
+    except (nx.NetworkXNoPath, nx.NodeNotFound):
+        return None
